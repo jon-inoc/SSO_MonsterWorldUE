@@ -19,6 +19,9 @@
 				"S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/Maps/MAP_Overworld.umap",
 				"S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Environment/T_Sign_Sprite.uasset",
 				"S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Environment/T_Tree_Sprite.uasset",
+				"S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Environment/T_GroundTiles_TileSet.uasset",
+				"S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Environment/T_GroundTiles_TileMap.uasset",
+				"S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Environment/T_GroundTilesPadded.uasset",
 				"S:/SSO/2DTopDownUE/MonsterWorld/Content/Maps/MAP_Overworld.umap"
 			]
 		}

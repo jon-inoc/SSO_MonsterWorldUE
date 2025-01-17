@@ -1386,3 +1386,194 @@ _MatTransl_3B7A55D3409170328211A060FC2E3BB1E263C720_BBD650804D314CE7A44ADF9BB4F3
 [2025.01.17-20.04.47:252][631]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
 [2025.01.17-20.04.47:252][631]LogShaderCompilers: Display: Material Cache Hits: 14 (12%)
 [2025.01.17-20.04.47:252][631]LogShaderCompilers: Display: ================================================
+[2025.01.17-20.07.24:126][527]LogAssetEditorSubsystem: Opening Asset editor for PaperTileSet /Game/PaperAssets/Environment/T_GroundTiles_TileSet.T_GroundTiles_TileSet
+[2025.01.17-20.07.24:215][527]LogSlate: Took 0.000172 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2025.01.17-20.07.24:230][527]LogSlate: Took 0.000132 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.01.17-20.08.04:187][288]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.17-20.08.04:208][288]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PaperAssets/Environment/T_GroundTiles_TileSet] ([1] browsable assets)...
+[2025.01.17-20.08.04:210][288]OBJ SavePackage:     Rendered thumbnail for [PaperTileSet /Game/PaperAssets/Environment/T_GroundTiles_TileSet.T_GroundTiles_TileSet]
+[2025.01.17-20.08.04:210][288]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Environment/T_GroundTiles_TileSet]
+[2025.01.17-20.08.04:211][288]LogSavePackage: Moving output files for package: /Game/PaperAssets/Environment/T_GroundTiles_TileSet
+[2025.01.17-20.08.04:211][288]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/T_GroundTiles_TileSetEDB5AD5B40CE4C95FD88FE80FC83AEEF.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Environment/T_GroundTiles_TileSet.uasset'
+[2025.01.17-20.08.04:218][288]LogFileHelpers: InternalPromptForCheckoutAndSave took 30.441 ms (total: 345.420 ms)
+[2025.01.17-20.08.04:242][288]LogContentValidation: Display: Starting to validate 1 assets
+[2025.01.17-20.08.04:242][288]LogContentValidation: Enabled validators:
+[2025.01.17-20.08.04:242][288]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.17-20.08.04:242][288]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.17-20.08.04:242][288]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.17-20.08.04:242][288]LogContentValidation: Display: Validating asset /Game/PaperAssets/Environment/T_GroundTiles_TileSet.T_GroundTiles_TileSet
+[2025.01.17-20.08.04:242][288]AssetCheck: /Game/PaperAssets/Environment/T_GroundTiles_TileSet Validating asset
+[2025.01.17-20.09.29:996][181]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.17-20.09.30:020][181]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PaperAssets/Environment/T_GroundTiles_TileSet] ([1] browsable assets)...
+[2025.01.17-20.09.30:022][181]OBJ SavePackage:     Rendered thumbnail for [PaperTileSet /Game/PaperAssets/Environment/T_GroundTiles_TileSet.T_GroundTiles_TileSet]
+[2025.01.17-20.09.30:022][181]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Environment/T_GroundTiles_TileSet]
+[2025.01.17-20.09.30:024][181]LogSavePackage: Moving output files for package: /Game/PaperAssets/Environment/T_GroundTiles_TileSet
+[2025.01.17-20.09.30:024][181]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/T_GroundTiles_TileSet173447D54372938D445888ABC844AA97.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Environment/T_GroundTiles_TileSet.uasset'
+[2025.01.17-20.09.30:033][181]LogFileHelpers: InternalPromptForCheckoutAndSave took 38.213 ms (total: 383.633 ms)
+[2025.01.17-20.09.30:063][181]LogContentValidation: Display: Starting to validate 1 assets
+[2025.01.17-20.09.30:063][181]LogContentValidation: Enabled validators:
+[2025.01.17-20.09.30:063][181]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.17-20.09.30:063][181]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.17-20.09.30:063][181]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.17-20.09.30:063][181]LogContentValidation: Display: Validating asset /Game/PaperAssets/Environment/T_GroundTiles_TileSet.T_GroundTiles_TileSet
+[2025.01.17-20.09.30:063][181]AssetCheck: /Game/PaperAssets/Environment/T_GroundTiles_TileSet Validating asset
+[2025.01.17-20.09.58:827][905]LogSlate: Window 'T_GroundTiles_TileSet' being destroyed
+[2025.01.17-20.09.58:856][905]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2025.01.17-20.09.58:856][905]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.17-20.09.58:874][905]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2025.01.17-20.10.47:459][728]LogShaderCompilers: Display: ================================================
+[2025.01.17-20.10.47:459][728]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.01.17-20.10.47:459][728]LogShaderCompilers: Display: Total job queries 181, among them cache hits 28 (15.47%), DDC hits 142 (78.45%), Duplicates 4 (2.21%)
+[2025.01.17-20.10.47:459][728]LogShaderCompilers: Display: Tracking 149 distinct input hashes that result in 141 distinct outputs (94.63%)
+[2025.01.17-20.10.47:459][728]LogShaderCompilers: Display: RAM used: 5.06 MiB of 1.60 GiB budget. Usage: 0.31%
+[2025.01.17-20.10.47:459][728]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.01.17-20.10.47:459][728]LogShaderCompilers: Display: Shaders Compiled: 7
+[2025.01.17-20.10.47:459][728]LogShaderCompilers: Display: Jobs assigned 7, completed 7 (100%)
+[2025.01.17-20.10.47:459][728]LogShaderCompilers: Display: Average time worker was idle: 187.04 s
+[2025.01.17-20.10.47:459][728]LogShaderCompilers: Display: Time job spent in pending queue: average 0.05 s, longest 0.11 s
+[2025.01.17-20.10.47:459][728]LogShaderCompilers: Display: Job execution time: average 0.83 s, max 1.12 s
+[2025.01.17-20.10.47:459][728]LogShaderCompilers: Display: Job life time (pending + execution): average 0.88 s, max 1.19
+[2025.01.17-20.10.47:459][728]LogShaderCompilers: Display: Shader code size: average 31.922 KiB, min 4.527 KiB, max 56.414 KiB
+[2025.01.17-20.10.47:459][728]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 2.69 s
+[2025.01.17-20.10.47:459][728]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2025.01.17-20.10.47:459][728]LogShaderCompilers: Display: Jobs were issued in 7 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.01.17-20.10.47:459][728]LogShaderCompilers: Display: Average processing rate: 2.60 jobs/sec
+[2025.01.17-20.10.47:459][728]LogShaderCompilers: Display: Total thread time: 1.595 s
+[2025.01.17-20.10.47:459][728]LogShaderCompilers: Display: Total thread preprocess time: 2.842 s
+[2025.01.17-20.10.47:459][728]LogShaderCompilers: Display: Percentage time preprocessing: 178.11%
+[2025.01.17-20.10.47:459][728]LogShaderCompilers: Display: Effective parallelization: 0.59 (times faster than compiling all shaders on one thread). Compare with number of workers: 16
+[2025.01.17-20.10.47:459][728]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.01.17-20.10.47:459][728]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    2 times, average 0.31 sec, max 0.39 sec, min 0.23 sec)
+[2025.01.17-20.10.47:459][728]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    1 times, average 0.30 sec, max 0.30 sec, min 0.30 sec)
+[2025.01.17-20.10.47:459][728]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 0.25 sec, max 0.25 sec, min 0.25 sec)
+[2025.01.17-20.10.47:459][728]LogShaderCompilers: Display:                                                  FHitProxyPS (compiled    1 times, average 0.17 sec, max 0.17 sec, min 0.17 sec)
+[2025.01.17-20.10.47:459][728]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    1 times, average 0.13 sec, max 0.13 sec, min 0.13 sec)
+[2025.01.17-20.10.47:459][728]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.01.17-20.10.47:459][728]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 38.54% of total time (compiled    2 times, average 0.31 sec, max 0.39 sec, min 0.23 sec)
+[2025.01.17-20.10.47:459][728]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 19.02% of total time (compiled    1 times, average 0.30 sec, max 0.30 sec, min 0.30 sec)
+[2025.01.17-20.10.47:459][728]LogShaderCompilers: Display:                                                 FLumenCardVS - 15.59% of total time (compiled    1 times, average 0.25 sec, max 0.25 sec, min 0.25 sec)
+[2025.01.17-20.10.47:459][728]LogShaderCompilers: Display:                                                  FHitProxyPS - 10.67% of total time (compiled    1 times, average 0.17 sec, max 0.17 sec, min 0.17 sec)
+[2025.01.17-20.10.47:459][728]LogShaderCompilers: Display:                                                  FHitProxyVS - 8.12% of total time (compiled    1 times, average 0.13 sec, max 0.13 sec, min 0.13 sec)
+[2025.01.17-20.10.47:459][728]LogShaderCompilers: Display: === Material stats ===
+[2025.01.17-20.10.47:459][728]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.01.17-20.10.47:459][728]LogShaderCompilers: Display: Materials Translated:    116
+[2025.01.17-20.10.47:460][728]LogShaderCompilers: Display: Material Total Translate Time: 0.15 s
+[2025.01.17-20.10.47:460][728]LogShaderCompilers: Display: Material Translation Only: 0.02 s (13%)
+[2025.01.17-20.10.47:460][728]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2025.01.17-20.10.47:460][728]LogShaderCompilers: Display: Material Cache Hits: 14 (12%)
+[2025.01.17-20.10.47:460][728]LogShaderCompilers: Display: ================================================
+[2025.01.17-20.11.10:605][108]LogContentBrowser: Deferred new asset file creation: T_GroundTiles_TileMap
+[2025.01.17-20.11.10:613][108]LogContentBrowser: Creating deferred item: T_GroundTiles_TileMap
+[2025.01.17-20.11.10:622][109]LogContentBrowser: Renaming the item being created (Deferred Item: T_GroundTiles_TileMap).
+[2025.01.17-20.11.12:867][244]LogContentBrowser: Attempting asset rename: T_GroundTiles_TileMap -> T_GroundTiles_TileMap
+[2025.01.17-20.11.12:868][244]LogContentBrowser: End creating deferred item T_GroundTiles_TileMap
+[2025.01.17-20.11.14:800][360]LogAssetEditorSubsystem: Opening Asset editor for PaperTileMap /Game/PaperAssets/Environment/T_GroundTiles_TileMap.T_GroundTiles_TileMap
+[2025.01.17-20.11.19:768][642]LogSlate: Window 'T_GroundTiles_TileMap*' being destroyed
+[2025.01.17-20.15.03:478][796]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2025.01.17-20.15.03:479][796]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/MAP_Overworld' took 0.004
+[2025.01.17-20.15.03:480][796]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PaperAssets/Environment/T_GroundTiles_TileMap] ([1] browsable assets)...
+[2025.01.17-20.15.03:480][796]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Environment/T_GroundTiles_TileMap]
+[2025.01.17-20.15.03:485][796]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/PaperAssets/Environment/T_GroundTiles_TileMap_Auto1
+[2025.01.17-20.15.03:485][796]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/T_GroundTiles_TileMap_Auto1B06933BE4EDDDB541FDF82B7465DCCD7.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/Autosaves/Game/PaperAssets/Environment/T_GroundTiles_TileMap_Auto1.uasset'
+[2025.01.17-20.15.03:485][796]LogFileHelpers: Auto-saving content packages took 0.006
+[2025.01.17-20.15.19:695][255]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.17-20.15.19:726][255]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PaperAssets/Environment/T_GroundTiles_TileMap] ([1] browsable assets)...
+[2025.01.17-20.15.19:726][255]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Environment/T_GroundTiles_TileMap]
+[2025.01.17-20.15.19:733][255]LogSavePackage: Moving output files for package: /Game/PaperAssets/Environment/T_GroundTiles_TileMap
+[2025.01.17-20.15.19:733][255]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/T_GroundTiles_TileMapB86A0CD7475D1A2C87631B948C662B6C.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Environment/T_GroundTiles_TileMap.uasset'
+[2025.01.17-20.15.19:741][255]LogFileHelpers: InternalPromptForCheckoutAndSave took 46.552 ms (total: 430.186 ms)
+[2025.01.17-20.15.19:768][255]LogContentValidation: Display: Starting to validate 1 assets
+[2025.01.17-20.15.19:768][255]LogContentValidation: Enabled validators:
+[2025.01.17-20.15.19:768][255]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.17-20.15.19:768][255]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.17-20.15.19:768][255]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.17-20.15.19:768][255]LogContentValidation: Display: Validating asset /Game/PaperAssets/Environment/T_GroundTiles_TileMap.T_GroundTiles_TileMap
+[2025.01.17-20.15.19:768][255]AssetCheck: /Game/PaperAssets/Environment/T_GroundTiles_TileMap Validating asset
+[2025.01.17-20.16.29:709][451]Cmd: TRANSACTION UNDO
+[2025.01.17-20.16.29:709][451]LogEditorTransaction: Undo Tile Painting
+[2025.01.17-20.16.32:527][615]Cmd: TRANSACTION UNDO
+[2025.01.17-20.16.32:527][615]LogEditorTransaction: Undo Tile Painting
+[2025.01.17-20.16.33:076][648]Cmd: TRANSACTION UNDO
+[2025.01.17-20.16.33:076][648]LogEditorTransaction: Undo Tile Painting
+[2025.01.17-20.16.33:461][671]Cmd: TRANSACTION UNDO
+[2025.01.17-20.16.33:462][671]LogEditorTransaction: Undo Tile Painting
+[2025.01.17-20.16.33:648][681]Cmd: TRANSACTION UNDO
+[2025.01.17-20.16.33:648][681]LogEditorTransaction: Undo Tile Painting
+[2025.01.17-20.16.33:809][690]Cmd: TRANSACTION UNDO
+[2025.01.17-20.16.33:810][690]LogEditorTransaction: Undo Tile Painting
+[2025.01.17-20.16.33:993][700]Cmd: TRANSACTION UNDO
+[2025.01.17-20.16.33:993][700]LogEditorTransaction: Undo Tile Painting
+[2025.01.17-20.16.34:144][709]Cmd: TRANSACTION UNDO
+[2025.01.17-20.16.34:144][709]LogEditorTransaction: Undo Tile Painting
+[2025.01.17-20.16.34:310][719]Cmd: TRANSACTION UNDO
+[2025.01.17-20.16.34:310][719]LogEditorTransaction: Undo Tile Painting
+[2025.01.17-20.16.34:493][730]Cmd: TRANSACTION UNDO
+[2025.01.17-20.16.34:493][730]LogEditorTransaction: Undo Tile Painting
+[2025.01.17-20.16.34:677][741]Cmd: TRANSACTION UNDO
+[2025.01.17-20.16.34:677][741]LogEditorTransaction: Undo Tile Painting
+[2025.01.17-20.16.34:843][751]Cmd: TRANSACTION UNDO
+[2025.01.17-20.16.34:843][751]LogEditorTransaction: Undo Tile Painting
+[2025.01.17-20.16.35:076][765]Cmd: TRANSACTION UNDO
+[2025.01.17-20.16.35:076][765]LogEditorTransaction: Undo Tile Painting
+[2025.01.17-20.16.35:377][783]Cmd: TRANSACTION UNDO
+[2025.01.17-20.16.35:377][783]LogEditorTransaction: Undo Tile Painting
+[2025.01.17-20.18.54:550][802]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.17-20.18.54:574][802]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PaperAssets/Environment/T_GroundTiles_TileMap] ([1] browsable assets)...
+[2025.01.17-20.18.54:574][802]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Environment/T_GroundTiles_TileMap]
+[2025.01.17-20.18.54:597][802]LogSavePackage: Moving output files for package: /Game/PaperAssets/Environment/T_GroundTiles_TileMap
+[2025.01.17-20.18.54:597][802]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/T_GroundTiles_TileMapC62A89664C9BF226727B1BBF5E62FBE3.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Environment/T_GroundTiles_TileMap.uasset'
+[2025.01.17-20.18.54:607][802]LogFileHelpers: InternalPromptForCheckoutAndSave took 57.690 ms (total: 487.876 ms)
+[2025.01.17-20.18.54:636][802]LogContentValidation: Display: Starting to validate 1 assets
+[2025.01.17-20.18.54:636][802]LogContentValidation: Enabled validators:
+[2025.01.17-20.18.54:636][802]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.17-20.18.54:636][802]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.17-20.18.54:636][802]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.17-20.18.54:636][802]LogContentValidation: Display: Validating asset /Game/PaperAssets/Environment/T_GroundTiles_TileMap.T_GroundTiles_TileMap
+[2025.01.17-20.18.54:636][802]AssetCheck: /Game/PaperAssets/Environment/T_GroundTiles_TileMap Validating asset
+[2025.01.17-20.19.05:173][429]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2025.01.17-20.19.08:090][602]LogActorFactory: Actor Factory attempting to spawn PaperTileMap /Game/PaperAssets/Environment/T_GroundTiles_TileMap.T_GroundTiles_TileMap
+[2025.01.17-20.19.08:090][602]LogActorFactory: Actor Factory attempting to spawn PaperTileMap /Game/PaperAssets/Environment/T_GroundTiles_TileMap.T_GroundTiles_TileMap
+[2025.01.17-20.19.08:091][602]LogActorFactory: Actor Factory spawned PaperTileMap /Game/PaperAssets/Environment/T_GroundTiles_TileMap.T_GroundTiles_TileMap as actor: PaperTileMapActor /Game/Maps/MAP_Overworld.MAP_Overworld:PersistentLevel.PaperTileMapActor_0
+[2025.01.17-20.19.08:092][602]LogActorFactory: Actor Factory spawned PaperTileMap /Game/PaperAssets/Environment/T_GroundTiles_TileMap.T_GroundTiles_TileMap as actor: PaperTileMapActor /Game/Maps/MAP_Overworld.MAP_Overworld:PersistentLevel.PaperTileMapActor_0
+[2025.01.17-20.19.09:350][677]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2025.01.17-20.19.09:351][677]LogEditorActor: Deleted 0 Actors (0.010 secs)
+[2025.01.17-20.19.09:357][677]LogActorFactory: Actor Factory attempting to spawn PaperTileMap /Game/PaperAssets/Environment/T_GroundTiles_TileMap.T_GroundTiles_TileMap
+[2025.01.17-20.19.09:357][677]LogActorFactory: Actor Factory attempting to spawn PaperTileMap /Game/PaperAssets/Environment/T_GroundTiles_TileMap.T_GroundTiles_TileMap
+[2025.01.17-20.19.09:358][677]LogActorFactory: Actor Factory spawned PaperTileMap /Game/PaperAssets/Environment/T_GroundTiles_TileMap.T_GroundTiles_TileMap as actor: PaperTileMapActor /Game/Maps/MAP_Overworld.MAP_Overworld:PersistentLevel.PaperTileMapActor_1
+[2025.01.17-20.19.09:359][677]LogActorFactory: Actor Factory spawned PaperTileMap /Game/PaperAssets/Environment/T_GroundTiles_TileMap.T_GroundTiles_TileMap as actor: PaperTileMapActor /Game/Maps/MAP_Overworld.MAP_Overworld:PersistentLevel.PaperTileMapActor_1
+[2025.01.17-20.21.52:240][251]LogContentBrowser: Deferred new asset file creation: T_GroundTilesPadded
+[2025.01.17-20.21.52:254][251]LogContentBrowser: Creating deferred item: T_GroundTilesPadded
+[2025.01.17-20.21.52:264][252]LogContentBrowser: Renaming the item being created (Deferred Item: T_GroundTilesPadded).
+[2025.01.17-20.21.54:793][404]LogContentBrowser: Attempting asset rename: T_GroundTilesPadded -> T_GroundTilesPadded
+[2025.01.17-20.21.54:795][404]LogTexture: Display: Building textures: /Game/PaperAssets/Environment/T_GroundTilesPadded.T_GroundTilesPadded (BGRA8, 128x64 x1x1x1) (Required Memory Estimate: 0.302071 MB), EncodeSpeed: Fast
+[2025.01.17-20.21.54:796][404]LogContentBrowser: End creating deferred item T_GroundTilesPadded
+[2025.01.17-20.22.08:966][254]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2025.01.17-20.22.10:250][254]LogSlate: Window 'Save Content' being destroyed
+[2025.01.17-20.22.10:266][254]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.17-20.22.10:295][254]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MAP_Overworld" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/Maps/MAP_Overworld.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.01.17-20.22.10:305][254]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2025.01.17-20.22.10:308][254]LogSavePackage: Moving output files for package: /Game/Maps/MAP_Overworld
+[2025.01.17-20.22.10:308][254]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/MAP_Overworld52F69C6B4DAD4D2C4C8A6E83459872B8.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/Maps/MAP_Overworld.umap'
+[2025.01.17-20.22.10:313][254]LogFileHelpers: Saving map 'MAP_Overworld' took 0.018
+[2025.01.17-20.22.10:313][254]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PaperAssets/Environment/T_GroundTiles_TileSet] ([1] browsable assets)...
+[2025.01.17-20.22.10:315][254]OBJ SavePackage:     Rendered thumbnail for [PaperTileSet /Game/PaperAssets/Environment/T_GroundTiles_TileSet.T_GroundTiles_TileSet]
+[2025.01.17-20.22.10:315][254]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Environment/T_GroundTiles_TileSet]
+[2025.01.17-20.22.10:317][254]LogSavePackage: Moving output files for package: /Game/PaperAssets/Environment/T_GroundTiles_TileSet
+[2025.01.17-20.22.10:317][254]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/T_GroundTiles_TileSet6318AECE47F977307DA2B5974A09E965.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Environment/T_GroundTiles_TileSet.uasset'
+[2025.01.17-20.22.10:317][254]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PaperAssets/Environment/T_GroundTilesPadded] ([1] browsable assets)...
+[2025.01.17-20.22.10:319][254]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/PaperAssets/Environment/T_GroundTilesPadded.T_GroundTilesPadded]
+[2025.01.17-20.22.10:319][254]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Environment/T_GroundTilesPadded]
+[2025.01.17-20.22.10:320][254]LogSavePackage: Moving output files for package: /Game/PaperAssets/Environment/T_GroundTilesPadded
+[2025.01.17-20.22.10:320][254]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/T_GroundTilesPadded6BBD3FD24939E569734304B137951876.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Environment/T_GroundTilesPadded.uasset'
+[2025.01.17-20.22.10:328][254]LogFileHelpers: InternalPromptForCheckoutAndSave took 62.499 ms (total: 550.376 ms)
+[2025.01.17-20.22.10:348][254]LogContentValidation: Display: Starting to validate 3 assets
+[2025.01.17-20.22.10:348][254]LogContentValidation: Enabled validators:
+[2025.01.17-20.22.10:348][254]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.17-20.22.10:348][254]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.17-20.22.10:348][254]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.17-20.22.10:348][254]LogContentValidation: Display: Validating asset /Game/Maps/MAP_Overworld.MAP_Overworld
+[2025.01.17-20.22.10:348][254]AssetCheck: /Game/Maps/MAP_Overworld Validating asset
+[2025.01.17-20.22.10:348][254]LogContentValidation: Display: Validating asset /Game/PaperAssets/Environment/T_GroundTiles_TileSet.T_GroundTiles_TileSet
+[2025.01.17-20.22.10:348][254]AssetCheck: /Game/PaperAssets/Environment/T_GroundTiles_TileSet Validating asset
+[2025.01.17-20.22.10:348][254]LogContentValidation: Display: Validating asset /Game/PaperAssets/Environment/T_GroundTilesPadded.T_GroundTilesPadded
+[2025.01.17-20.22.10:348][254]AssetCheck: /Game/PaperAssets/Environment/T_GroundTilesPadded Validating asset
