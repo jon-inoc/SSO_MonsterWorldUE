@@ -1577,3 +1577,871 @@ _MatTransl_3B7A55D3409170328211A060FC2E3BB1E263C720_BBD650804D314CE7A44ADF9BB4F3
 [2025.01.17-20.22.10:348][254]AssetCheck: /Game/PaperAssets/Environment/T_GroundTiles_TileSet Validating asset
 [2025.01.17-20.22.10:348][254]LogContentValidation: Display: Validating asset /Game/PaperAssets/Environment/T_GroundTilesPadded.T_GroundTilesPadded
 [2025.01.17-20.22.10:348][254]AssetCheck: /Game/PaperAssets/Environment/T_GroundTilesPadded Validating asset
+[2025.01.17-20.23.54:366][361]LogContentBrowser: Deferred new asset file creation: T_Flower_Volume
+[2025.01.17-20.23.54:374][361]LogContentBrowser: Creating deferred item: T_Flower_Volume
+[2025.01.17-20.23.54:383][362]LogContentBrowser: Renaming the item being created (Deferred Item: T_Flower_Volume).
+[2025.01.17-20.23.57:884][572]LogContentBrowser: Attempting asset rename: T_Flower_Volume -> T_Flower_Volume
+[2025.01.17-20.23.57:885][572]LogTexture: Display: Building textures: /Game/PaperAssets/Environment/T_Flower_Volume.T_Flower_Volume (BGRA8, 10x5 x9x1x1) (Required Memory Estimate: 0.075661 MB), EncodeSpeed: Fast
+[2025.01.17-20.23.57:887][572]LogContentBrowser: End creating deferred item T_Flower_Volume
+[2025.01.17-20.23.59:779][682]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2025.01.17-20.24.02:324][682]LogSlate: Window 'Delete Assets' being destroyed
+[2025.01.17-20.24.02:341][682]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/PaperAssets/Environment/T_Flower_Volume.T_Flower_Volume
+	Asset Type: VolumeTexture
+[2025.01.17-20.24.02:418][682]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2025.01.17-20.24.02:421][682]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2025.01.17-20.24.02:423][682]LogUObjectHash: Compacting FUObjectHashTables data took   0.16ms
+[2025.01.17-20.24.02:436][682]LogAutomationController: Ignoring very large delta of 2.68 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.01.17-20.25.07:683][ 71]LogSlate: Window 'Extract sprites' being destroyed
+[2025.01.17-20.25.20:926][863]LogContentBrowser: Deferred new asset file creation: T_Flower1
+[2025.01.17-20.25.20:980][863]LogContentBrowser: Creating deferred item: T_Flower1
+[2025.01.17-20.25.21:010][864]LogContentBrowser: Renaming the item being created (Deferred Item: T_Flower1).
+[2025.01.17-20.25.26:536][196]LogContentBrowser: Attempting asset rename: T_Flower1 -> FB_Flower
+[2025.01.17-20.25.26:536][196]LogContentBrowser: End creating deferred item T_Flower1
+[2025.01.17-20.25.41:039][781]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/PaperAssets/Environment/FB_Flower.FB_Flower
+[2025.01.17-20.25.48:025][889]LogShaderCompilers: Display: ================================================
+[2025.01.17-20.25.48:025][889]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.01.17-20.25.48:025][889]LogShaderCompilers: Display: Total job queries 187, among them cache hits 28 (14.97%), DDC hits 144 (77.01%), Duplicates 4 (2.14%)
+[2025.01.17-20.25.48:025][889]LogShaderCompilers: Display: Tracking 155 distinct input hashes that result in 144 distinct outputs (92.90%)
+[2025.01.17-20.25.48:025][889]LogShaderCompilers: Display: RAM used: 5.12 MiB of 1.60 GiB budget. Usage: 0.31%
+[2025.01.17-20.25.48:025][889]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.01.17-20.25.48:025][889]LogShaderCompilers: Display: Shaders Compiled: 11
+[2025.01.17-20.25.48:025][889]LogShaderCompilers: Display: Jobs assigned 11, completed 11 (100%)
+[2025.01.17-20.25.48:025][889]LogShaderCompilers: Display: Average time worker was idle: 538.93 s
+[2025.01.17-20.25.48:025][889]LogShaderCompilers: Display: Time job spent in pending queue: average 0.05 s, longest 0.11 s
+[2025.01.17-20.25.48:025][889]LogShaderCompilers: Display: Job execution time: average 0.89 s, max 1.13 s
+[2025.01.17-20.25.48:025][889]LogShaderCompilers: Display: Job life time (pending + execution): average 0.94 s, max 1.19
+[2025.01.17-20.25.48:025][889]LogShaderCompilers: Display: Shader code size: average 32.008 KiB, min 4.527 KiB, max 56.414 KiB
+[2025.01.17-20.25.48:025][889]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 3.87 s
+[2025.01.17-20.25.48:025][889]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2025.01.17-20.25.48:025][889]LogShaderCompilers: Display: Jobs were issued in 11 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.01.17-20.25.48:025][889]LogShaderCompilers: Display: Average processing rate: 2.84 jobs/sec
+[2025.01.17-20.25.48:025][889]LogShaderCompilers: Display: Total thread time: 2.905 s
+[2025.01.17-20.25.48:025][889]LogShaderCompilers: Display: Total thread preprocess time: 2.881 s
+[2025.01.17-20.25.48:025][889]LogShaderCompilers: Display: Percentage time preprocessing: 99.16%
+[2025.01.17-20.25.48:025][889]LogShaderCompilers: Display: Effective parallelization: 0.75 (times faster than compiling all shaders on one thread). Compare with number of workers: 16
+[2025.01.17-20.25.48:025][889]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.01.17-20.25.48:025][889]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    3 times, average 0.35 sec, max 0.44 sec, min 0.23 sec)
+[2025.01.17-20.25.48:025][889]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    2 times, average 0.31 sec, max 0.32 sec, min 0.30 sec)
+[2025.01.17-20.25.48:025][889]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    2 times, average 0.26 sec, max 0.27 sec, min 0.25 sec)
+[2025.01.17-20.25.48:026][889]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    2 times, average 0.20 sec, max 0.28 sec, min 0.13 sec)
+[2025.01.17-20.25.48:026][889]LogShaderCompilers: Display:                                                  FHitProxyPS (compiled    1 times, average 0.17 sec, max 0.17 sec, min 0.17 sec)
+[2025.01.17-20.25.48:026][889]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.01.17-20.25.48:026][889]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 36.24% of total time (compiled    3 times, average 0.35 sec, max 0.44 sec, min 0.23 sec)
+[2025.01.17-20.25.48:026][889]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 21.63% of total time (compiled    2 times, average 0.31 sec, max 0.32 sec, min 0.30 sec)
+[2025.01.17-20.25.48:026][889]LogShaderCompilers: Display:                                                 FLumenCardVS - 17.69% of total time (compiled    2 times, average 0.26 sec, max 0.27 sec, min 0.25 sec)
+[2025.01.17-20.25.48:026][889]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 14.11% of total time (compiled    2 times, average 0.20 sec, max 0.28 sec, min 0.13 sec)
+[2025.01.17-20.25.48:026][889]LogShaderCompilers: Display:                                                  FHitProxyPS - 5.86% of total time (compiled    1 times, average 0.17 sec, max 0.17 sec, min 0.17 sec)
+[2025.01.17-20.25.48:026][889]LogShaderCompilers: Display: === Material stats ===
+[2025.01.17-20.25.48:026][889]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.01.17-20.25.48:026][889]LogShaderCompilers: Display: Materials Translated:    117
+[2025.01.17-20.25.48:026][889]LogShaderCompilers: Display: Material Total Translate Time: 0.15 s
+[2025.01.17-20.25.48:026][889]LogShaderCompilers: Display: Material Translation Only: 0.02 s (13%)
+[2025.01.17-20.25.48:026][889]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2025.01.17-20.25.48:026][889]LogShaderCompilers: Display: Material Cache Hits: 14 (12%)
+[2025.01.17-20.25.48:026][889]LogShaderCompilers: Display: ================================================
+[2025.01.17-20.26.09:048][ 55]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.17-20.26.09:074][ 55]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PaperAssets/Environment/FB_Flower] ([1] browsable assets)...
+[2025.01.17-20.26.09:075][ 55]OBJ SavePackage:     Rendered thumbnail for [PaperFlipbook /Game/PaperAssets/Environment/FB_Flower.FB_Flower]
+[2025.01.17-20.26.09:075][ 55]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Environment/FB_Flower]
+[2025.01.17-20.26.09:075][ 55]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PaperAssets/Environment/FB_Flower" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Environment/FB_Flower.uasset" SILENT=true
+[2025.01.17-20.26.09:076][ 55]LogSavePackage: Moving output files for package: /Game/PaperAssets/Environment/FB_Flower
+[2025.01.17-20.26.09:076][ 55]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/FB_FlowerCB0AE4FC492213141F7F56AA52BCEEAE.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Environment/FB_Flower.uasset'
+[2025.01.17-20.26.09:083][ 55]LogFileHelpers: InternalPromptForCheckoutAndSave took 34.267 ms (total: 584.643 ms)
+[2025.01.17-20.26.09:106][ 55]LogContentValidation: Display: Starting to validate 1 assets
+[2025.01.17-20.26.09:106][ 55]LogContentValidation: Enabled validators:
+[2025.01.17-20.26.09:106][ 55]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.17-20.26.09:106][ 55]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.17-20.26.09:106][ 55]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.17-20.26.09:106][ 55]LogContentValidation: Display: Validating asset /Game/PaperAssets/Environment/FB_Flower.FB_Flower
+[2025.01.17-20.26.09:106][ 55]AssetCheck: /Game/PaperAssets/Environment/FB_Flower Validating asset
+[2025.01.17-20.26.13:233][302]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2025.01.17-20.26.13:233][302]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.17-20.26.13:242][302]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2025.01.17-20.26.19:360][669]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2025.01.17-20.26.19:360][669]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.17-20.26.19:432][669]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2025.01.17-20.26.24:501][971]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2025.01.17-20.26.26:652][971]LogSlate: Window 'Save Content' being destroyed
+[2025.01.17-20.26.26:662][971]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.17-20.26.26:681][971]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PaperAssets/Environment/T_Flower_Sprite_0] ([1] browsable assets)...
+[2025.01.17-20.26.26:683][971]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PaperAssets/Environment/T_Flower_Sprite_0.T_Flower_Sprite_0]
+[2025.01.17-20.26.26:683][971]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Environment/T_Flower_Sprite_0]
+[2025.01.17-20.26.26:684][971]LogSavePackage: Moving output files for package: /Game/PaperAssets/Environment/T_Flower_Sprite_0
+[2025.01.17-20.26.26:684][971]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/T_Flower_Sprite_01880094E4F4BB2A9C3F715895EBD9BB6.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Environment/T_Flower_Sprite_0.uasset'
+[2025.01.17-20.26.26:686][971]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PaperAssets/Environment/T_Flower_Sprite_1] ([1] browsable assets)...
+[2025.01.17-20.26.26:688][971]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PaperAssets/Environment/T_Flower_Sprite_1.T_Flower_Sprite_1]
+[2025.01.17-20.26.26:688][971]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Environment/T_Flower_Sprite_1]
+[2025.01.17-20.26.26:688][971]LogSavePackage: Moving output files for package: /Game/PaperAssets/Environment/T_Flower_Sprite_1
+[2025.01.17-20.26.26:689][971]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/T_Flower_Sprite_1DE82A81A459646B1ED7DBD9EF9477165.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Environment/T_Flower_Sprite_1.uasset'
+[2025.01.17-20.26.26:696][971]LogFileHelpers: InternalPromptForCheckoutAndSave took 34.450 ms (total: 619.093 ms)
+[2025.01.17-20.26.26:727][971]LogContentValidation: Display: Starting to validate 2 assets
+[2025.01.17-20.26.26:727][971]LogContentValidation: Enabled validators:
+[2025.01.17-20.26.26:727][971]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.17-20.26.26:727][971]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.17-20.26.26:727][971]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.17-20.26.26:727][971]LogContentValidation: Display: Validating asset /Game/PaperAssets/Environment/T_Flower_Sprite_0.T_Flower_Sprite_0
+[2025.01.17-20.26.26:727][971]AssetCheck: /Game/PaperAssets/Environment/T_Flower_Sprite_0 Validating asset
+[2025.01.17-20.26.26:727][971]LogContentValidation: Display: Validating asset /Game/PaperAssets/Environment/T_Flower_Sprite_1.T_Flower_Sprite_1
+[2025.01.17-20.26.26:727][971]AssetCheck: /Game/PaperAssets/Environment/T_Flower_Sprite_1 Validating asset
+[2025.01.17-20.26.26:739][971]LogAutomationController: Ignoring very large delta of 2.25 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.01.17-20.26.59:735][846]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.01.17-20.26.59:745][846]LogContentBrowser: Creating deferred item: NewFolder
+[2025.01.17-20.26.59:751][847]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.01.17-20.27.01:404][946]LogContentBrowser: Attempting asset rename: NewFolder -> Red
+[2025.01.17-20.27.01:406][946]LogContentBrowser: End creating deferred item NewFolder
+[2025.01.17-20.27.05:330][176]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.17-20.27.05:363][176]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PaperAssets/Characters/Red/T_Red] ([1] browsable assets)...
+[2025.01.17-20.27.05:363][176]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/T_Red]
+[2025.01.17-20.27.05:363][176]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PaperAssets/Characters/Red/T_Red" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/T_Red.uasset" SILENT=true
+[2025.01.17-20.27.05:364][176]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/T_Red
+[2025.01.17-20.27.05:364][176]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/T_RedC6C3C964496976C6A70AA99176BB0BAA.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/T_Red.uasset'
+[2025.01.17-20.27.05:374][176]LogFileHelpers: InternalPromptForCheckoutAndSave took 43.880 ms (total: 662.974 ms)
+[2025.01.17-20.27.05:378][176]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2025.01.17-20.27.05:382][176]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2025.01.17-20.27.05:386][176]LogUObjectHash: Compacting FUObjectHashTables data took   0.14ms
+[2025.01.17-20.27.05:402][176]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.01.17-20.27.05:402][176]LogContentValidation: Display: Starting to validate 1 assets
+[2025.01.17-20.27.05:402][176]LogContentValidation: Enabled validators:
+[2025.01.17-20.27.05:402][176]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.17-20.27.05:402][176]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.17-20.27.05:402][176]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.17-20.27.05:402][176]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/T_Red.T_Red
+[2025.01.17-20.27.05:402][176]AssetCheck: /Game/PaperAssets/Characters/Red/T_Red Validating asset
+[2025.01.17-20.27.13:924][431]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.01.17-20.27.13:966][431]LogContentBrowser: Creating deferred item: NewFolder
+[2025.01.17-20.27.13:973][432]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.01.17-20.27.15:785][541]LogContentBrowser: Attempting asset rename: NewFolder -> Green
+[2025.01.17-20.27.15:785][541]LogContentBrowser: End creating deferred item NewFolder
+[2025.01.17-20.27.18:756][715]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.17-20.27.18:784][715]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PaperAssets/Characters/Green/T_Green] ([1] browsable assets)...
+[2025.01.17-20.27.18:784][715]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Green/T_Green]
+[2025.01.17-20.27.18:784][715]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PaperAssets/Characters/Green/T_Green" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Green/T_Green.uasset" SILENT=true
+[2025.01.17-20.27.18:785][715]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Green/T_Green
+[2025.01.17-20.27.18:785][715]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/T_GreenA4F69D3D4CDDB5F45955C3B08B847818.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Green/T_Green.uasset'
+[2025.01.17-20.27.18:793][715]LogFileHelpers: InternalPromptForCheckoutAndSave took 36.959 ms (total: 699.933 ms)
+[2025.01.17-20.27.18:798][715]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2025.01.17-20.27.18:802][715]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2025.01.17-20.27.18:805][715]LogUObjectHash: Compacting FUObjectHashTables data took   0.14ms
+[2025.01.17-20.27.18:816][715]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.01.17-20.27.18:816][715]LogContentValidation: Display: Starting to validate 1 assets
+[2025.01.17-20.27.18:816][715]LogContentValidation: Enabled validators:
+[2025.01.17-20.27.18:816][715]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.17-20.27.18:816][715]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.17-20.27.18:816][715]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.17-20.27.18:816][715]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Green/T_Green.T_Green
+[2025.01.17-20.27.18:816][715]AssetCheck: /Game/PaperAssets/Characters/Green/T_Green Validating asset
+[2025.01.17-20.28.21:907][488]LogSlate: Window 'Extract sprites' being destroyed
+[2025.01.17-20.29.20:040][975]LogContentBrowser: Deferred new asset file creation: T_Red1
+[2025.01.17-20.29.20:079][975]LogContentBrowser: Creating deferred item: T_Red1
+[2025.01.17-20.29.20:087][976]LogContentBrowser: Renaming the item being created (Deferred Item: T_Red1).
+[2025.01.17-20.29.30:633][609]LogContentBrowser: Attempting asset rename: T_Red1 -> FB_Red_Walk_D
+[2025.01.17-20.29.30:633][609]LogContentBrowser: End creating deferred item T_Red1
+[2025.01.17-20.29.41:790][277]LogContentBrowser: Deferred new asset file creation: T_Red1
+[2025.01.17-20.29.41:801][277]LogContentBrowser: Creating deferred item: T_Red1
+[2025.01.17-20.29.41:812][278]LogContentBrowser: Renaming the item being created (Deferred Item: T_Red1).
+[2025.01.17-20.29.52:440][916]LogContentBrowser: Attempting asset rename: T_Red1 -> FB_Red_Walk_R
+[2025.01.17-20.29.52:440][916]LogContentBrowser: End creating deferred item T_Red1
+[2025.01.17-20.29.58:922][304]LogContentBrowser: Deferred new asset file creation: T_Red1
+[2025.01.17-20.29.58:932][304]LogContentBrowser: Creating deferred item: T_Red1
+[2025.01.17-20.29.58:941][305]LogContentBrowser: Renaming the item being created (Deferred Item: T_Red1).
+[2025.01.17-20.30.12:321][108]LogContentBrowser: Attempting asset rename: T_Red1 -> FB_Red_Walk_L
+[2025.01.17-20.30.12:321][108]LogContentBrowser: End creating deferred item T_Red1
+[2025.01.17-20.30.18:719][491]LogContentBrowser: Deferred new asset file creation: T_Red1
+[2025.01.17-20.30.18:728][491]LogContentBrowser: Creating deferred item: T_Red1
+[2025.01.17-20.30.18:736][492]LogContentBrowser: Renaming the item being created (Deferred Item: T_Red1).
+[2025.01.17-20.30.32:967][346]LogContentBrowser: Attempting asset rename: T_Red1 -> FB_Red_Walk_U
+[2025.01.17-20.30.32:967][346]LogContentBrowser: End creating deferred item T_Red1
+[2025.01.17-20.30.36:102][534]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2025.01.17-20.30.37:358][534]LogSlate: Window 'Save Content' being destroyed
+[2025.01.17-20.30.37:373][534]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.17-20.30.37:395][534]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PaperAssets/Characters/Red/FB_Red_Walk_D] ([1] browsable assets)...
+[2025.01.17-20.30.37:398][534]OBJ SavePackage:     Rendered thumbnail for [PaperFlipbook /Game/PaperAssets/Characters/Red/FB_Red_Walk_D.FB_Red_Walk_D]
+[2025.01.17-20.30.37:398][534]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/FB_Red_Walk_D]
+[2025.01.17-20.30.37:398][534]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PaperAssets/Characters/Red/FB_Red_Walk_D" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/FB_Red_Walk_D.uasset" SILENT=true
+[2025.01.17-20.30.37:399][534]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/FB_Red_Walk_D
+[2025.01.17-20.30.37:399][534]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/FB_Red_Walk_D18B80882495867EC4DC6C489EF5A276E.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/FB_Red_Walk_D.uasset'
+[2025.01.17-20.30.37:399][534]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PaperAssets/Characters/Red/FB_Red_Walk_L] ([1] browsable assets)...
+[2025.01.17-20.30.37:401][534]OBJ SavePackage:     Rendered thumbnail for [PaperFlipbook /Game/PaperAssets/Characters/Red/FB_Red_Walk_L.FB_Red_Walk_L]
+[2025.01.17-20.30.37:401][534]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/FB_Red_Walk_L]
+[2025.01.17-20.30.37:401][534]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PaperAssets/Characters/Red/FB_Red_Walk_L" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/FB_Red_Walk_L.uasset" SILENT=true
+[2025.01.17-20.30.37:402][534]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/FB_Red_Walk_L
+[2025.01.17-20.30.37:402][534]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/FB_Red_Walk_LF4268CCA4D104963D478EDAC592B6759.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/FB_Red_Walk_L.uasset'
+[2025.01.17-20.30.37:402][534]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PaperAssets/Characters/Red/FB_Red_Walk_R] ([1] browsable assets)...
+[2025.01.17-20.30.37:404][534]OBJ SavePackage:     Rendered thumbnail for [PaperFlipbook /Game/PaperAssets/Characters/Red/FB_Red_Walk_R.FB_Red_Walk_R]
+[2025.01.17-20.30.37:405][534]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/FB_Red_Walk_R]
+[2025.01.17-20.30.37:405][534]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PaperAssets/Characters/Red/FB_Red_Walk_R" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/FB_Red_Walk_R.uasset" SILENT=true
+[2025.01.17-20.30.37:405][534]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/FB_Red_Walk_R
+[2025.01.17-20.30.37:405][534]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/FB_Red_Walk_RA03118144F00D9B3F0B67DB14022DB02.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/FB_Red_Walk_R.uasset'
+[2025.01.17-20.30.37:406][534]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PaperAssets/Characters/Red/FB_Red_Walk_U] ([1] browsable assets)...
+[2025.01.17-20.30.37:407][534]OBJ SavePackage:     Rendered thumbnail for [PaperFlipbook /Game/PaperAssets/Characters/Red/FB_Red_Walk_U.FB_Red_Walk_U]
+[2025.01.17-20.30.37:407][534]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/FB_Red_Walk_U]
+[2025.01.17-20.30.37:407][534]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PaperAssets/Characters/Red/FB_Red_Walk_U" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/FB_Red_Walk_U.uasset" SILENT=true
+[2025.01.17-20.30.37:408][534]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/FB_Red_Walk_U
+[2025.01.17-20.30.37:408][534]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/FB_Red_Walk_U5D1397BE4EBE51BA3646B29595FA37DC.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/FB_Red_Walk_U.uasset'
+[2025.01.17-20.30.37:408][534]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PaperAssets/Characters/Red/T_Red_Sprite_0] ([1] browsable assets)...
+[2025.01.17-20.30.37:409][534]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PaperAssets/Characters/Red/T_Red_Sprite_0.T_Red_Sprite_0]
+[2025.01.17-20.30.37:409][534]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/T_Red_Sprite_0]
+[2025.01.17-20.30.37:409][534]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/T_Red_Sprite_0
+[2025.01.17-20.30.37:409][534]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/T_Red_Sprite_04D8B95424B0766F8BF701CBA03C86625.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/T_Red_Sprite_0.uasset'
+[2025.01.17-20.30.37:410][534]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PaperAssets/Characters/Red/T_Red_Sprite_1] ([1] browsable assets)...
+[2025.01.17-20.30.37:411][534]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PaperAssets/Characters/Red/T_Red_Sprite_1.T_Red_Sprite_1]
+[2025.01.17-20.30.37:411][534]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/T_Red_Sprite_1]
+[2025.01.17-20.30.37:412][534]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/T_Red_Sprite_1
+[2025.01.17-20.30.37:412][534]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/T_Red_Sprite_143C738A84FA918DF0956908D395A0C4F.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/T_Red_Sprite_1.uasset'
+[2025.01.17-20.30.37:413][534]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PaperAssets/Characters/Red/T_Red_Sprite_10] ([1] browsable assets)...
+[2025.01.17-20.30.37:414][534]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PaperAssets/Characters/Red/T_Red_Sprite_10.T_Red_Sprite_10]
+[2025.01.17-20.30.37:414][534]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/T_Red_Sprite_10]
+[2025.01.17-20.30.37:415][534]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/T_Red_Sprite_10
+[2025.01.17-20.30.37:415][534]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/T_Red_Sprite_102A252E0641A71D2EC6693AB678AE8B34.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/T_Red_Sprite_10.uasset'
+[2025.01.17-20.30.37:415][534]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PaperAssets/Characters/Red/T_Red_Sprite_11] ([1] browsable assets)...
+[2025.01.17-20.30.37:416][534]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PaperAssets/Characters/Red/T_Red_Sprite_11.T_Red_Sprite_11]
+[2025.01.17-20.30.37:416][534]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/T_Red_Sprite_11]
+[2025.01.17-20.30.37:418][534]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/T_Red_Sprite_11
+[2025.01.17-20.30.37:418][534]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/T_Red_Sprite_11AB10CFA9481FBC6FFAA307AFB29D5511.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/T_Red_Sprite_11.uasset'
+[2025.01.17-20.30.37:418][534]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PaperAssets/Characters/Red/T_Red_Sprite_12] ([1] browsable assets)...
+[2025.01.17-20.30.37:419][534]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PaperAssets/Characters/Red/T_Red_Sprite_12.T_Red_Sprite_12]
+[2025.01.17-20.30.37:419][534]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/T_Red_Sprite_12]
+[2025.01.17-20.30.37:420][534]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/T_Red_Sprite_12
+[2025.01.17-20.30.37:420][534]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/T_Red_Sprite_12428A7E2E426D7CD32F79E2964EEC92E5.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/T_Red_Sprite_12.uasset'
+[2025.01.17-20.30.37:420][534]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PaperAssets/Characters/Red/T_Red_Sprite_13] ([1] browsable assets)...
+[2025.01.17-20.30.37:423][534]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PaperAssets/Characters/Red/T_Red_Sprite_13.T_Red_Sprite_13]
+[2025.01.17-20.30.37:423][534]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/T_Red_Sprite_13]
+[2025.01.17-20.30.37:424][534]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/T_Red_Sprite_13
+[2025.01.17-20.30.37:424][534]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/T_Red_Sprite_139889AED9419E138B307625B7DD35D790.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/T_Red_Sprite_13.uasset'
+[2025.01.17-20.30.37:424][534]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PaperAssets/Characters/Red/T_Red_Sprite_14] ([1] browsable assets)...
+[2025.01.17-20.30.37:426][534]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PaperAssets/Characters/Red/T_Red_Sprite_14.T_Red_Sprite_14]
+[2025.01.17-20.30.37:426][534]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/T_Red_Sprite_14]
+[2025.01.17-20.30.37:426][534]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/T_Red_Sprite_14
+[2025.01.17-20.30.37:426][534]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/T_Red_Sprite_14FDAA9C5F49626CC2D3D9D59E982BDB06.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/T_Red_Sprite_14.uasset'
+[2025.01.17-20.30.37:427][534]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PaperAssets/Characters/Red/T_Red_Sprite_15] ([1] browsable assets)...
+[2025.01.17-20.30.37:429][534]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PaperAssets/Characters/Red/T_Red_Sprite_15.T_Red_Sprite_15]
+[2025.01.17-20.30.37:429][534]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/T_Red_Sprite_15]
+[2025.01.17-20.30.37:430][534]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/T_Red_Sprite_15
+[2025.01.17-20.30.37:430][534]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/T_Red_Sprite_15699CBC6A499E39ED82D28593304A6E04.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/T_Red_Sprite_15.uasset'
+[2025.01.17-20.30.37:430][534]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PaperAssets/Characters/Red/T_Red_Sprite_2] ([1] browsable assets)...
+[2025.01.17-20.30.37:433][534]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PaperAssets/Characters/Red/T_Red_Sprite_2.T_Red_Sprite_2]
+[2025.01.17-20.30.37:433][534]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/T_Red_Sprite_2]
+[2025.01.17-20.30.37:433][534]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/T_Red_Sprite_2
+[2025.01.17-20.30.37:433][534]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/T_Red_Sprite_25F755F3847749A4DC626CA8DF4F67F06.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/T_Red_Sprite_2.uasset'
+[2025.01.17-20.30.37:434][534]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PaperAssets/Characters/Red/T_Red_Sprite_3] ([1] browsable assets)...
+[2025.01.17-20.30.37:435][534]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PaperAssets/Characters/Red/T_Red_Sprite_3.T_Red_Sprite_3]
+[2025.01.17-20.30.37:435][534]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/T_Red_Sprite_3]
+[2025.01.17-20.30.37:436][534]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/T_Red_Sprite_3
+[2025.01.17-20.30.37:436][534]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/T_Red_Sprite_3F2C5F9E94C99C83B07AFEBBBC2708F6F.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/T_Red_Sprite_3.uasset'
+[2025.01.17-20.30.37:437][534]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PaperAssets/Characters/Red/T_Red_Sprite_4] ([1] browsable assets)...
+[2025.01.17-20.30.37:439][534]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PaperAssets/Characters/Red/T_Red_Sprite_4.T_Red_Sprite_4]
+[2025.01.17-20.30.37:439][534]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/T_Red_Sprite_4]
+[2025.01.17-20.30.37:439][534]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/T_Red_Sprite_4
+[2025.01.17-20.30.37:439][534]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/T_Red_Sprite_4173AD13D4D9D2ADCCDA0848E7C9C9F7F.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/T_Red_Sprite_4.uasset'
+[2025.01.17-20.30.37:441][534]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PaperAssets/Characters/Red/T_Red_Sprite_5] ([1] browsable assets)...
+[2025.01.17-20.30.37:442][534]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PaperAssets/Characters/Red/T_Red_Sprite_5.T_Red_Sprite_5]
+[2025.01.17-20.30.37:442][534]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/T_Red_Sprite_5]
+[2025.01.17-20.30.37:442][534]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/T_Red_Sprite_5
+[2025.01.17-20.30.37:442][534]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/T_Red_Sprite_5D729DC2D4688A73FEDDD5A9CF7D4DA25.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/T_Red_Sprite_5.uasset'
+[2025.01.17-20.30.37:442][534]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PaperAssets/Characters/Red/T_Red_Sprite_6] ([1] browsable assets)...
+[2025.01.17-20.30.37:445][534]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PaperAssets/Characters/Red/T_Red_Sprite_6.T_Red_Sprite_6]
+[2025.01.17-20.30.37:445][534]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/T_Red_Sprite_6]
+[2025.01.17-20.30.37:445][534]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/T_Red_Sprite_6
+[2025.01.17-20.30.37:445][534]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/T_Red_Sprite_62273729144E725804F73DBB670BA73A0.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/T_Red_Sprite_6.uasset'
+[2025.01.17-20.30.37:446][534]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PaperAssets/Characters/Red/T_Red_Sprite_7] ([1] browsable assets)...
+[2025.01.17-20.30.37:447][534]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PaperAssets/Characters/Red/T_Red_Sprite_7.T_Red_Sprite_7]
+[2025.01.17-20.30.37:447][534]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/T_Red_Sprite_7]
+[2025.01.17-20.30.37:447][534]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/T_Red_Sprite_7
+[2025.01.17-20.30.37:447][534]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/T_Red_Sprite_7A76902994B1F49087465A5A422BAFD41.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/T_Red_Sprite_7.uasset'
+[2025.01.17-20.30.37:447][534]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PaperAssets/Characters/Red/T_Red_Sprite_8] ([1] browsable assets)...
+[2025.01.17-20.30.37:450][534]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PaperAssets/Characters/Red/T_Red_Sprite_8.T_Red_Sprite_8]
+[2025.01.17-20.30.37:450][534]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/T_Red_Sprite_8]
+[2025.01.17-20.30.37:450][534]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/T_Red_Sprite_8
+[2025.01.17-20.30.37:450][534]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/T_Red_Sprite_8BCA6B9934AD91952A74EBFB2E77B5B89.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/T_Red_Sprite_8.uasset'
+[2025.01.17-20.30.37:450][534]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PaperAssets/Characters/Red/T_Red_Sprite_9] ([1] browsable assets)...
+[2025.01.17-20.30.37:451][534]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PaperAssets/Characters/Red/T_Red_Sprite_9.T_Red_Sprite_9]
+[2025.01.17-20.30.37:452][534]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/T_Red_Sprite_9]
+[2025.01.17-20.30.37:452][534]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/T_Red_Sprite_9
+[2025.01.17-20.30.37:452][534]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/T_Red_Sprite_9FCA4D57747459BC7E993B1B1D7D02137.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/T_Red_Sprite_9.uasset'
+[2025.01.17-20.30.37:461][534]LogFileHelpers: InternalPromptForCheckoutAndSave took 89.265 ms (total: 789.199 ms)
+[2025.01.17-20.30.37:484][534]LogContentValidation: Display: Starting to validate 20 assets
+[2025.01.17-20.30.37:484][534]LogContentValidation: Enabled validators:
+[2025.01.17-20.30.37:484][534]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.17-20.30.37:484][534]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.17-20.30.37:484][534]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.17-20.30.37:484][534]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/FB_Red_Walk_D.FB_Red_Walk_D
+[2025.01.17-20.30.37:484][534]AssetCheck: /Game/PaperAssets/Characters/Red/FB_Red_Walk_D Validating asset
+[2025.01.17-20.30.37:484][534]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/FB_Red_Walk_L.FB_Red_Walk_L
+[2025.01.17-20.30.37:484][534]AssetCheck: /Game/PaperAssets/Characters/Red/FB_Red_Walk_L Validating asset
+[2025.01.17-20.30.37:484][534]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/FB_Red_Walk_R.FB_Red_Walk_R
+[2025.01.17-20.30.37:484][534]AssetCheck: /Game/PaperAssets/Characters/Red/FB_Red_Walk_R Validating asset
+[2025.01.17-20.30.37:484][534]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/FB_Red_Walk_U.FB_Red_Walk_U
+[2025.01.17-20.30.37:486][534]AssetCheck: /Game/PaperAssets/Characters/Red/FB_Red_Walk_U Validating asset
+[2025.01.17-20.30.37:486][534]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/T_Red_Sprite_0.T_Red_Sprite_0
+[2025.01.17-20.30.37:486][534]AssetCheck: /Game/PaperAssets/Characters/Red/T_Red_Sprite_0 Validating asset
+[2025.01.17-20.30.37:486][534]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/T_Red_Sprite_1.T_Red_Sprite_1
+[2025.01.17-20.30.37:486][534]AssetCheck: /Game/PaperAssets/Characters/Red/T_Red_Sprite_1 Validating asset
+[2025.01.17-20.30.37:486][534]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/T_Red_Sprite_10.T_Red_Sprite_10
+[2025.01.17-20.30.37:486][534]AssetCheck: /Game/PaperAssets/Characters/Red/T_Red_Sprite_10 Validating asset
+[2025.01.17-20.30.37:486][534]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/T_Red_Sprite_11.T_Red_Sprite_11
+[2025.01.17-20.30.37:486][534]AssetCheck: /Game/PaperAssets/Characters/Red/T_Red_Sprite_11 Validating asset
+[2025.01.17-20.30.37:486][534]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/T_Red_Sprite_12.T_Red_Sprite_12
+[2025.01.17-20.30.37:486][534]AssetCheck: /Game/PaperAssets/Characters/Red/T_Red_Sprite_12 Validating asset
+[2025.01.17-20.30.37:486][534]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/T_Red_Sprite_13.T_Red_Sprite_13
+[2025.01.17-20.30.37:486][534]AssetCheck: /Game/PaperAssets/Characters/Red/T_Red_Sprite_13 Validating asset
+[2025.01.17-20.30.37:486][534]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/T_Red_Sprite_14.T_Red_Sprite_14
+[2025.01.17-20.30.37:486][534]AssetCheck: /Game/PaperAssets/Characters/Red/T_Red_Sprite_14 Validating asset
+[2025.01.17-20.30.37:486][534]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/T_Red_Sprite_15.T_Red_Sprite_15
+[2025.01.17-20.30.37:486][534]AssetCheck: /Game/PaperAssets/Characters/Red/T_Red_Sprite_15 Validating asset
+[2025.01.17-20.30.37:486][534]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/T_Red_Sprite_2.T_Red_Sprite_2
+[2025.01.17-20.30.37:486][534]AssetCheck: /Game/PaperAssets/Characters/Red/T_Red_Sprite_2 Validating asset
+[2025.01.17-20.30.37:486][534]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/T_Red_Sprite_3.T_Red_Sprite_3
+[2025.01.17-20.30.37:486][534]AssetCheck: /Game/PaperAssets/Characters/Red/T_Red_Sprite_3 Validating asset
+[2025.01.17-20.30.37:486][534]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/T_Red_Sprite_4.T_Red_Sprite_4
+[2025.01.17-20.30.37:486][534]AssetCheck: /Game/PaperAssets/Characters/Red/T_Red_Sprite_4 Validating asset
+[2025.01.17-20.30.37:486][534]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/T_Red_Sprite_5.T_Red_Sprite_5
+[2025.01.17-20.30.37:486][534]AssetCheck: /Game/PaperAssets/Characters/Red/T_Red_Sprite_5 Validating asset
+[2025.01.17-20.30.37:486][534]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/T_Red_Sprite_6.T_Red_Sprite_6
+[2025.01.17-20.30.37:486][534]AssetCheck: /Game/PaperAssets/Characters/Red/T_Red_Sprite_6 Validating asset
+[2025.01.17-20.30.37:486][534]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/T_Red_Sprite_7.T_Red_Sprite_7
+[2025.01.17-20.30.37:486][534]AssetCheck: /Game/PaperAssets/Characters/Red/T_Red_Sprite_7 Validating asset
+[2025.01.17-20.30.37:486][534]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/T_Red_Sprite_8.T_Red_Sprite_8
+[2025.01.17-20.30.37:486][534]AssetCheck: /Game/PaperAssets/Characters/Red/T_Red_Sprite_8 Validating asset
+[2025.01.17-20.30.37:486][534]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/T_Red_Sprite_9.T_Red_Sprite_9
+[2025.01.17-20.30.37:486][534]AssetCheck: /Game/PaperAssets/Characters/Red/T_Red_Sprite_9 Validating asset
+[2025.01.17-20.31.51:188][852]LogContentBrowser: Deferred new asset file creation: T_Red1
+[2025.01.17-20.31.51:246][852]LogContentBrowser: Creating deferred item: T_Red1
+[2025.01.17-20.31.51:255][853]LogContentBrowser: Renaming the item being created (Deferred Item: T_Red1).
+[2025.01.17-20.32.02:834][548]LogContentBrowser: Attempting asset rename: T_Red1 -> FB_Red_Idle_D
+[2025.01.17-20.32.02:835][548]LogContentBrowser: End creating deferred item T_Red1
+[2025.01.17-20.32.35:134][520]LogContentBrowser: Deferred new asset file creation: T_Red1
+[2025.01.17-20.32.35:141][520]LogContentBrowser: Creating deferred item: T_Red1
+[2025.01.17-20.32.35:150][521]LogContentBrowser: Renaming the item being created (Deferred Item: T_Red1).
+[2025.01.17-20.32.42:521][963]LogContentBrowser: Attempting asset rename: T_Red1 -> FB_Red_Idle_R
+[2025.01.17-20.32.42:522][963]LogContentBrowser: End creating deferred item T_Red1
+[2025.01.17-20.32.52:174][540]LogContentBrowser: Deferred new asset file creation: T_Red1
+[2025.01.17-20.32.52:182][540]LogContentBrowser: Creating deferred item: T_Red1
+[2025.01.17-20.32.52:190][541]LogContentBrowser: Renaming the item being created (Deferred Item: T_Red1).
+[2025.01.17-20.33.00:326][ 29]LogContentBrowser: Attempting asset rename: T_Red1 -> FB_Red_Idle_L
+[2025.01.17-20.33.00:327][ 29]LogContentBrowser: End creating deferred item T_Red1
+[2025.01.17-20.33.07:761][473]LogContentBrowser: Deferred new asset file creation: T_Red1
+[2025.01.17-20.33.07:773][473]LogContentBrowser: Creating deferred item: T_Red1
+[2025.01.17-20.33.07:783][474]LogContentBrowser: Renaming the item being created (Deferred Item: T_Red1).
+[2025.01.17-20.33.14:085][852]LogContentBrowser: Attempting asset rename: T_Red1 -> FB_Red_Idle_U
+[2025.01.17-20.33.14:086][852]LogContentBrowser: End creating deferred item T_Red1
+[2025.01.17-20.33.39:992][ 55]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2025.01.17-20.33.39:995][ 55]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/MAP_Overworld' took 0.006
+[2025.01.17-20.33.39:996][ 55]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PaperAssets/Characters/Red/FB_Red_Idle_D] ([1] browsable assets)...
+[2025.01.17-20.33.39:998][ 55]OBJ SavePackage:     Rendered thumbnail for [PaperFlipbook /Game/PaperAssets/Characters/Red/FB_Red_Idle_D.FB_Red_Idle_D]
+[2025.01.17-20.33.39:998][ 55]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/FB_Red_Idle_D]
+[2025.01.17-20.33.39:999][ 55]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/PaperAssets/Characters/Red/FB_Red_Idle_D_Auto2
+[2025.01.17-20.33.39:999][ 55]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/FB_Red_Idle_D_Auto22B540154417B0040844EA89403FF9412.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/Autosaves/Game/PaperAssets/Characters/Red/FB_Red_Idle_D_Auto2.uasset'
+[2025.01.17-20.33.39:999][ 55]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PaperAssets/Characters/Red/FB_Red_Idle_R] ([1] browsable assets)...
+[2025.01.17-20.33.40:003][ 55]OBJ SavePackage:     Rendered thumbnail for [PaperFlipbook /Game/PaperAssets/Characters/Red/FB_Red_Idle_R.FB_Red_Idle_R]
+[2025.01.17-20.33.40:003][ 55]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/FB_Red_Idle_R]
+[2025.01.17-20.33.40:003][ 55]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/PaperAssets/Characters/Red/FB_Red_Idle_R_Auto2
+[2025.01.17-20.33.40:003][ 55]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/FB_Red_Idle_R_Auto206914A504345105B3BD5129810F75745.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/Autosaves/Game/PaperAssets/Characters/Red/FB_Red_Idle_R_Auto2.uasset'
+[2025.01.17-20.33.40:004][ 55]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PaperAssets/Characters/Red/FB_Red_Idle_L] ([1] browsable assets)...
+[2025.01.17-20.33.40:007][ 55]OBJ SavePackage:     Rendered thumbnail for [PaperFlipbook /Game/PaperAssets/Characters/Red/FB_Red_Idle_L.FB_Red_Idle_L]
+[2025.01.17-20.33.40:007][ 55]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/FB_Red_Idle_L]
+[2025.01.17-20.33.40:007][ 55]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/PaperAssets/Characters/Red/FB_Red_Idle_L_Auto2
+[2025.01.17-20.33.40:007][ 55]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/FB_Red_Idle_L_Auto2878DDB454052403F2B14E897430D5BBF.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/Autosaves/Game/PaperAssets/Characters/Red/FB_Red_Idle_L_Auto2.uasset'
+[2025.01.17-20.33.40:008][ 55]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PaperAssets/Characters/Red/FB_Red_Idle_U] ([1] browsable assets)...
+[2025.01.17-20.33.40:012][ 55]OBJ SavePackage:     Rendered thumbnail for [PaperFlipbook /Game/PaperAssets/Characters/Red/FB_Red_Idle_U.FB_Red_Idle_U]
+[2025.01.17-20.33.40:012][ 55]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/FB_Red_Idle_U]
+[2025.01.17-20.33.40:012][ 55]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/PaperAssets/Characters/Red/FB_Red_Idle_U_Auto2
+[2025.01.17-20.33.40:012][ 55]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/FB_Red_Idle_U_Auto2D8DF6F3840AA354921A7AFB798B7B5DB.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/Autosaves/Game/PaperAssets/Characters/Red/FB_Red_Idle_U_Auto2.uasset'
+[2025.01.17-20.33.40:012][ 55]LogFileHelpers: Auto-saving content packages took 0.018
+[2025.01.17-20.33.46:295][ 74]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
+[2025.01.17-20.33.47:817][ 74]LogSlate: Window 'Save Content' being destroyed
+[2025.01.17-20.33.47:826][ 74]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.17-20.33.47:852][ 74]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PaperAssets/Characters/Red/FB_Red_Idle_D] ([1] browsable assets)...
+[2025.01.17-20.33.47:852][ 74]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/FB_Red_Idle_D]
+[2025.01.17-20.33.47:852][ 74]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PaperAssets/Characters/Red/FB_Red_Idle_D" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/FB_Red_Idle_D.uasset" SILENT=true
+[2025.01.17-20.33.47:854][ 74]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/FB_Red_Idle_D
+[2025.01.17-20.33.47:854][ 74]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/FB_Red_Idle_D3B5B8B8648BA815D9E45BC9D82781C56.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/FB_Red_Idle_D.uasset'
+[2025.01.17-20.33.47:854][ 74]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PaperAssets/Characters/Red/FB_Red_Idle_L] ([1] browsable assets)...
+[2025.01.17-20.33.47:854][ 74]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/FB_Red_Idle_L]
+[2025.01.17-20.33.47:854][ 74]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PaperAssets/Characters/Red/FB_Red_Idle_L" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/FB_Red_Idle_L.uasset" SILENT=true
+[2025.01.17-20.33.47:855][ 74]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/FB_Red_Idle_L
+[2025.01.17-20.33.47:855][ 74]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/FB_Red_Idle_L66AA87984C99A8BB7D80E786DBC53DCB.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/FB_Red_Idle_L.uasset'
+[2025.01.17-20.33.47:855][ 74]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PaperAssets/Characters/Red/FB_Red_Idle_R] ([1] browsable assets)...
+[2025.01.17-20.33.47:855][ 74]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/FB_Red_Idle_R]
+[2025.01.17-20.33.47:855][ 74]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PaperAssets/Characters/Red/FB_Red_Idle_R" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/FB_Red_Idle_R.uasset" SILENT=true
+[2025.01.17-20.33.47:855][ 74]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/FB_Red_Idle_R
+[2025.01.17-20.33.47:856][ 74]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/FB_Red_Idle_RCA23E7AE4B99997F041C1EAE461EC47F.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/FB_Red_Idle_R.uasset'
+[2025.01.17-20.33.47:856][ 74]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PaperAssets/Characters/Red/FB_Red_Idle_U] ([1] browsable assets)...
+[2025.01.17-20.33.47:856][ 74]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/FB_Red_Idle_U]
+[2025.01.17-20.33.47:856][ 74]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PaperAssets/Characters/Red/FB_Red_Idle_U" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/FB_Red_Idle_U.uasset" SILENT=true
+[2025.01.17-20.33.47:857][ 74]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/FB_Red_Idle_U
+[2025.01.17-20.33.47:857][ 74]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/FB_Red_Idle_U5747A51C4C7340E42640C18E4D1C1603.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/FB_Red_Idle_U.uasset'
+[2025.01.17-20.33.47:866][ 74]LogFileHelpers: InternalPromptForCheckoutAndSave took 40.406 ms (total: 829.605 ms)
+[2025.01.17-20.33.47:891][ 74]LogContentValidation: Display: Starting to validate 4 assets
+[2025.01.17-20.33.47:891][ 74]LogContentValidation: Enabled validators:
+[2025.01.17-20.33.47:891][ 74]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.17-20.33.47:891][ 74]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.17-20.33.47:891][ 74]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.17-20.33.47:891][ 74]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/FB_Red_Idle_D.FB_Red_Idle_D
+[2025.01.17-20.33.47:891][ 74]AssetCheck: /Game/PaperAssets/Characters/Red/FB_Red_Idle_D Validating asset
+[2025.01.17-20.33.47:891][ 74]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/FB_Red_Idle_L.FB_Red_Idle_L
+[2025.01.17-20.33.47:891][ 74]AssetCheck: /Game/PaperAssets/Characters/Red/FB_Red_Idle_L Validating asset
+[2025.01.17-20.33.47:891][ 74]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/FB_Red_Idle_R.FB_Red_Idle_R
+[2025.01.17-20.33.47:891][ 74]AssetCheck: /Game/PaperAssets/Characters/Red/FB_Red_Idle_R Validating asset
+[2025.01.17-20.33.47:891][ 74]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/FB_Red_Idle_U.FB_Red_Idle_U
+[2025.01.17-20.33.47:891][ 74]AssetCheck: /Game/PaperAssets/Characters/Red/FB_Red_Idle_U Validating asset
+[2025.01.17-20.33.59:410][765]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/PaperAssets/Characters/Red/FB_Red_Walk_D.FB_Red_Walk_D
+[2025.01.17-20.34.13:129][580]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.17-20.34.13:162][580]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PaperAssets/Characters/Red/FB_Red_Walk_D] ([1] browsable assets)...
+[2025.01.17-20.34.13:164][580]OBJ SavePackage:     Rendered thumbnail for [PaperFlipbook /Game/PaperAssets/Characters/Red/FB_Red_Walk_D.FB_Red_Walk_D]
+[2025.01.17-20.34.13:164][580]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/FB_Red_Walk_D]
+[2025.01.17-20.34.13:164][580]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PaperAssets/Characters/Red/FB_Red_Walk_D" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/FB_Red_Walk_D.uasset" SILENT=true
+[2025.01.17-20.34.13:165][580]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/FB_Red_Walk_D
+[2025.01.17-20.34.13:165][580]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/FB_Red_Walk_D409FEAA14C8CB48172D92A8866507333.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/FB_Red_Walk_D.uasset'
+[2025.01.17-20.34.13:173][580]LogFileHelpers: InternalPromptForCheckoutAndSave took 43.708 ms (total: 873.314 ms)
+[2025.01.17-20.34.13:226][580]LogContentValidation: Display: Starting to validate 1 assets
+[2025.01.17-20.34.13:226][580]LogContentValidation: Enabled validators:
+[2025.01.17-20.34.13:226][580]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.17-20.34.13:226][580]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.17-20.34.13:226][580]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.17-20.34.13:226][580]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/FB_Red_Walk_D.FB_Red_Walk_D
+[2025.01.17-20.34.13:227][580]AssetCheck: /Game/PaperAssets/Characters/Red/FB_Red_Walk_D Validating asset
+[2025.01.17-20.34.14:447][652]LogSlate: Window 'FB_Red_Walk_D' being destroyed
+[2025.01.17-20.34.14:458][652]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2025.01.17-20.34.14:458][652]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.17-20.34.14:467][652]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2025.01.17-20.35.43:629][438]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.17-20.35.43:659][438]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PaperAssets/Characters/Red/FB_Red_Walk_D] ([1] browsable assets)...
+[2025.01.17-20.35.43:661][438]OBJ SavePackage:     Rendered thumbnail for [PaperFlipbook /Game/PaperAssets/Characters/Red/FB_Red_Walk_D.FB_Red_Walk_D]
+[2025.01.17-20.35.43:661][438]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/FB_Red_Walk_D]
+[2025.01.17-20.35.43:661][438]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PaperAssets/Characters/Red/FB_Red_Walk_D" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/FB_Red_Walk_D.uasset" SILENT=true
+[2025.01.17-20.35.43:664][438]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/FB_Red_Walk_D
+[2025.01.17-20.35.43:664][438]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/FB_Red_Walk_DFF0EE5454FE6A30525F90D88F2B32595.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/FB_Red_Walk_D.uasset'
+[2025.01.17-20.35.43:665][438]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PaperAssets/Characters/Red/FB_Red_Walk_L] ([1] browsable assets)...
+[2025.01.17-20.35.43:668][438]OBJ SavePackage:     Rendered thumbnail for [PaperFlipbook /Game/PaperAssets/Characters/Red/FB_Red_Walk_L.FB_Red_Walk_L]
+[2025.01.17-20.35.43:668][438]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/FB_Red_Walk_L]
+[2025.01.17-20.35.43:668][438]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PaperAssets/Characters/Red/FB_Red_Walk_L" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/FB_Red_Walk_L.uasset" SILENT=true
+[2025.01.17-20.35.43:668][438]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/FB_Red_Walk_L
+[2025.01.17-20.35.43:668][438]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/FB_Red_Walk_LD143B7724A1920BD9A5A0CA9A8BB31D8.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/FB_Red_Walk_L.uasset'
+[2025.01.17-20.35.43:668][438]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PaperAssets/Characters/Red/FB_Red_Walk_R] ([1] browsable assets)...
+[2025.01.17-20.35.43:670][438]OBJ SavePackage:     Rendered thumbnail for [PaperFlipbook /Game/PaperAssets/Characters/Red/FB_Red_Walk_R.FB_Red_Walk_R]
+[2025.01.17-20.35.43:670][438]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/FB_Red_Walk_R]
+[2025.01.17-20.35.43:670][438]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PaperAssets/Characters/Red/FB_Red_Walk_R" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/FB_Red_Walk_R.uasset" SILENT=true
+[2025.01.17-20.35.43:671][438]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/FB_Red_Walk_R
+[2025.01.17-20.35.43:671][438]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/FB_Red_Walk_R5858B0D345CC7287C0A19EBCAD3509A0.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/FB_Red_Walk_R.uasset'
+[2025.01.17-20.35.43:671][438]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PaperAssets/Characters/Red/FB_Red_Walk_U] ([1] browsable assets)...
+[2025.01.17-20.35.43:673][438]OBJ SavePackage:     Rendered thumbnail for [PaperFlipbook /Game/PaperAssets/Characters/Red/FB_Red_Walk_U.FB_Red_Walk_U]
+[2025.01.17-20.35.43:673][438]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/FB_Red_Walk_U]
+[2025.01.17-20.35.43:673][438]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PaperAssets/Characters/Red/FB_Red_Walk_U" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/FB_Red_Walk_U.uasset" SILENT=true
+[2025.01.17-20.35.43:675][438]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/FB_Red_Walk_U
+[2025.01.17-20.35.43:675][438]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/FB_Red_Walk_U04BF01F940CA740A2AB7B8A60A702CFC.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/FB_Red_Walk_U.uasset'
+[2025.01.17-20.35.43:683][438]LogFileHelpers: InternalPromptForCheckoutAndSave took 53.574 ms (total: 926.889 ms)
+[2025.01.17-20.35.43:711][438]LogContentValidation: Display: Starting to validate 4 assets
+[2025.01.17-20.35.43:711][438]LogContentValidation: Enabled validators:
+[2025.01.17-20.35.43:711][438]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.17-20.35.43:711][438]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.17-20.35.43:711][438]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.17-20.35.43:711][438]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/FB_Red_Walk_D.FB_Red_Walk_D
+[2025.01.17-20.35.43:711][438]AssetCheck: /Game/PaperAssets/Characters/Red/FB_Red_Walk_D Validating asset
+[2025.01.17-20.35.43:711][438]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/FB_Red_Walk_L.FB_Red_Walk_L
+[2025.01.17-20.35.43:711][438]AssetCheck: /Game/PaperAssets/Characters/Red/FB_Red_Walk_L Validating asset
+[2025.01.17-20.35.43:711][438]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/FB_Red_Walk_R.FB_Red_Walk_R
+[2025.01.17-20.35.43:711][438]AssetCheck: /Game/PaperAssets/Characters/Red/FB_Red_Walk_R Validating asset
+[2025.01.17-20.35.43:711][438]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/FB_Red_Walk_U.FB_Red_Walk_U
+[2025.01.17-20.35.43:711][438]AssetCheck: /Game/PaperAssets/Characters/Red/FB_Red_Walk_U Validating asset
+[2025.01.17-20.35.46:479][604]LogSlate: Window '4 PaperFlipbook Objects - Property Matrix Editor' being destroyed
+[2025.01.17-20.36.24:386][870]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.01.17-20.36.24:394][870]LogContentBrowser: Creating deferred item: NewFolder
+[2025.01.17-20.36.24:406][871]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.01.17-20.36.27:086][ 32]LogContentBrowser: Attempting asset rename: NewFolder -> Frames
+[2025.01.17-20.36.27:087][ 32]LogContentBrowser: End creating deferred item NewFolder
+[2025.01.17-20.36.38:497][712]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.17-20.36.38:527][712]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PaperAssets/Characters/Red/FB_Red_Walk_D] ([1] browsable assets)...
+[2025.01.17-20.36.38:527][712]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/FB_Red_Walk_D]
+[2025.01.17-20.36.38:527][712]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PaperAssets/Characters/Red/FB_Red_Walk_D" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/FB_Red_Walk_D.uasset" SILENT=true
+[2025.01.17-20.36.38:528][712]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/FB_Red_Walk_D
+[2025.01.17-20.36.38:528][712]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/FB_Red_Walk_D8A56D3E24385AC86BA731D83BBF298FA.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/FB_Red_Walk_D.uasset'
+[2025.01.17-20.36.38:528][712]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PaperAssets/Characters/Red/FB_Red_Idle_D] ([1] browsable assets)...
+[2025.01.17-20.36.38:528][712]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/FB_Red_Idle_D]
+[2025.01.17-20.36.38:528][712]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PaperAssets/Characters/Red/FB_Red_Idle_D" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/FB_Red_Idle_D.uasset" SILENT=true
+[2025.01.17-20.36.38:528][712]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/FB_Red_Idle_D
+[2025.01.17-20.36.38:528][712]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/FB_Red_Idle_D4A12365E47B96070B71176BB2CF46499.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/FB_Red_Idle_D.uasset'
+[2025.01.17-20.36.38:530][712]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PaperAssets/Characters/Red/FB_Red_Walk_R] ([1] browsable assets)...
+[2025.01.17-20.36.38:530][712]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/FB_Red_Walk_R]
+[2025.01.17-20.36.38:530][712]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PaperAssets/Characters/Red/FB_Red_Walk_R" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/FB_Red_Walk_R.uasset" SILENT=true
+[2025.01.17-20.36.38:530][712]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/FB_Red_Walk_R
+[2025.01.17-20.36.38:530][712]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/FB_Red_Walk_R193124774C918C2E1F2172A91810D15F.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/FB_Red_Walk_R.uasset'
+[2025.01.17-20.36.38:531][712]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PaperAssets/Characters/Red/FB_Red_Idle_R] ([1] browsable assets)...
+[2025.01.17-20.36.38:531][712]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/FB_Red_Idle_R]
+[2025.01.17-20.36.38:531][712]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PaperAssets/Characters/Red/FB_Red_Idle_R" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/FB_Red_Idle_R.uasset" SILENT=true
+[2025.01.17-20.36.38:531][712]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/FB_Red_Idle_R
+[2025.01.17-20.36.38:531][712]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/FB_Red_Idle_R95B158D64BD6EDF4A7AFFF9FD810C947.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/FB_Red_Idle_R.uasset'
+[2025.01.17-20.36.38:531][712]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PaperAssets/Characters/Red/FB_Red_Walk_L] ([1] browsable assets)...
+[2025.01.17-20.36.38:531][712]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/FB_Red_Walk_L]
+[2025.01.17-20.36.38:531][712]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PaperAssets/Characters/Red/FB_Red_Walk_L" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/FB_Red_Walk_L.uasset" SILENT=true
+[2025.01.17-20.36.38:532][712]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/FB_Red_Walk_L
+[2025.01.17-20.36.38:532][712]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/FB_Red_Walk_L6F75D87C4C5A9C87CF8ED19508564C04.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/FB_Red_Walk_L.uasset'
+[2025.01.17-20.36.38:532][712]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PaperAssets/Characters/Red/FB_Red_Idle_L] ([1] browsable assets)...
+[2025.01.17-20.36.38:532][712]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/FB_Red_Idle_L]
+[2025.01.17-20.36.38:532][712]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PaperAssets/Characters/Red/FB_Red_Idle_L" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/FB_Red_Idle_L.uasset" SILENT=true
+[2025.01.17-20.36.38:533][712]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/FB_Red_Idle_L
+[2025.01.17-20.36.38:533][712]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/FB_Red_Idle_LDDE9D36846F113EA45C133A2D76BFF93.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/FB_Red_Idle_L.uasset'
+[2025.01.17-20.36.38:533][712]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PaperAssets/Characters/Red/FB_Red_Walk_U] ([1] browsable assets)...
+[2025.01.17-20.36.38:533][712]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/FB_Red_Walk_U]
+[2025.01.17-20.36.38:533][712]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PaperAssets/Characters/Red/FB_Red_Walk_U" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/FB_Red_Walk_U.uasset" SILENT=true
+[2025.01.17-20.36.38:533][712]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/FB_Red_Walk_U
+[2025.01.17-20.36.38:534][712]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/FB_Red_Walk_UBDDD66AE43093665FE764AB44632A3EE.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/FB_Red_Walk_U.uasset'
+[2025.01.17-20.36.38:534][712]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PaperAssets/Characters/Red/FB_Red_Idle_U] ([1] browsable assets)...
+[2025.01.17-20.36.38:534][712]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/FB_Red_Idle_U]
+[2025.01.17-20.36.38:534][712]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PaperAssets/Characters/Red/FB_Red_Idle_U" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/FB_Red_Idle_U.uasset" SILENT=true
+[2025.01.17-20.36.38:534][712]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/FB_Red_Idle_U
+[2025.01.17-20.36.38:534][712]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/FB_Red_Idle_UB007117E49A5B134EFF34A996D8B1AD1.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/FB_Red_Idle_U.uasset'
+[2025.01.17-20.36.38:535][712]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_0] ([1] browsable assets)...
+[2025.01.17-20.36.38:535][712]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_0]
+[2025.01.17-20.36.38:536][712]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_0
+[2025.01.17-20.36.38:536][712]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/T_Red_Sprite_0A93CE6A34E96264E81D4C4900DB2D075.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/Frames/T_Red_Sprite_0.uasset'
+[2025.01.17-20.36.38:537][712]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_1] ([1] browsable assets)...
+[2025.01.17-20.36.38:537][712]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_1]
+[2025.01.17-20.36.38:538][712]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_1
+[2025.01.17-20.36.38:538][712]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/T_Red_Sprite_10104CD0F49122CA7FDB6299A7F14638F.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/Frames/T_Red_Sprite_1.uasset'
+[2025.01.17-20.36.38:538][712]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_2] ([1] browsable assets)...
+[2025.01.17-20.36.38:538][712]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_2]
+[2025.01.17-20.36.38:540][712]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_2
+[2025.01.17-20.36.38:540][712]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/T_Red_Sprite_2AE1DAC764D4BADE602B04EBDCC0F2952.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/Frames/T_Red_Sprite_2.uasset'
+[2025.01.17-20.36.38:540][712]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_3] ([1] browsable assets)...
+[2025.01.17-20.36.38:540][712]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_3]
+[2025.01.17-20.36.38:542][712]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_3
+[2025.01.17-20.36.38:542][712]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/T_Red_Sprite_3F1014B4D4C013A5D117E8ABFD74BE746.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/Frames/T_Red_Sprite_3.uasset'
+[2025.01.17-20.36.38:542][712]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_4] ([1] browsable assets)...
+[2025.01.17-20.36.38:542][712]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_4]
+[2025.01.17-20.36.38:543][712]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_4
+[2025.01.17-20.36.38:543][712]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/T_Red_Sprite_47109A07543FA642E138112A6AB35F2BA.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/Frames/T_Red_Sprite_4.uasset'
+[2025.01.17-20.36.38:543][712]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_5] ([1] browsable assets)...
+[2025.01.17-20.36.38:543][712]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_5]
+[2025.01.17-20.36.38:544][712]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_5
+[2025.01.17-20.36.38:544][712]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/T_Red_Sprite_54AED8EE84D4AC78F35B710B28374E7A4.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/Frames/T_Red_Sprite_5.uasset'
+[2025.01.17-20.36.38:544][712]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_6] ([1] browsable assets)...
+[2025.01.17-20.36.38:544][712]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_6]
+[2025.01.17-20.36.38:546][712]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_6
+[2025.01.17-20.36.38:546][712]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/T_Red_Sprite_6CBC19F864DDCBD0B6BBA74BCEF2D4A2E.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/Frames/T_Red_Sprite_6.uasset'
+[2025.01.17-20.36.38:546][712]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_7] ([1] browsable assets)...
+[2025.01.17-20.36.38:546][712]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_7]
+[2025.01.17-20.36.38:547][712]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_7
+[2025.01.17-20.36.38:547][712]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/T_Red_Sprite_71CA59A554C6502B4B1D515A1D114F5D2.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/Frames/T_Red_Sprite_7.uasset'
+[2025.01.17-20.36.38:547][712]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_8] ([1] browsable assets)...
+[2025.01.17-20.36.38:547][712]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_8]
+[2025.01.17-20.36.38:548][712]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_8
+[2025.01.17-20.36.38:548][712]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/T_Red_Sprite_84B25F8BA4BF4001AB25CBEBF49026367.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/Frames/T_Red_Sprite_8.uasset'
+[2025.01.17-20.36.38:548][712]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_9] ([1] browsable assets)...
+[2025.01.17-20.36.38:548][712]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_9]
+[2025.01.17-20.36.38:549][712]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_9
+[2025.01.17-20.36.38:549][712]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/T_Red_Sprite_92810AD254C33B2B635AB92A8471C918C.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/Frames/T_Red_Sprite_9.uasset'
+[2025.01.17-20.36.38:549][712]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_10] ([1] browsable assets)...
+[2025.01.17-20.36.38:549][712]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_10]
+[2025.01.17-20.36.38:550][712]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_10
+[2025.01.17-20.36.38:550][712]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/T_Red_Sprite_10730BA5D94A8DF442CEBB28B88E1AEA9A.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/Frames/T_Red_Sprite_10.uasset'
+[2025.01.17-20.36.38:550][712]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_11] ([1] browsable assets)...
+[2025.01.17-20.36.38:550][712]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_11]
+[2025.01.17-20.36.38:551][712]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_11
+[2025.01.17-20.36.38:551][712]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/T_Red_Sprite_11A1E69CF64F545C4057F883A549ABE96E.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/Frames/T_Red_Sprite_11.uasset'
+[2025.01.17-20.36.38:551][712]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_12] ([1] browsable assets)...
+[2025.01.17-20.36.38:551][712]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_12]
+[2025.01.17-20.36.38:552][712]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_12
+[2025.01.17-20.36.38:552][712]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/T_Red_Sprite_12507C7D4C4E621442B1276DA7E1E4974D.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/Frames/T_Red_Sprite_12.uasset'
+[2025.01.17-20.36.38:552][712]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_13] ([1] browsable assets)...
+[2025.01.17-20.36.38:552][712]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_13]
+[2025.01.17-20.36.38:553][712]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_13
+[2025.01.17-20.36.38:553][712]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/T_Red_Sprite_1317D2954040E31D1A813F01AF2C0FAFA2.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/Frames/T_Red_Sprite_13.uasset'
+[2025.01.17-20.36.38:553][712]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_14] ([1] browsable assets)...
+[2025.01.17-20.36.38:553][712]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_14]
+[2025.01.17-20.36.38:555][712]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_14
+[2025.01.17-20.36.38:555][712]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/T_Red_Sprite_1485771EF840A42B19CDC38280890AAA9A.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/Frames/T_Red_Sprite_14.uasset'
+[2025.01.17-20.36.38:555][712]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_15] ([1] browsable assets)...
+[2025.01.17-20.36.38:555][712]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_15]
+[2025.01.17-20.36.38:556][712]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_15
+[2025.01.17-20.36.38:556][712]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/T_Red_Sprite_15D7025F8547109DEA40F26398FF4FE549.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/Frames/T_Red_Sprite_15.uasset'
+[2025.01.17-20.36.38:564][712]LogFileHelpers: InternalPromptForCheckoutAndSave took 67.475 ms (total: 994.364 ms)
+[2025.01.17-20.36.38:582][712]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2025.01.17-20.36.38:586][712]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2025.01.17-20.36.38:588][712]LogUObjectHash: Compacting FUObjectHashTables data took   0.14ms
+[2025.01.17-20.36.38:605][712]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.01.17-20.36.38:605][712]LogContentValidation: Display: Starting to validate 24 assets
+[2025.01.17-20.36.38:605][712]LogContentValidation: Enabled validators:
+[2025.01.17-20.36.38:605][712]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.17-20.36.38:605][712]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.17-20.36.38:605][712]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.17-20.36.38:605][712]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/FB_Red_Walk_D.FB_Red_Walk_D
+[2025.01.17-20.36.38:605][712]AssetCheck: /Game/PaperAssets/Characters/Red/FB_Red_Walk_D Validating asset
+[2025.01.17-20.36.38:605][712]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/FB_Red_Idle_D.FB_Red_Idle_D
+[2025.01.17-20.36.38:605][712]AssetCheck: /Game/PaperAssets/Characters/Red/FB_Red_Idle_D Validating asset
+[2025.01.17-20.36.38:605][712]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/FB_Red_Walk_R.FB_Red_Walk_R
+[2025.01.17-20.36.38:605][712]AssetCheck: /Game/PaperAssets/Characters/Red/FB_Red_Walk_R Validating asset
+[2025.01.17-20.36.38:605][712]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/FB_Red_Idle_R.FB_Red_Idle_R
+[2025.01.17-20.36.38:605][712]AssetCheck: /Game/PaperAssets/Characters/Red/FB_Red_Idle_R Validating asset
+[2025.01.17-20.36.38:605][712]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/FB_Red_Walk_L.FB_Red_Walk_L
+[2025.01.17-20.36.38:605][712]AssetCheck: /Game/PaperAssets/Characters/Red/FB_Red_Walk_L Validating asset
+[2025.01.17-20.36.38:605][712]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/FB_Red_Idle_L.FB_Red_Idle_L
+[2025.01.17-20.36.38:605][712]AssetCheck: /Game/PaperAssets/Characters/Red/FB_Red_Idle_L Validating asset
+[2025.01.17-20.36.38:605][712]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/FB_Red_Walk_U.FB_Red_Walk_U
+[2025.01.17-20.36.38:605][712]AssetCheck: /Game/PaperAssets/Characters/Red/FB_Red_Walk_U Validating asset
+[2025.01.17-20.36.38:605][712]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/FB_Red_Idle_U.FB_Red_Idle_U
+[2025.01.17-20.36.38:605][712]AssetCheck: /Game/PaperAssets/Characters/Red/FB_Red_Idle_U Validating asset
+[2025.01.17-20.36.38:605][712]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_0.T_Red_Sprite_0
+[2025.01.17-20.36.38:605][712]AssetCheck: /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_0 Validating asset
+[2025.01.17-20.36.38:605][712]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_1.T_Red_Sprite_1
+[2025.01.17-20.36.38:605][712]AssetCheck: /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_1 Validating asset
+[2025.01.17-20.36.38:605][712]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_2.T_Red_Sprite_2
+[2025.01.17-20.36.38:605][712]AssetCheck: /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_2 Validating asset
+[2025.01.17-20.36.38:605][712]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_3.T_Red_Sprite_3
+[2025.01.17-20.36.38:605][712]AssetCheck: /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_3 Validating asset
+[2025.01.17-20.36.38:605][712]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_4.T_Red_Sprite_4
+[2025.01.17-20.36.38:605][712]AssetCheck: /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_4 Validating asset
+[2025.01.17-20.36.38:605][712]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_5.T_Red_Sprite_5
+[2025.01.17-20.36.38:605][712]AssetCheck: /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_5 Validating asset
+[2025.01.17-20.36.38:606][712]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_6.T_Red_Sprite_6
+[2025.01.17-20.36.38:606][712]AssetCheck: /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_6 Validating asset
+[2025.01.17-20.36.38:606][712]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_7.T_Red_Sprite_7
+[2025.01.17-20.36.38:606][712]AssetCheck: /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_7 Validating asset
+[2025.01.17-20.36.38:606][712]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_8.T_Red_Sprite_8
+[2025.01.17-20.36.38:606][712]AssetCheck: /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_8 Validating asset
+[2025.01.17-20.36.38:606][712]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_9.T_Red_Sprite_9
+[2025.01.17-20.36.38:606][712]AssetCheck: /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_9 Validating asset
+[2025.01.17-20.36.38:606][712]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_10.T_Red_Sprite_10
+[2025.01.17-20.36.38:606][712]AssetCheck: /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_10 Validating asset
+[2025.01.17-20.36.38:606][712]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_11.T_Red_Sprite_11
+[2025.01.17-20.36.38:606][712]AssetCheck: /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_11 Validating asset
+[2025.01.17-20.36.38:606][712]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_12.T_Red_Sprite_12
+[2025.01.17-20.36.38:606][712]AssetCheck: /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_12 Validating asset
+[2025.01.17-20.36.38:606][712]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_13.T_Red_Sprite_13
+[2025.01.17-20.36.38:606][712]AssetCheck: /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_13 Validating asset
+[2025.01.17-20.36.38:606][712]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_14.T_Red_Sprite_14
+[2025.01.17-20.36.38:606][712]AssetCheck: /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_14 Validating asset
+[2025.01.17-20.36.38:606][712]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_15.T_Red_Sprite_15
+[2025.01.17-20.36.38:606][712]AssetCheck: /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_15 Validating asset
+[2025.01.17-20.36.46:885][201]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.01.17-20.36.46:927][201]LogContentBrowser: Creating deferred item: NewFolder
+[2025.01.17-20.36.46:936][202]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.01.17-20.36.50:314][405]LogContentBrowser: Attempting asset rename: NewFolder -> Textures
+[2025.01.17-20.36.50:314][405]LogContentBrowser: End creating deferred item NewFolder
+[2025.01.17-20.36.54:544][654]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.17-20.36.54:573][654]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_0] ([1] browsable assets)...
+[2025.01.17-20.36.54:573][654]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_0]
+[2025.01.17-20.36.54:574][654]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_0
+[2025.01.17-20.36.54:575][654]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/T_Red_Sprite_0CB82AF9A4B10C0FFC19714BEC769E014.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/Frames/T_Red_Sprite_0.uasset'
+[2025.01.17-20.36.54:575][654]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_1] ([1] browsable assets)...
+[2025.01.17-20.36.54:575][654]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_1]
+[2025.01.17-20.36.54:576][654]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_1
+[2025.01.17-20.36.54:576][654]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/T_Red_Sprite_17F323B3846B26862F2C9BA90E8E109E9.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/Frames/T_Red_Sprite_1.uasset'
+[2025.01.17-20.36.54:576][654]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_2] ([1] browsable assets)...
+[2025.01.17-20.36.54:576][654]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_2]
+[2025.01.17-20.36.54:577][654]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_2
+[2025.01.17-20.36.54:577][654]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/T_Red_Sprite_22754BE50467B7ECE101CD8A952972E4F.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/Frames/T_Red_Sprite_2.uasset'
+[2025.01.17-20.36.54:578][654]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_3] ([1] browsable assets)...
+[2025.01.17-20.36.54:578][654]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_3]
+[2025.01.17-20.36.54:578][654]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_3
+[2025.01.17-20.36.54:578][654]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/T_Red_Sprite_3F3AA514B49FE7824F1CE5D8C51BF3E67.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/Frames/T_Red_Sprite_3.uasset'
+[2025.01.17-20.36.54:579][654]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_4] ([1] browsable assets)...
+[2025.01.17-20.36.54:579][654]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_4]
+[2025.01.17-20.36.54:579][654]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_4
+[2025.01.17-20.36.54:580][654]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/T_Red_Sprite_4E7627EC74B35FDC0CE7741A871F4BDC9.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/Frames/T_Red_Sprite_4.uasset'
+[2025.01.17-20.36.54:580][654]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_5] ([1] browsable assets)...
+[2025.01.17-20.36.54:580][654]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_5]
+[2025.01.17-20.36.54:580][654]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_5
+[2025.01.17-20.36.54:580][654]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/T_Red_Sprite_5C4C4A04145B920089F447EA9D6F78731.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/Frames/T_Red_Sprite_5.uasset'
+[2025.01.17-20.36.54:581][654]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_6] ([1] browsable assets)...
+[2025.01.17-20.36.54:581][654]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_6]
+[2025.01.17-20.36.54:581][654]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_6
+[2025.01.17-20.36.54:581][654]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/T_Red_Sprite_68D6DBC884CAD1B315F4F94A2FA7CD1AC.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/Frames/T_Red_Sprite_6.uasset'
+[2025.01.17-20.36.54:582][654]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_7] ([1] browsable assets)...
+[2025.01.17-20.36.54:582][654]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_7]
+[2025.01.17-20.36.54:582][654]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_7
+[2025.01.17-20.36.54:582][654]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/T_Red_Sprite_7319970F04CE5886BF15058ADC07F106F.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/Frames/T_Red_Sprite_7.uasset'
+[2025.01.17-20.36.54:583][654]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_8] ([1] browsable assets)...
+[2025.01.17-20.36.54:583][654]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_8]
+[2025.01.17-20.36.54:583][654]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_8
+[2025.01.17-20.36.54:583][654]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/T_Red_Sprite_8038DD2824A6D0690020201A0EEDA4AB3.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/Frames/T_Red_Sprite_8.uasset'
+[2025.01.17-20.36.54:584][654]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_9] ([1] browsable assets)...
+[2025.01.17-20.36.54:584][654]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_9]
+[2025.01.17-20.36.54:584][654]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_9
+[2025.01.17-20.36.54:584][654]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/T_Red_Sprite_9C4F5603F47E8115A5B407D8EF15546AF.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/Frames/T_Red_Sprite_9.uasset'
+[2025.01.17-20.36.54:585][654]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_10] ([1] browsable assets)...
+[2025.01.17-20.36.54:585][654]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_10]
+[2025.01.17-20.36.54:586][654]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_10
+[2025.01.17-20.36.54:586][654]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/T_Red_Sprite_105D96250442C3248F3CA2189A6901D500.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/Frames/T_Red_Sprite_10.uasset'
+[2025.01.17-20.36.54:586][654]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_11] ([1] browsable assets)...
+[2025.01.17-20.36.54:586][654]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_11]
+[2025.01.17-20.36.54:587][654]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_11
+[2025.01.17-20.36.54:587][654]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/T_Red_Sprite_112E05CD8C4A3D88D012686DBC3819ADCF.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/Frames/T_Red_Sprite_11.uasset'
+[2025.01.17-20.36.54:587][654]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_12] ([1] browsable assets)...
+[2025.01.17-20.36.54:587][654]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_12]
+[2025.01.17-20.36.54:588][654]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_12
+[2025.01.17-20.36.54:588][654]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/T_Red_Sprite_12DA1072B646A0EB22EA6345A2B43ED913.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/Frames/T_Red_Sprite_12.uasset'
+[2025.01.17-20.36.54:588][654]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_13] ([1] browsable assets)...
+[2025.01.17-20.36.54:588][654]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_13]
+[2025.01.17-20.36.54:589][654]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_13
+[2025.01.17-20.36.54:589][654]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/T_Red_Sprite_13B32BF2AF42954C8442C88E9628BE46EB.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/Frames/T_Red_Sprite_13.uasset'
+[2025.01.17-20.36.54:590][654]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_14] ([1] browsable assets)...
+[2025.01.17-20.36.54:590][654]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_14]
+[2025.01.17-20.36.54:590][654]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_14
+[2025.01.17-20.36.54:590][654]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/T_Red_Sprite_1451F06FF647F22A816453BFA1A068F424.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/Frames/T_Red_Sprite_14.uasset'
+[2025.01.17-20.36.54:591][654]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_15] ([1] browsable assets)...
+[2025.01.17-20.36.54:591][654]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_15]
+[2025.01.17-20.36.54:591][654]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_15
+[2025.01.17-20.36.54:591][654]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/T_Red_Sprite_15E3B660984E735DC4B021659179EBA924.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/Frames/T_Red_Sprite_15.uasset'
+[2025.01.17-20.36.54:592][654]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PaperAssets/Characters/Red/Textures/T_Red] ([1] browsable assets)...
+[2025.01.17-20.36.54:592][654]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Red/Textures/T_Red]
+[2025.01.17-20.36.54:592][654]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Red/Textures/T_Red
+[2025.01.17-20.36.54:592][654]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/T_Red8F168B9145304252B60DFCA91B22ECDE.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/Textures/T_Red.uasset'
+[2025.01.17-20.36.54:604][654]LogFileHelpers: InternalPromptForCheckoutAndSave took 59.449 ms (total: 1.05 sec)
+[2025.01.17-20.36.54:609][654]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2025.01.17-20.36.54:612][654]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2025.01.17-20.36.54:614][654]LogUObjectHash: Compacting FUObjectHashTables data took   0.15ms
+[2025.01.17-20.36.54:630][654]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.01.17-20.36.54:630][654]LogContentValidation: Display: Starting to validate 17 assets
+[2025.01.17-20.36.54:630][654]LogContentValidation: Enabled validators:
+[2025.01.17-20.36.54:630][654]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.17-20.36.54:630][654]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.17-20.36.54:630][654]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.17-20.36.54:630][654]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_0.T_Red_Sprite_0
+[2025.01.17-20.36.54:630][654]AssetCheck: /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_0 Validating asset
+[2025.01.17-20.36.54:630][654]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_1.T_Red_Sprite_1
+[2025.01.17-20.36.54:630][654]AssetCheck: /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_1 Validating asset
+[2025.01.17-20.36.54:630][654]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_2.T_Red_Sprite_2
+[2025.01.17-20.36.54:630][654]AssetCheck: /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_2 Validating asset
+[2025.01.17-20.36.54:630][654]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_3.T_Red_Sprite_3
+[2025.01.17-20.36.54:630][654]AssetCheck: /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_3 Validating asset
+[2025.01.17-20.36.54:630][654]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_4.T_Red_Sprite_4
+[2025.01.17-20.36.54:630][654]AssetCheck: /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_4 Validating asset
+[2025.01.17-20.36.54:630][654]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_5.T_Red_Sprite_5
+[2025.01.17-20.36.54:630][654]AssetCheck: /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_5 Validating asset
+[2025.01.17-20.36.54:630][654]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_6.T_Red_Sprite_6
+[2025.01.17-20.36.54:630][654]AssetCheck: /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_6 Validating asset
+[2025.01.17-20.36.54:630][654]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_7.T_Red_Sprite_7
+[2025.01.17-20.36.54:630][654]AssetCheck: /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_7 Validating asset
+[2025.01.17-20.36.54:630][654]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_8.T_Red_Sprite_8
+[2025.01.17-20.36.54:630][654]AssetCheck: /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_8 Validating asset
+[2025.01.17-20.36.54:630][654]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_9.T_Red_Sprite_9
+[2025.01.17-20.36.54:631][654]AssetCheck: /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_9 Validating asset
+[2025.01.17-20.36.54:631][654]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_10.T_Red_Sprite_10
+[2025.01.17-20.36.54:631][654]AssetCheck: /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_10 Validating asset
+[2025.01.17-20.36.54:631][654]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_11.T_Red_Sprite_11
+[2025.01.17-20.36.54:631][654]AssetCheck: /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_11 Validating asset
+[2025.01.17-20.36.54:631][654]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_12.T_Red_Sprite_12
+[2025.01.17-20.36.54:631][654]AssetCheck: /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_12 Validating asset
+[2025.01.17-20.36.54:631][654]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_13.T_Red_Sprite_13
+[2025.01.17-20.36.54:631][654]AssetCheck: /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_13 Validating asset
+[2025.01.17-20.36.54:631][654]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_14.T_Red_Sprite_14
+[2025.01.17-20.36.54:631][654]AssetCheck: /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_14 Validating asset
+[2025.01.17-20.36.54:631][654]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_15.T_Red_Sprite_15
+[2025.01.17-20.36.54:631][654]AssetCheck: /Game/PaperAssets/Characters/Red/Frames/T_Red_Sprite_15 Validating asset
+[2025.01.17-20.36.54:631][654]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Red/Textures/T_Red.T_Red
+[2025.01.17-20.36.54:631][654]AssetCheck: /Game/PaperAssets/Characters/Red/Textures/T_Red Validating asset
+[2025.01.17-20.37.26:131][539]LogContentBrowser: Deferred new asset file creation: T_Green_Flipbook
+[2025.01.17-20.37.26:140][539]LogContentBrowser: Creating deferred item: T_Green_Flipbook
+[2025.01.17-20.37.26:148][540]LogContentBrowser: Renaming the item being created (Deferred Item: T_Green_Flipbook).
+[2025.01.17-20.37.32:212][904]LogContentBrowser: Attempting asset rename: T_Green_Flipbook -> FB_Green_Idle_D
+[2025.01.17-20.37.32:212][904]LogContentBrowser: End creating deferred item T_Green_Flipbook
+[2025.01.17-20.37.43:247][566]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.17-20.37.43:276][566]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MAP_Overworld" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/Maps/MAP_Overworld.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.01.17-20.37.43:287][566]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2025.01.17-20.37.43:289][566]LogSavePackage: Moving output files for package: /Game/Maps/MAP_Overworld
+[2025.01.17-20.37.43:289][566]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/MAP_Overworld32E7F5154B24437024A45BBEC204A5CF.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/Maps/MAP_Overworld.umap'
+[2025.01.17-20.37.43:293][566]LogFileHelpers: Saving map 'MAP_Overworld' took 0.017
+[2025.01.17-20.37.43:306][566]LogFileHelpers: InternalPromptForCheckoutAndSave took 59.414 ms (total: 1.11 sec)
+[2025.01.17-20.37.43:326][566]LogContentValidation: Display: Starting to validate 1 assets
+[2025.01.17-20.37.43:326][566]LogContentValidation: Enabled validators:
+[2025.01.17-20.37.43:326][566]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.17-20.37.43:326][566]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.17-20.37.43:326][566]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.17-20.37.43:326][566]LogContentValidation: Display: Validating asset /Game/Maps/MAP_Overworld.MAP_Overworld
+[2025.01.17-20.37.43:326][566]AssetCheck: /Game/Maps/MAP_Overworld Validating asset
+[2025.01.17-20.37.46:288][738]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.01.17-20.37.46:331][738]LogContentBrowser: Creating deferred item: NewFolder
+[2025.01.17-20.37.46:338][739]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.01.17-20.37.48:735][883]LogContentBrowser: Attempting asset rename: NewFolder -> Frames
+[2025.01.17-20.37.48:735][883]LogContentBrowser: End creating deferred item NewFolder
+[2025.01.17-20.37.51:548][ 45]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.01.17-20.37.51:561][ 45]LogContentBrowser: Creating deferred item: NewFolder
+[2025.01.17-20.37.51:568][ 46]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.01.17-20.37.54:630][230]LogContentBrowser: Attempting asset rename: NewFolder -> Textures
+[2025.01.17-20.37.54:631][230]LogContentBrowser: End creating deferred item NewFolder
+[2025.01.17-20.38.02:201][681]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.17-20.38.02:226][681]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PaperAssets/Characters/Green/Frames/T_Green_Sprite] ([1] browsable assets)...
+[2025.01.17-20.38.02:228][681]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/PaperAssets/Characters/Green/Frames/T_Green_Sprite.T_Green_Sprite]
+[2025.01.17-20.38.02:228][681]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Green/Frames/T_Green_Sprite]
+[2025.01.17-20.38.02:229][681]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Green/Frames/T_Green_Sprite
+[2025.01.17-20.38.02:229][681]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/T_Green_SpriteDAAEDFE24A4EA50B00D9499BA516A805.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Green/Frames/T_Green_Sprite.uasset'
+[2025.01.17-20.38.02:238][681]LogFileHelpers: InternalPromptForCheckoutAndSave took 36.004 ms (total: 1.14 sec)
+[2025.01.17-20.38.02:244][681]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2025.01.17-20.38.02:248][681]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2025.01.17-20.38.02:251][681]LogUObjectHash: Compacting FUObjectHashTables data took   0.14ms
+[2025.01.17-20.38.02:264][681]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.01.17-20.38.02:264][681]LogContentValidation: Display: Starting to validate 1 assets
+[2025.01.17-20.38.02:264][681]LogContentValidation: Enabled validators:
+[2025.01.17-20.38.02:264][681]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.17-20.38.02:264][681]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.17-20.38.02:264][681]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.17-20.38.02:264][681]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Green/Frames/T_Green_Sprite.T_Green_Sprite
+[2025.01.17-20.38.02:264][681]AssetCheck: /Game/PaperAssets/Characters/Green/Frames/T_Green_Sprite Validating asset
+[2025.01.17-20.38.06:624][939]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.17-20.38.06:655][939]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PaperAssets/Characters/Green/Frames/T_Green_Sprite] ([1] browsable assets)...
+[2025.01.17-20.38.06:655][939]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Green/Frames/T_Green_Sprite]
+[2025.01.17-20.38.06:656][939]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Green/Frames/T_Green_Sprite
+[2025.01.17-20.38.06:656][939]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/T_Green_Sprite35E9A7924CD2356A29140191D3345EF2.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Green/Frames/T_Green_Sprite.uasset'
+[2025.01.17-20.38.06:656][939]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PaperAssets/Characters/Green/Textures/T_Green] ([1] browsable assets)...
+[2025.01.17-20.38.06:656][939]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Green/Textures/T_Green]
+[2025.01.17-20.38.06:657][939]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Green/Textures/T_Green
+[2025.01.17-20.38.06:657][939]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/T_GreenD15C46384FDD61A437BE08B3DA6B6FDA.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Green/Textures/T_Green.uasset'
+[2025.01.17-20.38.06:666][939]LogFileHelpers: InternalPromptForCheckoutAndSave took 42.056 ms (total: 1.19 sec)
+[2025.01.17-20.38.06:670][939]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2025.01.17-20.38.06:674][939]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2025.01.17-20.38.06:677][939]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2025.01.17-20.38.06:691][939]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.01.17-20.38.06:691][939]LogContentValidation: Display: Starting to validate 2 assets
+[2025.01.17-20.38.06:691][939]LogContentValidation: Enabled validators:
+[2025.01.17-20.38.06:691][939]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.17-20.38.06:691][939]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.17-20.38.06:691][939]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.17-20.38.06:691][939]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Green/Frames/T_Green_Sprite.T_Green_Sprite
+[2025.01.17-20.38.06:691][939]AssetCheck: /Game/PaperAssets/Characters/Green/Frames/T_Green_Sprite Validating asset
+[2025.01.17-20.38.06:691][939]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Green/Textures/T_Green.T_Green
+[2025.01.17-20.38.06:691][939]AssetCheck: /Game/PaperAssets/Characters/Green/Textures/T_Green Validating asset
+[2025.01.17-20.38.08:058][ 21]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2025.01.17-20.38.11:157][ 21]LogSlate: Window 'Save Content' being destroyed
+[2025.01.17-20.38.11:169][ 21]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.17-20.38.11:187][ 21]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PaperAssets/Characters/Green/FB_Green_Idle_D] ([1] browsable assets)...
+[2025.01.17-20.38.11:188][ 21]OBJ SavePackage:     Rendered thumbnail for [PaperFlipbook /Game/PaperAssets/Characters/Green/FB_Green_Idle_D.FB_Green_Idle_D]
+[2025.01.17-20.38.11:188][ 21]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Characters/Green/FB_Green_Idle_D]
+[2025.01.17-20.38.11:190][ 21]LogSavePackage: Moving output files for package: /Game/PaperAssets/Characters/Green/FB_Green_Idle_D
+[2025.01.17-20.38.11:190][ 21]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/FB_Green_Idle_D4DAF37F049FB40E6C2807C904B588936.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Green/FB_Green_Idle_D.uasset'
+[2025.01.17-20.38.11:196][ 21]LogFileHelpers: InternalPromptForCheckoutAndSave took 27.679 ms (total: 1.21 sec)
+[2025.01.17-20.38.11:219][ 21]LogContentValidation: Display: Starting to validate 1 assets
+[2025.01.17-20.38.11:219][ 21]LogContentValidation: Enabled validators:
+[2025.01.17-20.38.11:219][ 21]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.17-20.38.11:219][ 21]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.17-20.38.11:219][ 21]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.17-20.38.11:219][ 21]LogContentValidation: Display: Validating asset /Game/PaperAssets/Characters/Green/FB_Green_Idle_D.FB_Green_Idle_D
+[2025.01.17-20.38.11:219][ 21]AssetCheck: /Game/PaperAssets/Characters/Green/FB_Green_Idle_D Validating asset
+[2025.01.17-20.38.11:229][ 21]LogAutomationController: Ignoring very large delta of 3.19 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.01.17-20.38.34:011][386]LogActorFactory: Actor Factory attempting to spawn PaperFlipbook /Game/PaperAssets/Characters/Red/FB_Red_Walk_D.FB_Red_Walk_D
+[2025.01.17-20.38.34:011][386]LogActorFactory: Actor Factory attempting to spawn PaperFlipbook /Game/PaperAssets/Characters/Red/FB_Red_Walk_D.FB_Red_Walk_D
+[2025.01.17-20.38.34:011][386]LogActorFactory: Actor Factory spawned PaperFlipbook /Game/PaperAssets/Characters/Red/FB_Red_Walk_D.FB_Red_Walk_D as actor: PaperFlipbookActor /Game/Maps/MAP_Overworld.MAP_Overworld:PersistentLevel.PaperFlipbookActor_0
+[2025.01.17-20.38.34:011][386]LogActorFactory: Actor Factory spawned PaperFlipbook /Game/PaperAssets/Characters/Red/FB_Red_Walk_D.FB_Red_Walk_D as actor: PaperFlipbookActor /Game/Maps/MAP_Overworld.MAP_Overworld:PersistentLevel.PaperFlipbookActor_0
+[2025.01.17-20.38.34:941][441]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2025.01.17-20.38.34:942][441]LogEditorActor: Deleted 0 Actors (0.003 secs)
+[2025.01.17-20.38.34:947][441]LogActorFactory: Actor Factory attempting to spawn PaperFlipbook /Game/PaperAssets/Characters/Red/FB_Red_Walk_D.FB_Red_Walk_D
+[2025.01.17-20.38.34:947][441]LogActorFactory: Actor Factory attempting to spawn PaperFlipbook /Game/PaperAssets/Characters/Red/FB_Red_Walk_D.FB_Red_Walk_D
+[2025.01.17-20.38.34:948][441]LogActorFactory: Actor Factory spawned PaperFlipbook /Game/PaperAssets/Characters/Red/FB_Red_Walk_D.FB_Red_Walk_D as actor: PaperFlipbookActor /Game/Maps/MAP_Overworld.MAP_Overworld:PersistentLevel.PaperFlipbookActor_1
+[2025.01.17-20.38.34:948][441]LogActorFactory: Actor Factory spawned PaperFlipbook /Game/PaperAssets/Characters/Red/FB_Red_Walk_D.FB_Red_Walk_D as actor: PaperFlipbookActor /Game/Maps/MAP_Overworld.MAP_Overworld:PersistentLevel.PaperFlipbookActor_1
+[2025.01.17-20.39.09:831][149]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2025.01.17-20.39.11:420][149]LogSlate: Window 'Save Content' being destroyed
+[2025.01.17-20.39.11:437][149]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.17-20.39.11:472][149]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MAP_Overworld" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/Maps/MAP_Overworld.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.01.17-20.39.11:482][149]LogUObjectHash: Compacting FUObjectHashTables data took   0.15ms
+[2025.01.17-20.39.11:484][149]LogSavePackage: Moving output files for package: /Game/Maps/MAP_Overworld
+[2025.01.17-20.39.11:484][149]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Saved/MAP_Overworld2D4A193545E14086D3BD669AD2AB2A62.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/Maps/MAP_Overworld.umap'
+[2025.01.17-20.39.11:488][149]LogFileHelpers: Saving map 'MAP_Overworld' took 0.016
+[2025.01.17-20.39.11:499][149]LogFileHelpers: InternalPromptForCheckoutAndSave took 62.044 ms (total: 1.28 sec)
+[2025.01.17-20.39.11:527][149]LogContentValidation: Display: Starting to validate 1 assets
+[2025.01.17-20.39.11:527][149]LogContentValidation: Enabled validators:
+[2025.01.17-20.39.11:527][149]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.17-20.39.11:527][149]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.17-20.39.11:527][149]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.17-20.39.11:527][149]LogContentValidation: Display: Validating asset /Game/Maps/MAP_Overworld.MAP_Overworld
+[2025.01.17-20.39.11:527][149]AssetCheck: /Game/Maps/MAP_Overworld Validating asset
+[2025.01.17-20.39.11:540][149]LogAutomationController: Ignoring very large delta of 2.04 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
