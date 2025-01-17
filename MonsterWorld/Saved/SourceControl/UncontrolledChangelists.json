@@ -5,6 +5,20 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/Fonts/Pixeled.uasset",
+				"S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/Fonts/Pixeled_Font.uasset",
+				"S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/UI/MessageBorder.uasset",
+				"S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Environment/T_Chest.uasset",
+				"S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Environment/T_Flower.uasset",
+				"S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/T_Green.uasset",
+				"S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Environment/T_GroundTiles.uasset",
+				"S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/T_Red.uasset",
+				"S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Environment/T_Sign.uasset",
+				"S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Environment/T_Tree.uasset",
+				"S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Environment/T_Chest_Sprite.uasset",
+				"S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/Maps/MAP_Overworld.umap",
+				"S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Environment/T_Sign_Sprite.uasset",
+				"S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Environment/T_Tree_Sprite.uasset",
 				"S:/SSO/2DTopDownUE/MonsterWorld/Content/Maps/MAP_Overworld.umap"
 			]
 		}
