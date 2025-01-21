@@ -59,6 +59,8 @@
 				"S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/Widgets/WBP_MainHUD.uasset",
 				"S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/Blueprints/Items/BP_Pickup.uasset",
 				"S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/Input/Actions/IA_Interact.uasset",
+				"S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/Blueprints/Characters/Green/BP_Green.uasset",
+				"S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/Blueprints/Interfaces/BPI_Interact.uasset",
 				"S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/T_Green.uasset",
 				"S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/T_Red.uasset",
 				"S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/MonsterWorld/Content/PaperAssets/Characters/Red/T_Red.uasset",
