@@ -300,6 +300,9 @@
 				"S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Input/Actions/IA_Sword.uasset",
 				"S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/VFX/BP_VFX_BASE.uasset",
 				"S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/VFX/BP_VFX_SkullExplosion.uasset",
+				"S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Widgets/WBP_HeartPiece.uasset",
+				"S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Widgets/WBP_HealthBox.uasset",
+				"S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Widgets/WBP_MainHUD.uasset",
 				"S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Character/BP_Boar.uasset",
 				"S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Character/BP_Skeleton.uasset",
 				"S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Character/BP_Hero.uasset"
