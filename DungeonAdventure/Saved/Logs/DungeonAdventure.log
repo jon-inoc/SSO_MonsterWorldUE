@@ -5400,3 +5400,708 @@ _MatTransl_3B7A55D3409170328211A060FC2E3BB1E263C720_BBD650804D314CE7A44ADF9BB4F3
 [2025.05.02-18.51.35:199][ 75]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
 [2025.05.02-18.51.35:199][ 75]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2025.05.02-18.51.35:242][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2025.05.02-18.52.40:994][635]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2025.05.02-18.52.41:628][670]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.02-18.52.41:693][670]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Systems/BP_SpawnManager] ([2] browsable assets)...
+[2025.05.02-18.52.41:693][670]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Systems/BP_SpawnManager]
+[2025.05.02-18.52.41:693][670]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Systems/BP_SpawnManager" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset" SILENT=true
+[2025.05.02-18.52.41:697][670]LogSavePackage: Moving output files for package: /Game/Blueprints/Systems/BP_SpawnManager
+[2025.05.02-18.52.41:697][670]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/BP_SpawnManager0D5A039540C592A3ADF225847BE34A49.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset'
+[2025.05.02-18.52.41:707][670]LogFileHelpers: InternalPromptForCheckoutAndSave took 79.150 ms (total: 8.21 sec)
+[2025.05.02-18.52.41:775][670]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.02-18.52.41:775][670]LogContentValidation: Enabled validators:
+[2025.05.02-18.52.41:775][670]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.02-18.52.41:775][670]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.02-18.52.41:775][670]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.02-18.52.41:775][670]LogContentValidation: Display: Validating asset /Game/Blueprints/Systems/BP_SpawnManager.BP_SpawnManager
+[2025.05.02-18.52.41:776][670]AssetCheck: /Game/Blueprints/Systems/BP_SpawnManager Validating asset
+[2025.05.02-18.53.56:179][807]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2025.05.02-18.53.56:184][807]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/MAP_Dungeon' took 0.020
+[2025.05.02-18.53.56:185][807]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Systems/BP_SpawnManager] ([2] browsable assets)...
+[2025.05.02-18.53.56:185][807]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Systems/BP_SpawnManager]
+[2025.05.02-18.53.56:190][807]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Systems/BP_SpawnManager_Auto7
+[2025.05.02-18.53.56:190][807]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/BP_SpawnManager_Auto70D9533954A00A267C419078BA59C6ED9.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/Autosaves/Game/Blueprints/Systems/BP_SpawnManager_Auto7.uasset'
+[2025.05.02-18.53.56:190][807]LogFileHelpers: Auto-saving content packages took 0.006
+[2025.05.02-18.57.55:571][954]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2025.05.02-18.57.56:090][982]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.02-18.57.56:150][982]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Systems/BP_SpawnManager] ([2] browsable assets)...
+[2025.05.02-18.57.56:150][982]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Systems/BP_SpawnManager]
+[2025.05.02-18.57.56:150][982]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Systems/BP_SpawnManager" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset" SILENT=true
+[2025.05.02-18.57.56:155][982]LogSavePackage: Moving output files for package: /Game/Blueprints/Systems/BP_SpawnManager
+[2025.05.02-18.57.56:155][982]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/BP_SpawnManager551D081C4B6247099D5EFEB8D735905C.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset'
+[2025.05.02-18.57.56:166][982]LogFileHelpers: InternalPromptForCheckoutAndSave took 74.703 ms (total: 8.28 sec)
+[2025.05.02-18.57.56:240][982]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.02-18.57.56:240][982]LogContentValidation: Enabled validators:
+[2025.05.02-18.57.56:240][982]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.02-18.57.56:240][982]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.02-18.57.56:240][982]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.02-18.57.56:240][982]LogContentValidation: Display: Validating asset /Game/Blueprints/Systems/BP_SpawnManager.BP_SpawnManager
+[2025.05.02-18.57.56:240][982]AssetCheck: /Game/Blueprints/Systems/BP_SpawnManager Validating asset
+[2025.05.02-18.59.40:863][700]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2025.05.02-18.59.41:432][731]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.02-18.59.41:506][731]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Systems/BP_SpawnManager] ([2] browsable assets)...
+[2025.05.02-18.59.41:506][731]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Systems/BP_SpawnManager]
+[2025.05.02-18.59.41:506][731]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Systems/BP_SpawnManager" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset" SILENT=true
+[2025.05.02-18.59.41:510][731]LogSavePackage: Moving output files for package: /Game/Blueprints/Systems/BP_SpawnManager
+[2025.05.02-18.59.41:511][731]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/BP_SpawnManager00B38CF94AF63B3D160B38A5454B87A6.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset'
+[2025.05.02-18.59.41:522][731]LogFileHelpers: InternalPromptForCheckoutAndSave took 89.242 ms (total: 8.37 sec)
+[2025.05.02-18.59.41:598][731]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.02-18.59.41:598][731]LogContentValidation: Enabled validators:
+[2025.05.02-18.59.41:598][731]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.02-18.59.41:598][731]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.02-18.59.41:598][731]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.02-18.59.41:598][731]LogContentValidation: Display: Validating asset /Game/Blueprints/Systems/BP_SpawnManager.BP_SpawnManager
+[2025.05.02-18.59.41:598][731]AssetCheck: /Game/Blueprints/Systems/BP_SpawnManager Validating asset
+[2025.05.02-19.00.08:401][319]LogClass: Warning: Type mismatch in WaveToSpawnData of BP_SpawnManager_C - Previous (IntProperty) Current(MapProperty) in package: FObjectReader
+[2025.05.02-19.00.08:424][319]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2025.05.02-19.00.09:025][352]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.02-19.00.09:089][352]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Systems/BP_SpawnManager] ([2] browsable assets)...
+[2025.05.02-19.00.09:090][352]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Systems/BP_SpawnManager]
+[2025.05.02-19.00.09:090][352]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Systems/BP_SpawnManager" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset" SILENT=true
+[2025.05.02-19.00.09:095][352]LogSavePackage: Moving output files for package: /Game/Blueprints/Systems/BP_SpawnManager
+[2025.05.02-19.00.09:095][352]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/BP_SpawnManager535C0206401BF6452BABE4BE5E896C2F.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset'
+[2025.05.02-19.00.09:106][352]LogFileHelpers: InternalPromptForCheckoutAndSave took 80.939 ms (total: 8.45 sec)
+[2025.05.02-19.00.09:176][352]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.02-19.00.09:176][352]LogContentValidation: Enabled validators:
+[2025.05.02-19.00.09:176][352]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.02-19.00.09:176][352]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.02-19.00.09:176][352]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.02-19.00.09:176][352]LogContentValidation: Display: Validating asset /Game/Blueprints/Systems/BP_SpawnManager.BP_SpawnManager
+[2025.05.02-19.00.09:176][352]AssetCheck: /Game/Blueprints/Systems/BP_SpawnManager Validating asset
+[2025.05.02-19.01.26:459][950]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.05.02-19.01.26:935][975]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.02-19.01.27:001][975]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Systems/BP_SpawnManager] ([2] browsable assets)...
+[2025.05.02-19.01.27:001][975]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Systems/BP_SpawnManager]
+[2025.05.02-19.01.27:001][975]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Systems/BP_SpawnManager" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset" SILENT=true
+[2025.05.02-19.01.27:008][975]LogSavePackage: Moving output files for package: /Game/Blueprints/Systems/BP_SpawnManager
+[2025.05.02-19.01.27:008][975]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/BP_SpawnManager0A8B95C940B7C0861AE87DA14BFC2AAF.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset'
+[2025.05.02-19.01.27:018][975]LogFileHelpers: InternalPromptForCheckoutAndSave took 83.353 ms (total: 8.54 sec)
+[2025.05.02-19.01.27:091][975]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.02-19.01.27:091][975]LogContentValidation: Enabled validators:
+[2025.05.02-19.01.27:091][975]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.02-19.01.27:091][975]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.02-19.01.27:091][975]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.02-19.01.27:091][975]LogContentValidation: Display: Validating asset /Game/Blueprints/Systems/BP_SpawnManager.BP_SpawnManager
+[2025.05.02-19.01.27:091][975]AssetCheck: /Game/Blueprints/Systems/BP_SpawnManager Validating asset
+[2025.05.02-19.01.40:428][417]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.05.02-19.01.40:440][417]LogContentBrowser: Creating deferred item: NewFolder
+[2025.05.02-19.01.40:450][418]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.05.02-19.01.45:544][724]LogContentBrowser: Attempting asset rename: NewFolder -> Struct
+[2025.05.02-19.01.45:544][724]LogContentBrowser: End creating deferred item NewFolder
+[2025.05.02-19.10.13:569][938]LogContentBrowser: Deferred new asset file creation: NewUserDefinedStruct
+[2025.05.02-19.10.13:576][938]LogContentBrowser: Creating deferred item: NewUserDefinedStruct
+[2025.05.02-19.10.13:605][940]LogContentBrowser: Renaming the item being created (Deferred Item: NewUserDefinedStruct).
+[2025.05.02-19.10.18:205][215]LogContentBrowser: Attempting asset rename: NewUserDefinedStruct -> S_Wave
+[2025.05.02-19.10.18:249][215]LogContentBrowser: End creating deferred item NewUserDefinedStruct
+[2025.05.02-19.10.21:294][398]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedStruct /Game/Blueprints/Struct/S_Wave.S_Wave
+[2025.05.02-19.10.45:662][853]LogAssetRegistry: Warning: ScanPathsSynchronous: Package /Engine/Transient does not exist, will not scan.
+[2025.05.02-19.11.35:425][427]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.02-19.11.35:492][427]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Struct/S_Wave] ([1] browsable assets)...
+[2025.05.02-19.11.35:492][427]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Struct/S_Wave]
+[2025.05.02-19.11.35:492][427]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Struct/S_Wave" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Struct/S_Wave.uasset" SILENT=true
+[2025.05.02-19.11.35:493][427]LogSavePackage: Moving output files for package: /Game/Blueprints/Struct/S_Wave
+[2025.05.02-19.11.35:493][427]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/S_Wave417D537747BF4346A1094993F2882BEC.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Struct/S_Wave.uasset'
+[2025.05.02-19.11.35:506][427]LogFileHelpers: InternalPromptForCheckoutAndSave took 81.353 ms (total: 8.62 sec)
+[2025.05.02-19.11.35:585][427]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.02-19.11.35:585][427]LogContentValidation: Enabled validators:
+[2025.05.02-19.11.35:585][427]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.02-19.11.35:585][427]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.02-19.11.35:585][427]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.02-19.11.35:585][427]LogContentValidation: Display: Validating asset /Game/Blueprints/Struct/S_Wave.S_Wave
+[2025.05.02-19.11.35:585][427]AssetCheck: /Game/Blueprints/Struct/S_Wave Validating asset
+[2025.05.02-19.12.24:869][243]LogSlate: Window 'Change Variable Type' being destroyed
+[2025.05.02-19.12.28:077][364]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2025.05.02-19.12.28:081][364]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/MAP_Dungeon' took 0.019
+[2025.05.02-19.12.28:081][364]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Systems/BP_SpawnManager] ([2] browsable assets)...
+[2025.05.02-19.12.28:081][364]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Systems/BP_SpawnManager]
+[2025.05.02-19.12.28:087][364]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Systems/BP_SpawnManager_Auto8
+[2025.05.02-19.12.28:087][364]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/BP_SpawnManager_Auto828378F10424FB7DE1F812B9251998F7C.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/Autosaves/Game/Blueprints/Systems/BP_SpawnManager_Auto8.uasset'
+[2025.05.02-19.12.28:087][364]LogFileHelpers: Auto-saving content packages took 0.006
+[2025.05.02-19.12.29:757][464]LogSlate: Window 'Find in Blueprints' being destroyed
+[2025.05.02-19.12.29:773][464]LogSlate: Window 'Find in Blueprints' being destroyed
+[2025.05.02-19.12.40:822][595]LogClass: Warning: Map Element Type mismatch in WaveToSpawnData - Previous (IntProperty to ObjectProperty) Current (IntProperty to StructProperty(S_Wave(/Game/Blueprints/Struct/S_Wave),d132f171-4721-2dc0-1181-a6bc974047f8)) for package: FObjectReader
+[2025.05.02-19.12.40:846][595]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2025.05.02-19.12.41:564][635]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.02-19.12.41:628][635]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Systems/BP_SpawnManager] ([2] browsable assets)...
+[2025.05.02-19.12.41:628][635]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Systems/BP_SpawnManager]
+[2025.05.02-19.12.41:628][635]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Systems/BP_SpawnManager" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset" SILENT=true
+[2025.05.02-19.12.41:637][635]LogSavePackage: Moving output files for package: /Game/Blueprints/Systems/BP_SpawnManager
+[2025.05.02-19.12.41:637][635]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/BP_SpawnManagerED7CAF5545C7F1C91E486D99DC443EAB.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset'
+[2025.05.02-19.12.41:648][635]LogFileHelpers: InternalPromptForCheckoutAndSave took 83.267 ms (total: 8.70 sec)
+[2025.05.02-19.12.41:722][635]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.02-19.12.41:722][635]LogContentValidation: Enabled validators:
+[2025.05.02-19.12.41:722][635]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.02-19.12.41:722][635]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.02-19.12.41:722][635]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.02-19.12.41:722][635]LogContentValidation: Display: Validating asset /Game/Blueprints/Systems/BP_SpawnManager.BP_SpawnManager
+[2025.05.02-19.12.41:722][635]AssetCheck: /Game/Blueprints/Systems/BP_SpawnManager Validating asset
+[2025.05.02-19.13.12:448][392]LogSlate: Window 'Create New Blueprint' being destroyed
+[2025.05.02-19.13.46:704][103]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2025.05.02-19.14.25:809][222]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2025.05.02-19.14.26:701][273]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.02-19.14.26:760][273]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Systems/BP_SpawnManager] ([2] browsable assets)...
+[2025.05.02-19.14.26:760][273]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Systems/BP_SpawnManager]
+[2025.05.02-19.14.26:760][273]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Systems/BP_SpawnManager" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset" SILENT=true
+[2025.05.02-19.14.26:765][273]LogSavePackage: Moving output files for package: /Game/Blueprints/Systems/BP_SpawnManager
+[2025.05.02-19.14.26:765][273]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/BP_SpawnManager49B0739F42759C556987188194C386C0.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset'
+[2025.05.02-19.14.26:775][273]LogFileHelpers: InternalPromptForCheckoutAndSave took 74.902 ms (total: 8.78 sec)
+[2025.05.02-19.14.26:845][273]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.02-19.14.26:845][273]LogContentValidation: Enabled validators:
+[2025.05.02-19.14.26:845][273]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.02-19.14.26:845][273]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.02-19.14.26:845][273]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.02-19.14.26:845][273]LogContentValidation: Display: Validating asset /Game/Blueprints/Systems/BP_SpawnManager.BP_SpawnManager
+[2025.05.02-19.14.26:845][273]AssetCheck: /Game/Blueprints/Systems/BP_SpawnManager Validating asset
+[2025.05.02-19.17.40:844][335]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2025.05.02-19.17.41:411][366]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.02-19.17.41:471][366]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Systems/BP_SpawnManager] ([2] browsable assets)...
+[2025.05.02-19.17.41:471][366]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Systems/BP_SpawnManager]
+[2025.05.02-19.17.41:471][366]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Systems/BP_SpawnManager" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset" SILENT=true
+[2025.05.02-19.17.41:477][366]LogSavePackage: Moving output files for package: /Game/Blueprints/Systems/BP_SpawnManager
+[2025.05.02-19.17.41:477][366]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/BP_SpawnManager4A4182474C884D4D391DD4995EF02898.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset'
+[2025.05.02-19.17.41:487][366]LogFileHelpers: InternalPromptForCheckoutAndSave took 75.346 ms (total: 8.85 sec)
+[2025.05.02-19.17.41:559][366]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.02-19.17.41:559][366]LogContentValidation: Enabled validators:
+[2025.05.02-19.17.41:559][366]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.02-19.17.41:559][366]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.02-19.17.41:559][366]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.02-19.17.41:559][366]LogContentValidation: Display: Validating asset /Game/Blueprints/Systems/BP_SpawnManager.BP_SpawnManager
+[2025.05.02-19.17.41:559][366]AssetCheck: /Game/Blueprints/Systems/BP_SpawnManager Validating asset
+[2025.05.02-19.17.49:380][836]LogDerivedDataCache: C:/Users/snuzi/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.05.02-19.18.08:491][961]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2025.05.02-19.18.09:133][996]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.02-19.18.09:203][996]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Systems/BP_SpawnManager] ([2] browsable assets)...
+[2025.05.02-19.18.09:203][996]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Systems/BP_SpawnManager]
+[2025.05.02-19.18.09:203][996]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Systems/BP_SpawnManager" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset" SILENT=true
+[2025.05.02-19.18.09:210][996]LogSavePackage: Moving output files for package: /Game/Blueprints/Systems/BP_SpawnManager
+[2025.05.02-19.18.09:211][996]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/BP_SpawnManager8114338C408888941BC4B2A0F4289091.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset'
+[2025.05.02-19.18.09:221][996]LogFileHelpers: InternalPromptForCheckoutAndSave took 87.967 ms (total: 8.94 sec)
+[2025.05.02-19.18.09:292][996]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.02-19.18.09:292][996]LogContentValidation: Enabled validators:
+[2025.05.02-19.18.09:292][996]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.02-19.18.09:292][996]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.02-19.18.09:292][996]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.02-19.18.09:292][996]LogContentValidation: Display: Validating asset /Game/Blueprints/Systems/BP_SpawnManager.BP_SpawnManager
+[2025.05.02-19.18.09:292][996]AssetCheck: /Game/Blueprints/Systems/BP_SpawnManager Validating asset
+[2025.05.02-19.18.36:651][609]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2025.05.02-19.19.35:131][687]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2025.05.02-19.19.35:630][713]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.02-19.19.35:701][713]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Systems/BP_SpawnManager] ([2] browsable assets)...
+[2025.05.02-19.19.35:701][713]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Systems/BP_SpawnManager]
+[2025.05.02-19.19.35:701][713]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Systems/BP_SpawnManager" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset" SILENT=true
+[2025.05.02-19.19.35:710][713]LogSavePackage: Moving output files for package: /Game/Blueprints/Systems/BP_SpawnManager
+[2025.05.02-19.19.35:710][713]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/BP_SpawnManager55B0EC5F429BA85D22FDA8AF9C8AA607.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset'
+[2025.05.02-19.19.35:723][713]LogFileHelpers: InternalPromptForCheckoutAndSave took 92.487 ms (total: 9.03 sec)
+[2025.05.02-19.19.35:792][713]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.02-19.19.35:792][713]LogContentValidation: Enabled validators:
+[2025.05.02-19.19.35:792][713]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.02-19.19.35:792][713]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.02-19.19.35:792][713]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.02-19.19.35:792][713]LogContentValidation: Display: Validating asset /Game/Blueprints/Systems/BP_SpawnManager.BP_SpawnManager
+[2025.05.02-19.19.35:792][713]AssetCheck: /Game/Blueprints/Systems/BP_SpawnManager Validating asset
+[2025.05.02-19.19.41:754][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2025.05.02-19.19.44:205][115]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.02-19.19.44:269][115]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Systems/BP_SpawnManager] ([2] browsable assets)...
+[2025.05.02-19.19.44:269][115]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Systems/BP_SpawnManager]
+[2025.05.02-19.19.44:269][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Systems/BP_SpawnManager" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset" SILENT=true
+[2025.05.02-19.19.44:275][115]LogSavePackage: Moving output files for package: /Game/Blueprints/Systems/BP_SpawnManager
+[2025.05.02-19.19.44:276][115]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/BP_SpawnManagerFD73EDA74743401801FAA1B1E2772896.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset'
+[2025.05.02-19.19.44:286][115]LogFileHelpers: InternalPromptForCheckoutAndSave took 81.393 ms (total: 9.12 sec)
+[2025.05.02-19.19.44:360][115]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.02-19.19.44:360][115]LogContentValidation: Enabled validators:
+[2025.05.02-19.19.44:361][115]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.02-19.19.44:361][115]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.02-19.19.44:361][115]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.02-19.19.44:361][115]LogContentValidation: Display: Validating asset /Game/Blueprints/Systems/BP_SpawnManager.BP_SpawnManager
+[2025.05.02-19.19.44:361][115]AssetCheck: /Game/Blueprints/Systems/BP_SpawnManager Validating asset
+[2025.05.02-19.19.46:907][266]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.05.02-19.19.46:921][266]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.05.02-19.19.46:921][266]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Dungeon
+[2025.05.02-19.19.46:922][266]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001142s)
+[2025.05.02-19.19.46:922][266]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Dungeon.MAP_Dungeon to /Game/Maps/UEDPIE_0_MAP_Dungeon.MAP_Dungeon (0.001170s)
+[2025.05.02-19.19.46:931][266]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2025.05.02-19.19.46:935][266]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.05.02-19.19.46:935][266]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Game/Maps/UEDPIE_0_MAP_Dungeon.MAP_Dungeon'.
+[2025.05.02-19.19.46:936][266]LogPlayLevel: PIE: World Init took: (0.001108s)
+[2025.05.02-19.19.46:950][266]LogAudio: Display: Creating Audio Device:                 Id: 42, Scope: Unique, Realtime: True
+[2025.05.02-19.19.46:950][266]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.05.02-19.19.46:950][266]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.05.02-19.19.46:950][266]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.05.02-19.19.46:950][266]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.05.02-19.19.46:950][266]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.05.02-19.19.46:950][266]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.05.02-19.19.46:950][266]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.05.02-19.19.46:950][266]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.05.02-19.19.46:950][266]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.05.02-19.19.46:950][266]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.05.02-19.19.46:950][266]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.05.02-19.19.46:952][266]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.05.02-19.19.47:031][266]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2025.05.02-19.19.47:032][266]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.05.02-19.19.47:032][266]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.05.02-19.19.47:032][266]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.05.02-19.19.47:032][266]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=42
+[2025.05.02-19.19.47:032][266]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=42
+[2025.05.02-19.19.47:033][266]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=42
+[2025.05.02-19.19.47:033][266]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=42
+[2025.05.02-19.19.47:033][266]LogInit: FAudioDevice initialized with ID 42.
+[2025.05.02-19.19.47:033][266]LogAudio: Display: Audio Device (ID: 42) registered with world 'MAP_Dungeon'.
+[2025.05.02-19.19.47:033][266]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 42
+[2025.05.02-19.19.47:084][266]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.02-19.19.47:084][266]LogLoad: Game class is 'GM_Dungeon_C'
+[2025.05.02-19.19.47:085][266]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Dungeon.MAP_Dungeon up for play (max tick rate 60) at 2025.05.02-15.19.47
+[2025.05.02-19.19.47:085][266]LogWorld: Bringing up level for play took: 0.000614
+[2025.05.02-19.19.47:087][266]LogOnline: OSS: Created online subsystem instance for: :Context_66
+[2025.05.02-19.19.47:107][266]PIE: Server logged in
+[2025.05.02-19.19.47:107][266]PIE: Play in editor total start time 0.195 seconds.
+[2025.05.02-19.19.47:113][266]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Color 'Graph.Node.Comment.TextColor'.'
+[2025.05.02-19.19.49:906][433]LogScript: Warning: UGameplayStatics::BeginDeferredActorSpawnFromClass: can not spawn an actor from a NULL class
+[2025.05.02-19.19.52:975][615]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.02-19.19.52:975][615]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Dungeon
+[2025.05.02-19.19.52:976][615]LogSlate: Window 'DungeonAdventure Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.05.02-19.19.52:993][615]LogWorld: UWorld::CleanupWorld for MAP_Dungeon, bSessionEnded=true, bCleanupResources=true
+[2025.05.02-19.19.52:994][615]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.02-19.19.52:994][615]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.05.02-19.19.52:994][615]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.05.02-19.19.53:000][615]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.05.02-19.19.53:003][615]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.02-19.19.53:013][615]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.05.02-19.19.53:013][615]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 42
+[2025.05.02-19.19.53:014][615]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=42
+[2025.05.02-19.19.53:015][615]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=42
+[2025.05.02-19.19.53:020][615]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2025.05.02-19.19.53:102][616]LogPlayLevel: Display: Destroying online subsystem :Context_66
+[2025.05.02-19.19.55:783][775]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.02-19.19.55:845][775]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MAP_Dungeon" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Maps/MAP_Dungeon.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.05.02-19.19.55:866][775]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2025.05.02-19.19.55:873][775]LogSavePackage: Moving output files for package: /Game/Maps/MAP_Dungeon
+[2025.05.02-19.19.55:873][775]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/MAP_DungeonA0CAE7A7497D9127712BFEA4F5E5DDE1.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Maps/MAP_Dungeon.umap'
+[2025.05.02-19.19.55:878][775]LogFileHelpers: Saving map 'MAP_Dungeon' took 0.033
+[2025.05.02-19.19.55:892][775]LogFileHelpers: InternalPromptForCheckoutAndSave took 107.897 ms (total: 9.22 sec)
+[2025.05.02-19.19.55:974][775]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.02-19.19.55:974][775]LogContentValidation: Enabled validators:
+[2025.05.02-19.19.55:974][775]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.02-19.19.55:974][775]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.02-19.19.55:974][775]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.02-19.19.55:974][775]LogContentValidation: Display: Validating asset /Game/Maps/MAP_Dungeon.MAP_Dungeon
+[2025.05.02-19.19.55:974][775]AssetCheck: /Game/Maps/MAP_Dungeon Validating asset
+[2025.05.02-19.21.35:078][175]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2025.05.02-19.21.35:879][220]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.02-19.21.35:953][220]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Systems/BP_SpawnManager] ([2] browsable assets)...
+[2025.05.02-19.21.35:953][220]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Systems/BP_SpawnManager]
+[2025.05.02-19.21.35:953][220]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Systems/BP_SpawnManager" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset" SILENT=true
+[2025.05.02-19.21.35:960][220]LogSavePackage: Moving output files for package: /Game/Blueprints/Systems/BP_SpawnManager
+[2025.05.02-19.21.35:960][220]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/BP_SpawnManager8180539C40E09CA4A1666D8D8F68A5E0.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset'
+[2025.05.02-19.21.35:973][220]LogFileHelpers: InternalPromptForCheckoutAndSave took 93.054 ms (total: 9.32 sec)
+[2025.05.02-19.21.36:048][220]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.02-19.21.36:048][220]LogContentValidation: Enabled validators:
+[2025.05.02-19.21.36:048][220]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.02-19.21.36:048][220]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.02-19.21.36:048][220]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.02-19.21.36:048][220]LogContentValidation: Display: Validating asset /Game/Blueprints/Systems/BP_SpawnManager.BP_SpawnManager
+[2025.05.02-19.21.36:048][220]AssetCheck: /Game/Blueprints/Systems/BP_SpawnManager Validating asset
+[2025.05.02-19.22.45:823][378]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.05.02-19.22.46:916][440]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.02-19.22.46:978][440]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Systems/BP_SpawnManager] ([2] browsable assets)...
+[2025.05.02-19.22.46:978][440]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Systems/BP_SpawnManager]
+[2025.05.02-19.22.46:978][440]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Systems/BP_SpawnManager" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset" SILENT=true
+[2025.05.02-19.22.46:987][440]LogSavePackage: Moving output files for package: /Game/Blueprints/Systems/BP_SpawnManager
+[2025.05.02-19.22.46:988][440]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/BP_SpawnManager9FF1239445137CA3D70776BD917D471E.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset'
+[2025.05.02-19.22.46:999][440]LogFileHelpers: InternalPromptForCheckoutAndSave took 83.810 ms (total: 9.40 sec)
+[2025.05.02-19.22.47:071][440]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.02-19.22.47:071][440]LogContentValidation: Enabled validators:
+[2025.05.02-19.22.47:071][440]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.02-19.22.47:071][440]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.02-19.22.47:071][440]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.02-19.22.47:071][440]LogContentValidation: Display: Validating asset /Game/Blueprints/Systems/BP_SpawnManager.BP_SpawnManager
+[2025.05.02-19.22.47:071][440]AssetCheck: /Game/Blueprints/Systems/BP_SpawnManager Validating asset
+[2025.05.02-19.23.01:627][302]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Character/BP_Enemy_BASE.BP_Enemy_BASE
+[2025.05.02-19.23.01:628][302]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Engine/Transient.World_25'.
+[2025.05.02-19.23.01:704][302]LogSlate: Window 'Open Asset' being destroyed
+[2025.05.02-19.25.25:978][564]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.05.02-19.25.26:627][597]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.02-19.25.26:697][597]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/BP_Enemy_BASE] ([2] browsable assets)...
+[2025.05.02-19.25.26:697][597]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/BP_Enemy_BASE]
+[2025.05.02-19.25.26:697][597]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/BP_Enemy_BASE" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Character/BP_Enemy_BASE.uasset" SILENT=true
+[2025.05.02-19.25.26:706][597]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/BP_Enemy_BASE
+[2025.05.02-19.25.26:707][597]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/BP_Enemy_BASEC98989834A81DEA8D5165DB866F3A206.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Character/BP_Enemy_BASE.uasset'
+[2025.05.02-19.25.26:718][597]LogFileHelpers: InternalPromptForCheckoutAndSave took 91.182 ms (total: 9.49 sec)
+[2025.05.02-19.25.26:797][597]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.02-19.25.26:797][597]LogContentValidation: Enabled validators:
+[2025.05.02-19.25.26:797][597]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.02-19.25.26:797][597]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.02-19.25.26:797][597]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.02-19.25.26:797][597]LogContentValidation: Display: Validating asset /Game/Blueprints/Character/BP_Enemy_BASE.BP_Enemy_BASE
+[2025.05.02-19.25.26:797][597]AssetCheck: /Game/Blueprints/Character/BP_Enemy_BASE Validating asset
+[2025.05.02-19.25.29:428][753]LogBlueprint: Warning: [AssetLog] S:\SSO\2DTopDownUE\SSO_MonsterWorldUE\DungeonAdventure\Content\Blueprints\Character\BP_Enemy_BASE.uasset: [Compiler] Variable OwningSpawner is marked as 'Expose on Spawn' but not marked as 'Instance Editable'; please make it 'Instance Editable'
+[2025.05.02-19.25.31:582][877]LogBlueprint: Warning: [AssetLog] S:\SSO\2DTopDownUE\SSO_MonsterWorldUE\DungeonAdventure\Content\Blueprints\Character\BP_Enemy_BASE.uasset: [Compiler] Variable OwningSpawner is marked as 'Expose on Spawn' but not marked as 'Instance Editable'; please make it 'Instance Editable'
+[2025.05.02-19.25.31:625][877]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2025.05.02-19.25.32:169][902]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.02-19.25.32:240][902]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/BP_Enemy_BASE] ([2] browsable assets)...
+[2025.05.02-19.25.32:240][902]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/BP_Enemy_BASE]
+[2025.05.02-19.25.32:240][902]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/BP_Enemy_BASE" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Character/BP_Enemy_BASE.uasset" SILENT=true
+[2025.05.02-19.25.32:248][902]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/BP_Enemy_BASE
+[2025.05.02-19.25.32:250][902]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/BP_Enemy_BASE4CDC7C1B49DEDEE1D1378EB74FB2C418.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Character/BP_Enemy_BASE.uasset'
+[2025.05.02-19.25.32:261][902]LogFileHelpers: InternalPromptForCheckoutAndSave took 90.741 ms (total: 9.58 sec)
+[2025.05.02-19.25.32:328][902]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.02-19.25.32:328][902]LogContentValidation: Enabled validators:
+[2025.05.02-19.25.32:328][902]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.02-19.25.32:328][902]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.02-19.25.32:328][902]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.02-19.25.32:328][902]LogContentValidation: Display: Validating asset /Game/Blueprints/Character/BP_Enemy_BASE.BP_Enemy_BASE
+[2025.05.02-19.25.32:328][902]AssetCheck: /Game/Blueprints/Character/BP_Enemy_BASE Validating asset
+[2025.05.02-19.25.40:627][390]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2025.05.02-19.25.41:554][439]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.02-19.25.41:616][439]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/BP_Enemy_BASE] ([2] browsable assets)...
+[2025.05.02-19.25.41:616][439]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/BP_Enemy_BASE]
+[2025.05.02-19.25.41:616][439]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/BP_Enemy_BASE" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Character/BP_Enemy_BASE.uasset" SILENT=true
+[2025.05.02-19.25.41:626][439]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/BP_Enemy_BASE
+[2025.05.02-19.25.41:627][439]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/BP_Enemy_BASEE1D8A8414405D1968731DC87F8FF4A20.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Character/BP_Enemy_BASE.uasset'
+[2025.05.02-19.25.41:637][439]LogFileHelpers: InternalPromptForCheckoutAndSave took 82.782 ms (total: 9.66 sec)
+[2025.05.02-19.25.41:707][439]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.02-19.25.41:707][439]LogContentValidation: Enabled validators:
+[2025.05.02-19.25.41:707][439]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.02-19.25.41:707][439]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.02-19.25.41:707][439]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.02-19.25.41:707][439]LogContentValidation: Display: Validating asset /Game/Blueprints/Character/BP_Enemy_BASE.BP_Enemy_BASE
+[2025.05.02-19.25.41:707][439]AssetCheck: /Game/Blueprints/Character/BP_Enemy_BASE Validating asset
+[2025.05.02-19.26.28:737][  2]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2025.05.02-19.26.29:612][ 51]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.02-19.26.29:674][ 51]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Systems/BP_SpawnManager] ([2] browsable assets)...
+[2025.05.02-19.26.29:674][ 51]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Systems/BP_SpawnManager]
+[2025.05.02-19.26.29:674][ 51]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Systems/BP_SpawnManager" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset" SILENT=true
+[2025.05.02-19.26.29:681][ 51]LogSavePackage: Moving output files for package: /Game/Blueprints/Systems/BP_SpawnManager
+[2025.05.02-19.26.29:682][ 51]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/BP_SpawnManager62F202F4458090283C9410B40FC9A3CC.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset'
+[2025.05.02-19.26.29:693][ 51]LogFileHelpers: InternalPromptForCheckoutAndSave took 80.445 ms (total: 9.74 sec)
+[2025.05.02-19.26.29:766][ 51]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.02-19.26.29:766][ 51]LogContentValidation: Enabled validators:
+[2025.05.02-19.26.29:766][ 51]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.02-19.26.29:766][ 51]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.02-19.26.29:766][ 51]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.02-19.26.29:766][ 51]LogContentValidation: Display: Validating asset /Game/Blueprints/Systems/BP_SpawnManager.BP_SpawnManager
+[2025.05.02-19.26.29:766][ 51]AssetCheck: /Game/Blueprints/Systems/BP_SpawnManager Validating asset
+[2025.05.02-19.26.44:328][909]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2025.05.02-19.26.45:067][950]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.02-19.26.45:127][950]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Systems/BP_SpawnManager] ([2] browsable assets)...
+[2025.05.02-19.26.45:128][950]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Systems/BP_SpawnManager]
+[2025.05.02-19.26.45:128][950]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Systems/BP_SpawnManager" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset" SILENT=true
+[2025.05.02-19.26.45:135][950]LogSavePackage: Moving output files for package: /Game/Blueprints/Systems/BP_SpawnManager
+[2025.05.02-19.26.45:135][950]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/BP_SpawnManagerAFD09BBB4030786A190B28936C873239.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset'
+[2025.05.02-19.26.45:145][950]LogFileHelpers: InternalPromptForCheckoutAndSave took 78.339 ms (total: 9.82 sec)
+[2025.05.02-19.26.45:217][950]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.02-19.26.45:217][950]LogContentValidation: Enabled validators:
+[2025.05.02-19.26.45:217][950]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.02-19.26.45:217][950]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.02-19.26.45:217][950]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.02-19.26.45:217][950]LogContentValidation: Display: Validating asset /Game/Blueprints/Systems/BP_SpawnManager.BP_SpawnManager
+[2025.05.02-19.26.45:217][950]AssetCheck: /Game/Blueprints/Systems/BP_SpawnManager Validating asset
+[2025.05.02-19.28.40:853][518]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2025.05.02-19.28.41:685][565]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.02-19.28.41:746][565]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Systems/BP_SpawnManager] ([2] browsable assets)...
+[2025.05.02-19.28.41:746][565]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Systems/BP_SpawnManager]
+[2025.05.02-19.28.41:746][565]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Systems/BP_SpawnManager" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset" SILENT=true
+[2025.05.02-19.28.41:754][565]LogSavePackage: Moving output files for package: /Game/Blueprints/Systems/BP_SpawnManager
+[2025.05.02-19.28.41:755][565]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/BP_SpawnManager93AE5E714951266486B18D87B1769870.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset'
+[2025.05.02-19.28.41:764][565]LogFileHelpers: InternalPromptForCheckoutAndSave took 78.723 ms (total: 9.90 sec)
+[2025.05.02-19.28.41:830][565]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.02-19.28.41:830][565]LogContentValidation: Enabled validators:
+[2025.05.02-19.28.41:830][565]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.02-19.28.41:830][565]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.02-19.28.41:830][565]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.02-19.28.41:830][565]LogContentValidation: Display: Validating asset /Game/Blueprints/Systems/BP_SpawnManager.BP_SpawnManager
+[2025.05.02-19.28.41:830][565]AssetCheck: /Game/Blueprints/Systems/BP_SpawnManager Validating asset
+[2025.05.02-19.29.07:632][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2025.05.02-19.29.08:442][132]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.02-19.29.08:510][132]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Systems/BP_SpawnManager] ([2] browsable assets)...
+[2025.05.02-19.29.08:510][132]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Systems/BP_SpawnManager]
+[2025.05.02-19.29.08:510][132]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Systems/BP_SpawnManager" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset" SILENT=true
+[2025.05.02-19.29.08:518][132]LogSavePackage: Moving output files for package: /Game/Blueprints/Systems/BP_SpawnManager
+[2025.05.02-19.29.08:518][132]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/BP_SpawnManagerD28E2D3C4F891EB7C2F445B60EAF5393.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset'
+[2025.05.02-19.29.08:527][132]LogFileHelpers: InternalPromptForCheckoutAndSave took 84.996 ms (total: 9.99 sec)
+[2025.05.02-19.29.08:600][132]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.02-19.29.08:600][132]LogContentValidation: Enabled validators:
+[2025.05.02-19.29.08:600][132]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.02-19.29.08:600][132]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.02-19.29.08:600][132]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.02-19.29.08:600][132]LogContentValidation: Display: Validating asset /Game/Blueprints/Systems/BP_SpawnManager.BP_SpawnManager
+[2025.05.02-19.29.08:601][132]AssetCheck: /Game/Blueprints/Systems/BP_SpawnManager Validating asset
+[2025.05.02-19.29.12:551][365]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2025.05.02-19.29.13:492][415]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.02-19.29.13:555][415]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/BP_Enemy_BASE] ([2] browsable assets)...
+[2025.05.02-19.29.13:555][415]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/BP_Enemy_BASE]
+[2025.05.02-19.29.13:555][415]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/BP_Enemy_BASE" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Character/BP_Enemy_BASE.uasset" SILENT=true
+[2025.05.02-19.29.13:566][415]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/BP_Enemy_BASE
+[2025.05.02-19.29.13:566][415]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/BP_Enemy_BASE4AADD5A648523F5CAFD7EDBDEDB1473D.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Character/BP_Enemy_BASE.uasset'
+[2025.05.02-19.29.13:578][415]LogFileHelpers: InternalPromptForCheckoutAndSave took 85.414 ms (total: 10.0 sec)
+[2025.05.02-19.29.13:645][415]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.02-19.29.13:645][415]LogContentValidation: Enabled validators:
+[2025.05.02-19.29.13:645][415]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.02-19.29.13:645][415]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.02-19.29.13:645][415]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.02-19.29.13:645][415]LogContentValidation: Display: Validating asset /Game/Blueprints/Character/BP_Enemy_BASE.BP_Enemy_BASE
+[2025.05.02-19.29.13:645][415]AssetCheck: /Game/Blueprints/Character/BP_Enemy_BASE Validating asset
+[2025.05.02-19.30.01:387][937]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2025.05.02-19.30.01:390][937]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/MAP_Dungeon' took 0.013
+[2025.05.02-19.30.01:390][937]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/BP_Enemy_BASE] ([2] browsable assets)...
+[2025.05.02-19.30.01:390][937]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/BP_Enemy_BASE]
+[2025.05.02-19.30.01:400][937]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Character/BP_Enemy_BASE_Auto9
+[2025.05.02-19.30.01:400][937]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/BP_Enemy_BASE_Auto9A0EEB89143B21936364A4EBF124BC698.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/Autosaves/Game/Blueprints/Character/BP_Enemy_BASE_Auto9.uasset'
+[2025.05.02-19.30.01:401][937]LogFileHelpers: Auto-saving content packages took 0.011
+[2025.05.02-19.30.06:728][956]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2025.05.02-19.30.07:670][  7]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.02-19.30.07:738][  7]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/BP_Enemy_BASE] ([2] browsable assets)...
+[2025.05.02-19.30.07:738][  7]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/BP_Enemy_BASE]
+[2025.05.02-19.30.07:738][  7]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/BP_Enemy_BASE" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Character/BP_Enemy_BASE.uasset" SILENT=true
+[2025.05.02-19.30.07:748][  7]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/BP_Enemy_BASE
+[2025.05.02-19.30.07:749][  7]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/BP_Enemy_BASE3CA1553F4281E02D3979099E94F3986B.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Character/BP_Enemy_BASE.uasset'
+[2025.05.02-19.30.07:758][  7]LogFileHelpers: InternalPromptForCheckoutAndSave took 88.571 ms (total: 10.1 sec)
+[2025.05.02-19.30.07:832][  7]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.02-19.30.07:832][  7]LogContentValidation: Enabled validators:
+[2025.05.02-19.30.07:832][  7]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.02-19.30.07:832][  7]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.02-19.30.07:832][  7]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.02-19.30.07:832][  7]LogContentValidation: Display: Validating asset /Game/Blueprints/Character/BP_Enemy_BASE.BP_Enemy_BASE
+[2025.05.02-19.30.07:832][  7]AssetCheck: /Game/Blueprints/Character/BP_Enemy_BASE Validating asset
+[2025.05.02-19.30.39:477][592]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2025.05.02-19.30.40:225][632]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.02-19.30.40:288][632]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Systems/BP_SpawnManager] ([2] browsable assets)...
+[2025.05.02-19.30.40:288][632]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Systems/BP_SpawnManager]
+[2025.05.02-19.30.40:289][632]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Systems/BP_SpawnManager" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset" SILENT=true
+[2025.05.02-19.30.40:297][632]LogSavePackage: Moving output files for package: /Game/Blueprints/Systems/BP_SpawnManager
+[2025.05.02-19.30.40:297][632]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/BP_SpawnManager348605BB4D41DAF75D5A3C8D9037C712.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset'
+[2025.05.02-19.30.40:308][632]LogFileHelpers: InternalPromptForCheckoutAndSave took 82.794 ms (total: 10.2 sec)
+[2025.05.02-19.30.40:380][632]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.02-19.30.40:380][632]LogContentValidation: Enabled validators:
+[2025.05.02-19.30.40:380][632]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.02-19.30.40:380][632]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.02-19.30.40:380][632]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.02-19.30.40:380][632]LogContentValidation: Display: Validating asset /Game/Blueprints/Systems/BP_SpawnManager.BP_SpawnManager
+[2025.05.02-19.30.40:380][632]AssetCheck: /Game/Blueprints/Systems/BP_SpawnManager Validating asset
+[2025.05.02-19.30.41:196][681]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.05.02-19.30.41:209][681]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.05.02-19.30.41:209][681]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Dungeon
+[2025.05.02-19.30.41:210][681]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001166s)
+[2025.05.02-19.30.41:210][681]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Dungeon.MAP_Dungeon to /Game/Maps/UEDPIE_0_MAP_Dungeon.MAP_Dungeon (0.001196s)
+[2025.05.02-19.30.41:219][681]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2025.05.02-19.30.41:223][681]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.05.02-19.30.41:223][681]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Game/Maps/UEDPIE_0_MAP_Dungeon.MAP_Dungeon'.
+[2025.05.02-19.30.41:224][681]LogPlayLevel: PIE: World Init took: (0.000910s)
+[2025.05.02-19.30.41:241][681]LogAudio: Display: Creating Audio Device:                 Id: 43, Scope: Unique, Realtime: True
+[2025.05.02-19.30.41:241][681]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.05.02-19.30.41:241][681]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.05.02-19.30.41:241][681]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.05.02-19.30.41:241][681]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.05.02-19.30.41:241][681]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.05.02-19.30.41:241][681]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.05.02-19.30.41:241][681]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.05.02-19.30.41:241][681]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.05.02-19.30.41:241][681]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.05.02-19.30.41:241][681]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.05.02-19.30.41:241][681]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.05.02-19.30.41:243][681]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.05.02-19.30.41:332][681]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2025.05.02-19.30.41:332][681]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.05.02-19.30.41:332][681]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.05.02-19.30.41:332][681]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.05.02-19.30.41:332][681]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=43
+[2025.05.02-19.30.41:333][681]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=43
+[2025.05.02-19.30.41:334][681]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=43
+[2025.05.02-19.30.41:334][681]LogInit: FAudioDevice initialized with ID 43.
+[2025.05.02-19.30.41:334][681]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=43
+[2025.05.02-19.30.41:334][681]LogAudio: Display: Audio Device (ID: 43) registered with world 'MAP_Dungeon'.
+[2025.05.02-19.30.41:334][681]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 43
+[2025.05.02-19.30.41:387][681]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.02-19.30.41:388][681]LogLoad: Game class is 'GM_Dungeon_C'
+[2025.05.02-19.30.41:388][681]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Dungeon.MAP_Dungeon up for play (max tick rate 60) at 2025.05.02-15.30.41
+[2025.05.02-19.30.41:389][681]LogWorld: Bringing up level for play took: 0.000557
+[2025.05.02-19.30.41:391][681]LogOnline: OSS: Created online subsystem instance for: :Context_68
+[2025.05.02-19.30.41:414][681]PIE: Server logged in
+[2025.05.02-19.30.41:415][681]PIE: Play in editor total start time 0.214 seconds.
+[2025.05.02-19.30.44:188][847]LogScript: Warning: UGameplayStatics::BeginDeferredActorSpawnFromClass: can not spawn an actor from a NULL class
+[2025.05.02-19.30.44:967][894]LogScript: Script Msg: Playing animation override...
+[2025.05.02-19.30.45:250][911]LogScript: Script Msg: Playing animation override...
+[2025.05.02-19.30.47:483][ 45]LogScript: Script Msg: Playing animation override...
+[2025.05.02-19.30.48:500][106]LogScript: Script Msg: Playing animation override...
+[2025.05.02-19.30.49:749][181]LogScript: Script Msg: Playing animation override...
+[2025.05.02-19.30.50:901][250]LogBlueprintUserMessages: [BP_SpawnManager_C_1] 1
+[2025.05.02-19.30.50:901][250]LogBlueprintUserMessages: [BP_SpawnManager_C_1] 0
+[2025.05.02-19.30.57:082][619]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.02-19.30.57:082][619]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Dungeon
+[2025.05.02-19.30.57:083][619]LogSlate: Window 'DungeonAdventure Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.05.02-19.30.57:094][619]LogWorld: UWorld::CleanupWorld for MAP_Dungeon, bSessionEnded=true, bCleanupResources=true
+[2025.05.02-19.30.57:094][619]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.02-19.30.57:094][619]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.05.02-19.30.57:094][619]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.05.02-19.30.57:101][619]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.05.02-19.30.57:104][619]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.02-19.30.57:118][619]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.05.02-19.30.57:118][619]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 43
+[2025.05.02-19.30.57:118][619]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=43
+[2025.05.02-19.30.57:119][619]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=43
+[2025.05.02-19.30.57:126][619]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2025.05.02-19.30.57:192][620]LogPlayLevel: Display: Destroying online subsystem :Context_68
+[2025.05.02-19.30.58:524][700]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.05.02-19.30.58:535][700]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.05.02-19.30.58:535][700]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Dungeon
+[2025.05.02-19.30.58:536][700]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001089s)
+[2025.05.02-19.30.58:536][700]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Dungeon.MAP_Dungeon to /Game/Maps/UEDPIE_0_MAP_Dungeon.MAP_Dungeon (0.001119s)
+[2025.05.02-19.30.58:545][700]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2025.05.02-19.30.58:546][700]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.05.02-19.30.58:547][700]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Game/Maps/UEDPIE_0_MAP_Dungeon.MAP_Dungeon'.
+[2025.05.02-19.30.58:547][700]LogPlayLevel: PIE: World Init took: (0.000823s)
+[2025.05.02-19.30.58:564][700]LogAudio: Display: Creating Audio Device:                 Id: 44, Scope: Unique, Realtime: True
+[2025.05.02-19.30.58:564][700]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.05.02-19.30.58:564][700]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.05.02-19.30.58:564][700]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.05.02-19.30.58:564][700]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.05.02-19.30.58:564][700]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.05.02-19.30.58:564][700]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.05.02-19.30.58:564][700]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.05.02-19.30.58:564][700]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.05.02-19.30.58:564][700]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.05.02-19.30.58:564][700]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.05.02-19.30.58:564][700]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.05.02-19.30.58:565][700]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.05.02-19.30.58:670][700]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2025.05.02-19.30.58:670][700]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.05.02-19.30.58:670][700]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.05.02-19.30.58:670][700]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.05.02-19.30.58:670][700]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=44
+[2025.05.02-19.30.58:670][700]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=44
+[2025.05.02-19.30.58:672][700]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=44
+[2025.05.02-19.30.58:672][700]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=44
+[2025.05.02-19.30.58:672][700]LogInit: FAudioDevice initialized with ID 44.
+[2025.05.02-19.30.58:672][700]LogAudio: Display: Audio Device (ID: 44) registered with world 'MAP_Dungeon'.
+[2025.05.02-19.30.58:672][700]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 44
+[2025.05.02-19.30.58:713][700]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.02-19.30.58:713][700]LogLoad: Game class is 'GM_Dungeon_C'
+[2025.05.02-19.30.58:713][700]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Dungeon.MAP_Dungeon up for play (max tick rate 60) at 2025.05.02-15.30.58
+[2025.05.02-19.30.58:714][700]LogWorld: Bringing up level for play took: 0.000562
+[2025.05.02-19.30.58:715][700]LogOnline: OSS: Created online subsystem instance for: :Context_69
+[2025.05.02-19.30.58:733][700]PIE: Server logged in
+[2025.05.02-19.30.58:734][700]PIE: Play in editor total start time 0.205 seconds.
+[2025.05.02-19.31.01:522][867]LogScript: Warning: UGameplayStatics::BeginDeferredActorSpawnFromClass: can not spawn an actor from a NULL class
+[2025.05.02-19.31.03:553][989]LogScript: Script Msg: Playing animation override...
+[2025.05.02-19.31.04:703][ 58]LogScript: Script Msg: Playing animation override...
+[2025.05.02-19.31.05:704][118]LogScript: Script Msg: Playing animation override...
+[2025.05.02-19.31.06:854][187]LogBlueprintUserMessages: [BP_SpawnManager_C_1] 1
+[2025.05.02-19.31.07:954][253]LogScript: Script Msg: Playing animation override...
+[2025.05.02-19.31.09:104][322]LogBlueprintUserMessages: [BP_SpawnManager_C_1] 0
+[2025.05.02-19.31.09:814][363]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.02-19.31.09:814][363]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Dungeon
+[2025.05.02-19.31.09:814][363]LogSlate: Window 'DungeonAdventure Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.05.02-19.31.09:825][363]LogWorld: UWorld::CleanupWorld for MAP_Dungeon, bSessionEnded=true, bCleanupResources=true
+[2025.05.02-19.31.09:825][363]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.02-19.31.09:825][363]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.05.02-19.31.09:825][363]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.05.02-19.31.09:831][363]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.05.02-19.31.09:834][363]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.02-19.31.09:847][363]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 44
+[2025.05.02-19.31.09:847][363]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=44
+[2025.05.02-19.31.09:848][363]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=44
+[2025.05.02-19.31.09:867][363]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2025.05.02-19.31.09:930][364]LogPlayLevel: Display: Destroying online subsystem :Context_69
+[2025.05.02-19.31.47:328][577]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2025.05.02-19.31.48:201][626]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.02-19.31.48:276][626]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Systems/BP_SpawnManager] ([2] browsable assets)...
+[2025.05.02-19.31.48:276][626]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Systems/BP_SpawnManager]
+[2025.05.02-19.31.48:276][626]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Systems/BP_SpawnManager" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset" SILENT=true
+[2025.05.02-19.31.48:284][626]LogSavePackage: Moving output files for package: /Game/Blueprints/Systems/BP_SpawnManager
+[2025.05.02-19.31.48:285][626]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/BP_SpawnManager5AB901094394EBDDF82D81A84E80C568.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset'
+[2025.05.02-19.31.48:295][626]LogFileHelpers: InternalPromptForCheckoutAndSave took 94.816 ms (total: 10.3 sec)
+[2025.05.02-19.31.48:369][626]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.02-19.31.48:369][626]LogContentValidation: Enabled validators:
+[2025.05.02-19.31.48:369][626]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.02-19.31.48:369][626]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.02-19.31.48:369][626]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.02-19.31.48:369][626]LogContentValidation: Display: Validating asset /Game/Blueprints/Systems/BP_SpawnManager.BP_SpawnManager
+[2025.05.02-19.31.48:369][626]AssetCheck: /Game/Blueprints/Systems/BP_SpawnManager Validating asset
+[2025.05.02-19.32.46:449][700]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.05.02-19.32.47:141][738]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.02-19.32.47:208][738]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Systems/BP_SpawnManager] ([2] browsable assets)...
+[2025.05.02-19.32.47:208][738]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Systems/BP_SpawnManager]
+[2025.05.02-19.32.47:208][738]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Systems/BP_SpawnManager" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset" SILENT=true
+[2025.05.02-19.32.47:218][738]LogSavePackage: Moving output files for package: /Game/Blueprints/Systems/BP_SpawnManager
+[2025.05.02-19.32.47:218][738]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/BP_SpawnManagerDBDC5AEF446F902C40819EBAFA91E44C.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset'
+[2025.05.02-19.32.47:229][738]LogFileHelpers: InternalPromptForCheckoutAndSave took 87.410 ms (total: 10.4 sec)
+[2025.05.02-19.32.47:304][738]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.02-19.32.47:304][738]LogContentValidation: Enabled validators:
+[2025.05.02-19.32.47:304][738]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.02-19.32.47:304][738]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.02-19.32.47:304][738]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.02-19.32.47:304][738]LogContentValidation: Display: Validating asset /Game/Blueprints/Systems/BP_SpawnManager.BP_SpawnManager
+[2025.05.02-19.32.47:304][738]AssetCheck: /Game/Blueprints/Systems/BP_SpawnManager Validating asset
+[2025.05.02-19.32.53:279][ 75]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.02-19.32.53:350][ 75]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Systems/BP_SpawnManager] ([2] browsable assets)...
+[2025.05.02-19.32.53:350][ 75]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Systems/BP_SpawnManager]
+[2025.05.02-19.32.53:350][ 75]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Systems/BP_SpawnManager" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset" SILENT=true
+[2025.05.02-19.32.53:358][ 75]LogSavePackage: Moving output files for package: /Game/Blueprints/Systems/BP_SpawnManager
+[2025.05.02-19.32.53:358][ 75]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/BP_SpawnManagerC3A00C174F25DDF86A405BA1029B20C8.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset'
+[2025.05.02-19.32.53:368][ 75]LogFileHelpers: InternalPromptForCheckoutAndSave took 88.637 ms (total: 10.5 sec)
+[2025.05.02-19.32.53:447][ 75]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.02-19.32.53:447][ 75]LogContentValidation: Enabled validators:
+[2025.05.02-19.32.53:448][ 75]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.02-19.32.53:448][ 75]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.02-19.32.53:448][ 75]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.02-19.32.53:448][ 75]LogContentValidation: Display: Validating asset /Game/Blueprints/Systems/BP_SpawnManager.BP_SpawnManager
+[2025.05.02-19.32.53:448][ 75]AssetCheck: /Game/Blueprints/Systems/BP_SpawnManager Validating asset
+[2025.05.02-19.32.54:329][126]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2025.05.02-19.32.54:737][147]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.02-19.32.54:798][147]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Systems/BP_SpawnManager] ([2] browsable assets)...
+[2025.05.02-19.32.54:798][147]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Systems/BP_SpawnManager]
+[2025.05.02-19.32.54:798][147]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Systems/BP_SpawnManager" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset" SILENT=true
+[2025.05.02-19.32.54:807][147]LogSavePackage: Moving output files for package: /Game/Blueprints/Systems/BP_SpawnManager
+[2025.05.02-19.32.54:808][147]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/BP_SpawnManager1121BB8C465A7A3AFA85C5857F486B23.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset'
+[2025.05.02-19.32.54:820][147]LogFileHelpers: InternalPromptForCheckoutAndSave took 82.802 ms (total: 10.6 sec)
+[2025.05.02-19.32.54:893][147]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.02-19.32.54:893][147]LogContentValidation: Enabled validators:
+[2025.05.02-19.32.54:893][147]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.02-19.32.54:893][147]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.02-19.32.54:893][147]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.02-19.32.54:893][147]LogContentValidation: Display: Validating asset /Game/Blueprints/Systems/BP_SpawnManager.BP_SpawnManager
+[2025.05.02-19.32.54:893][147]AssetCheck: /Game/Blueprints/Systems/BP_SpawnManager Validating asset
+[2025.05.02-19.33.12:887][689]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.05.02-19.33.13:619][729]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.02-19.33.13:679][729]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Systems/BP_SpawnManager] ([2] browsable assets)...
+[2025.05.02-19.33.13:679][729]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Systems/BP_SpawnManager]
+[2025.05.02-19.33.13:679][729]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Systems/BP_SpawnManager" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset" SILENT=true
+[2025.05.02-19.33.13:687][729]LogSavePackage: Moving output files for package: /Game/Blueprints/Systems/BP_SpawnManager
+[2025.05.02-19.33.13:687][729]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/BP_SpawnManagerC1C4B4704326E27BF0745BAF183DA6C7.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset'
+[2025.05.02-19.33.13:697][729]LogFileHelpers: InternalPromptForCheckoutAndSave took 78.846 ms (total: 10.6 sec)
+[2025.05.02-19.33.13:772][729]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.02-19.33.13:772][729]LogContentValidation: Enabled validators:
+[2025.05.02-19.33.13:772][729]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.02-19.33.13:772][729]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.02-19.33.13:772][729]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.02-19.33.13:772][729]LogContentValidation: Display: Validating asset /Game/Blueprints/Systems/BP_SpawnManager.BP_SpawnManager
+[2025.05.02-19.33.13:772][729]AssetCheck: /Game/Blueprints/Systems/BP_SpawnManager Validating asset
+[2025.05.02-19.34.21:185][534]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2025.05.02-19.34.21:909][573]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.02-19.34.21:977][573]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Systems/BP_SpawnManager] ([2] browsable assets)...
+[2025.05.02-19.34.21:977][573]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Systems/BP_SpawnManager]
+[2025.05.02-19.34.21:977][573]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Systems/BP_SpawnManager" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset" SILENT=true
+[2025.05.02-19.34.21:986][573]LogSavePackage: Moving output files for package: /Game/Blueprints/Systems/BP_SpawnManager
+[2025.05.02-19.34.21:986][573]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/BP_SpawnManager8ABAD41B4E95FCD978A9EAAD04EC2956.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset'
+[2025.05.02-19.34.21:997][573]LogFileHelpers: InternalPromptForCheckoutAndSave took 87.635 ms (total: 10.7 sec)
+[2025.05.02-19.34.22:067][573]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.02-19.34.22:067][573]LogContentValidation: Enabled validators:
+[2025.05.02-19.34.22:067][573]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.02-19.34.22:067][573]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.02-19.34.22:067][573]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.02-19.34.22:067][573]LogContentValidation: Display: Validating asset /Game/Blueprints/Systems/BP_SpawnManager.BP_SpawnManager
+[2025.05.02-19.34.22:067][573]AssetCheck: /Game/Blueprints/Systems/BP_SpawnManager Validating asset
+[2025.05.02-19.34.27:395][890]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2025.05.02-19.34.28:008][923]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.02-19.34.28:070][923]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Systems/BP_SpawnManager] ([2] browsable assets)...
+[2025.05.02-19.34.28:070][923]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Systems/BP_SpawnManager]
+[2025.05.02-19.34.28:070][923]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Systems/BP_SpawnManager" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset" SILENT=true
+[2025.05.02-19.34.28:078][923]LogSavePackage: Moving output files for package: /Game/Blueprints/Systems/BP_SpawnManager
+[2025.05.02-19.34.28:078][923]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/BP_SpawnManager3A2990C640132D1A016B27B6A145230F.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset'
+[2025.05.02-19.34.28:089][923]LogFileHelpers: InternalPromptForCheckoutAndSave took 80.568 ms (total: 10.8 sec)
+[2025.05.02-19.34.28:158][923]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.02-19.34.28:158][923]LogContentValidation: Enabled validators:
+[2025.05.02-19.34.28:158][923]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.02-19.34.28:158][923]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.02-19.34.28:158][923]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.02-19.34.28:158][923]LogContentValidation: Display: Validating asset /Game/Blueprints/Systems/BP_SpawnManager.BP_SpawnManager
+[2025.05.02-19.34.28:158][923]AssetCheck: /Game/Blueprints/Systems/BP_SpawnManager Validating asset
