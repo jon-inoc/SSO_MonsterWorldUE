@@ -3819,3 +3819,1584 @@ _MatTransl_3B7A55D3409170328211A060FC2E3BB1E263C720_BBD650804D314CE7A44ADF9BB4F3
 [2025.05.02-17.26.51:134][259]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
 [2025.05.02-17.26.51:154][259]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
 [2025.05.02-17.26.51:227][260]LogPlayLevel: Display: Destroying online subsystem :Context_43
+[2025.05.02-17.28.08:969][896]LogShaderCompilers: Display: ================================================
+[2025.05.02-17.28.08:969][896]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.05.02-17.28.08:969][896]LogShaderCompilers: Display: Total job queries 77, among them cache hits 12 (15.58%), DDC hits 43 (55.84%), Duplicates 4 (5.19%)
+[2025.05.02-17.28.08:969][896]LogShaderCompilers: Display: Tracking 61 distinct input hashes that result in 51 distinct outputs (83.61%)
+[2025.05.02-17.28.08:969][896]LogShaderCompilers: Display: RAM used: 1.65 MiB of 1.60 GiB budget. Usage: 0.10%
+[2025.05.02-17.28.08:969][896]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.05.02-17.28.08:969][896]LogShaderCompilers: Display: Shaders Compiled: 18
+[2025.05.02-17.28.08:969][896]LogShaderCompilers: Display: Jobs assigned 18, completed 18 (100%)
+[2025.05.02-17.28.08:969][896]LogShaderCompilers: Display: Average time worker was idle: 1214.35 s
+[2025.05.02-17.28.08:969][896]LogShaderCompilers: Display: Time job spent in pending queue: average 0.04 s, longest 0.07 s
+[2025.05.02-17.28.08:969][896]LogShaderCompilers: Display: Job execution time: average 1.62 s, max 2.70 s
+[2025.05.02-17.28.08:969][896]LogShaderCompilers: Display: Job life time (pending + execution): average 1.66 s, max 2.74
+[2025.05.02-17.28.08:969][896]LogShaderCompilers: Display: Shader code size: average 46.852 KiB, min 28.492 KiB, max 70.234 KiB
+[2025.05.02-17.28.08:969][896]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 10.11 s
+[2025.05.02-17.28.08:969][896]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.09%
+[2025.05.02-17.28.08:969][896]LogShaderCompilers: Display: Jobs were issued in 18 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.05.02-17.28.08:969][896]LogShaderCompilers: Display: Average processing rate: 1.78 jobs/sec
+[2025.05.02-17.28.08:969][896]LogShaderCompilers: Display: Total thread time: 10.678 s
+[2025.05.02-17.28.08:969][896]LogShaderCompilers: Display: Total thread preprocess time: 0.778 s
+[2025.05.02-17.28.08:969][896]LogShaderCompilers: Display: Percentage time preprocessing: 7.29%
+[2025.05.02-17.28.08:969][896]LogShaderCompilers: Display: Effective parallelization: 1.06 (times faster than compiling all shaders on one thread). Compare with number of workers: 16
+[2025.05.02-17.28.08:969][896]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.05.02-17.28.08:969][896]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    2 times, average 1.44 sec, max 1.46 sec, min 1.43 sec)
+[2025.05.02-17.28.08:969][896]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    5 times, average 0.63 sec, max 1.14 sec, min 0.29 sec)
+[2025.05.02-17.28.08:969][896]LogShaderCompilers: Display:                  TShadowDepthVSVertexShadowDepth_OutputDepth (compiled    2 times, average 0.35 sec, max 0.36 sec, min 0.33 sec)
+[2025.05.02-17.28.08:969][896]LogShaderCompilers: Display:                                                  FVelocityVS (compiled    2 times, average 0.33 sec, max 0.37 sec, min 0.28 sec)
+[2025.05.02-17.28.08:969][896]LogShaderCompilers: Display:                                                  FVelocityPS (compiled    2 times, average 0.32 sec, max 0.33 sec, min 0.30 sec)
+[2025.05.02-17.28.08:969][896]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.05.02-17.28.08:969][896]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 29.67% of total time (compiled    5 times, average 0.63 sec, max 1.14 sec, min 0.29 sec)
+[2025.05.02-17.28.08:969][896]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 27.04% of total time (compiled    2 times, average 1.44 sec, max 1.46 sec, min 1.43 sec)
+[2025.05.02-17.28.08:969][896]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 8.46% of total time (compiled    3 times, average 0.30 sec, max 0.39 sec, min 0.17 sec)
+[2025.05.02-17.28.08:969][896]LogShaderCompilers: Display:                  TShadowDepthVSVertexShadowDepth_OutputDepth - 6.50% of total time (compiled    2 times, average 0.35 sec, max 0.36 sec, min 0.33 sec)
+[2025.05.02-17.28.08:969][896]LogShaderCompilers: Display:                                                  FVelocityVS - 6.10% of total time (compiled    2 times, average 0.33 sec, max 0.37 sec, min 0.28 sec)
+[2025.05.02-17.28.08:969][896]LogShaderCompilers: Display: === Material stats ===
+[2025.05.02-17.28.08:969][896]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.05.02-17.28.08:969][896]LogShaderCompilers: Display: Materials Translated:    115
+[2025.05.02-17.28.08:969][896]LogShaderCompilers: Display: Material Total Translate Time: 0.11 s
+[2025.05.02-17.28.08:969][896]LogShaderCompilers: Display: Material Translation Only: 0.02 s (23%)
+[2025.05.02-17.28.08:969][896]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.05.02-17.28.08:969][896]LogShaderCompilers: Display: Material Cache Hits: 9 (8%)
+[2025.05.02-17.28.08:969][896]LogShaderCompilers: Display: ================================================
+[2025.05.02-17.32.19:739][461]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2025.05.02-17.32.20:471][495]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.02-17.32.20:529][495]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/Hero/BP_Hero] ([2] browsable assets)...
+[2025.05.02-17.32.20:529][495]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/Hero/BP_Hero]
+[2025.05.02-17.32.20:529][495]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/Hero/BP_Hero" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Character/Hero/BP_Hero.uasset" SILENT=true
+[2025.05.02-17.32.20:552][495]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/Hero/BP_Hero
+[2025.05.02-17.32.20:552][495]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/BP_HeroCC2919D24A1D26754A1BED8ADF318B13.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Character/Hero/BP_Hero.uasset'
+[2025.05.02-17.32.20:561][495]LogFileHelpers: InternalPromptForCheckoutAndSave took 90.505 ms (total: 5.86 sec)
+[2025.05.02-17.32.20:625][495]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.02-17.32.20:625][495]LogContentValidation: Enabled validators:
+[2025.05.02-17.32.20:625][495]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.02-17.32.20:625][495]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.02-17.32.20:625][495]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.02-17.32.20:625][495]LogContentValidation: Display: Validating asset /Game/Blueprints/Character/Hero/BP_Hero.BP_Hero
+[2025.05.02-17.32.20:625][495]AssetCheck: /Game/Blueprints/Character/Hero/BP_Hero Validating asset
+[2025.05.02-17.32.22:013][578]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.05.02-17.32.22:026][578]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.05.02-17.32.22:027][578]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Dungeon
+[2025.05.02-17.32.22:028][578]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001492s)
+[2025.05.02-17.32.22:028][578]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Dungeon.MAP_Dungeon to /Game/Maps/UEDPIE_0_MAP_Dungeon.MAP_Dungeon (0.001524s)
+[2025.05.02-17.32.22:039][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2025.05.02-17.32.22:044][578]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.05.02-17.32.22:045][578]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Game/Maps/UEDPIE_0_MAP_Dungeon.MAP_Dungeon'.
+[2025.05.02-17.32.22:045][578]LogPlayLevel: PIE: World Init took: (0.000930s)
+[2025.05.02-17.32.22:060][578]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2025.05.02-17.32.22:060][578]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.05.02-17.32.22:060][578]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.05.02-17.32.22:060][578]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.05.02-17.32.22:060][578]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.05.02-17.32.22:060][578]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.05.02-17.32.22:060][578]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.05.02-17.32.22:060][578]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.05.02-17.32.22:060][578]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.05.02-17.32.22:060][578]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.05.02-17.32.22:060][578]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.05.02-17.32.22:060][578]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.05.02-17.32.22:061][578]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.05.02-17.32.22:149][578]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2025.05.02-17.32.22:149][578]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.05.02-17.32.22:150][578]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.05.02-17.32.22:150][578]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.05.02-17.32.22:150][578]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=24
+[2025.05.02-17.32.22:150][578]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=24
+[2025.05.02-17.32.22:151][578]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=24
+[2025.05.02-17.32.22:151][578]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=24
+[2025.05.02-17.32.22:151][578]LogInit: FAudioDevice initialized with ID 24.
+[2025.05.02-17.32.22:151][578]LogAudio: Display: Audio Device (ID: 24) registered with world 'MAP_Dungeon'.
+[2025.05.02-17.32.22:151][578]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 24
+[2025.05.02-17.32.22:154][578]LogLoad: Game class is 'GM_Dungeon_C'
+[2025.05.02-17.32.22:154][578]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Dungeon.MAP_Dungeon up for play (max tick rate 60) at 2025.05.02-13.32.22
+[2025.05.02-17.32.22:155][578]LogWorld: Bringing up level for play took: 0.000941
+[2025.05.02-17.32.22:156][578]LogOnline: OSS: Created online subsystem instance for: :Context_44
+[2025.05.02-17.32.22:172][578]PIE: Server logged in
+[2025.05.02-17.32.22:174][578]PIE: Play in editor total start time 0.156 seconds.
+[2025.05.02-17.32.29:265][  1]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.02-17.32.29:265][  1]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Dungeon
+[2025.05.02-17.32.29:266][  1]LogWorld: UWorld::CleanupWorld for MAP_Dungeon, bSessionEnded=true, bCleanupResources=true
+[2025.05.02-17.32.29:266][  1]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.02-17.32.29:266][  1]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.05.02-17.32.29:266][  1]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.05.02-17.32.29:269][  1]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.05.02-17.32.29:271][  1]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.02-17.32.29:279][  1]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.05.02-17.32.29:279][  1]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 24
+[2025.05.02-17.32.29:279][  1]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2025.05.02-17.32.29:281][  1]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2025.05.02-17.32.29:283][  1]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.02-17.32.29:285][  1]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2025.05.02-17.32.29:349][  2]LogPlayLevel: Display: Destroying online subsystem :Context_44
+[2025.05.02-17.32.47:504][235]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.05.02-17.32.47:515][235]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.05.02-17.32.47:516][235]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Dungeon
+[2025.05.02-17.32.47:517][235]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001415s)
+[2025.05.02-17.32.47:517][235]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Dungeon.MAP_Dungeon to /Game/Maps/UEDPIE_0_MAP_Dungeon.MAP_Dungeon (0.001448s)
+[2025.05.02-17.32.47:525][235]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2025.05.02-17.32.47:527][235]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.05.02-17.32.47:527][235]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Game/Maps/UEDPIE_0_MAP_Dungeon.MAP_Dungeon'.
+[2025.05.02-17.32.47:527][235]LogPlayLevel: PIE: World Init took: (0.000797s)
+[2025.05.02-17.32.47:544][235]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2025.05.02-17.32.47:544][235]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.05.02-17.32.47:544][235]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.05.02-17.32.47:544][235]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.05.02-17.32.47:544][235]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.05.02-17.32.47:544][235]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.05.02-17.32.47:544][235]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.05.02-17.32.47:544][235]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.05.02-17.32.47:544][235]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.05.02-17.32.47:544][235]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.05.02-17.32.47:544][235]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.05.02-17.32.47:544][235]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.05.02-17.32.47:546][235]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.05.02-17.32.47:632][235]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2025.05.02-17.32.47:632][235]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.05.02-17.32.47:632][235]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.05.02-17.32.47:632][235]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.05.02-17.32.47:633][235]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=25
+[2025.05.02-17.32.47:633][235]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=25
+[2025.05.02-17.32.47:634][235]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=25
+[2025.05.02-17.32.47:634][235]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=25
+[2025.05.02-17.32.47:634][235]LogInit: FAudioDevice initialized with ID 25.
+[2025.05.02-17.32.47:634][235]LogAudio: Display: Audio Device (ID: 25) registered with world 'MAP_Dungeon'.
+[2025.05.02-17.32.47:634][235]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 25
+[2025.05.02-17.32.47:637][235]LogLoad: Game class is 'GM_Dungeon_C'
+[2025.05.02-17.32.47:638][235]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Dungeon.MAP_Dungeon up for play (max tick rate 60) at 2025.05.02-13.32.47
+[2025.05.02-17.32.47:638][235]LogWorld: Bringing up level for play took: 0.001007
+[2025.05.02-17.32.47:640][235]LogOnline: OSS: Created online subsystem instance for: :Context_45
+[2025.05.02-17.32.47:661][235]PIE: Server logged in
+[2025.05.02-17.32.47:661][235]PIE: Play in editor total start time 0.153 seconds.
+[2025.05.02-17.32.48:590][289]LogScript: Script Msg: Playing animation override...
+[2025.05.02-17.32.49:575][348]LogScript: Script Msg: Playing animation override...
+[2025.05.02-17.32.50:690][415]LogScript: Script Msg: Playing animation override...
+[2025.05.02-17.32.51:754][477]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.02-17.32.51:754][477]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Dungeon
+[2025.05.02-17.32.51:754][477]LogWorld: UWorld::CleanupWorld for MAP_Dungeon, bSessionEnded=true, bCleanupResources=true
+[2025.05.02-17.32.51:754][477]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.02-17.32.51:754][477]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.05.02-17.32.51:754][477]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.05.02-17.32.51:757][477]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.05.02-17.32.51:760][477]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.02-17.32.51:768][477]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.02-17.32.51:768][477]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 25
+[2025.05.02-17.32.51:768][477]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2025.05.02-17.32.51:769][477]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2025.05.02-17.32.51:787][477]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2025.05.02-17.32.51:851][478]LogPlayLevel: Display: Destroying online subsystem :Context_45
+[2025.05.02-17.32.55:389][689]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.05.02-17.32.55:399][689]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.05.02-17.32.55:400][689]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Dungeon
+[2025.05.02-17.32.55:401][689]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001341s)
+[2025.05.02-17.32.55:401][689]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Dungeon.MAP_Dungeon to /Game/Maps/UEDPIE_0_MAP_Dungeon.MAP_Dungeon (0.001381s)
+[2025.05.02-17.32.55:411][689]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2025.05.02-17.32.55:414][689]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.05.02-17.32.55:414][689]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Game/Maps/UEDPIE_0_MAP_Dungeon.MAP_Dungeon'.
+[2025.05.02-17.32.55:415][689]LogPlayLevel: PIE: World Init took: (0.000865s)
+[2025.05.02-17.32.55:432][689]LogAudio: Display: Creating Audio Device:                 Id: 26, Scope: Unique, Realtime: True
+[2025.05.02-17.32.55:432][689]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.05.02-17.32.55:432][689]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.05.02-17.32.55:432][689]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.05.02-17.32.55:432][689]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.05.02-17.32.55:432][689]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.05.02-17.32.55:432][689]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.05.02-17.32.55:432][689]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.05.02-17.32.55:432][689]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.05.02-17.32.55:432][689]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.05.02-17.32.55:432][689]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.05.02-17.32.55:432][689]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.05.02-17.32.55:433][689]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.05.02-17.32.55:527][689]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2025.05.02-17.32.55:527][689]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.05.02-17.32.55:527][689]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.05.02-17.32.55:527][689]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.05.02-17.32.55:527][689]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=26
+[2025.05.02-17.32.55:527][689]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=26
+[2025.05.02-17.32.55:529][689]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=26
+[2025.05.02-17.32.55:529][689]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=26
+[2025.05.02-17.32.55:529][689]LogInit: FAudioDevice initialized with ID 26.
+[2025.05.02-17.32.55:529][689]LogAudio: Display: Audio Device (ID: 26) registered with world 'MAP_Dungeon'.
+[2025.05.02-17.32.55:529][689]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 26
+[2025.05.02-17.32.55:571][689]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.02-17.32.55:571][689]LogLoad: Game class is 'GM_Dungeon_C'
+[2025.05.02-17.32.55:572][689]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Dungeon.MAP_Dungeon up for play (max tick rate 60) at 2025.05.02-13.32.55
+[2025.05.02-17.32.55:572][689]LogWorld: Bringing up level for play took: 0.000965
+[2025.05.02-17.32.55:574][689]LogOnline: OSS: Created online subsystem instance for: :Context_46
+[2025.05.02-17.32.55:595][689]PIE: Server logged in
+[2025.05.02-17.32.55:596][689]PIE: Play in editor total start time 0.202 seconds.
+[2025.05.02-17.33.03:405][155]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.02-17.33.03:405][155]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Dungeon
+[2025.05.02-17.33.03:406][155]LogSlate: Window 'DungeonAdventure Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.05.02-17.33.03:417][155]LogWorld: UWorld::CleanupWorld for MAP_Dungeon, bSessionEnded=true, bCleanupResources=true
+[2025.05.02-17.33.03:417][155]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.02-17.33.03:417][155]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.05.02-17.33.03:417][155]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.05.02-17.33.03:419][155]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.05.02-17.33.03:423][155]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.02-17.33.03:432][155]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 26
+[2025.05.02-17.33.03:432][155]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2025.05.02-17.33.03:434][155]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2025.05.02-17.33.03:453][155]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2025.05.02-17.33.03:502][156]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2025.05.02-17.33.13:166][735]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2025.05.02-17.33.13:166][735]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.02-17.33.13:208][735]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2025.05.02-17.33.13:881][774]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2025.05.02-17.33.13:881][774]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.02-17.33.13:910][774]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2025.05.02-17.33.59:604][436]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.05.02-17.33.59:616][436]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.05.02-17.33.59:661][436]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Dungeon
+[2025.05.02-17.33.59:662][436]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001630s)
+[2025.05.02-17.33.59:662][436]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Dungeon.MAP_Dungeon to /Game/Maps/UEDPIE_0_MAP_Dungeon.MAP_Dungeon (0.001672s)
+[2025.05.02-17.33.59:670][436]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2025.05.02-17.33.59:672][436]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.05.02-17.33.59:673][436]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Game/Maps/UEDPIE_0_MAP_Dungeon.MAP_Dungeon'.
+[2025.05.02-17.33.59:673][436]LogPlayLevel: PIE: World Init took: (0.000826s)
+[2025.05.02-17.33.59:691][436]LogAudio: Display: Creating Audio Device:                 Id: 27, Scope: Unique, Realtime: True
+[2025.05.02-17.33.59:692][436]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.05.02-17.33.59:692][436]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.05.02-17.33.59:692][436]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.05.02-17.33.59:692][436]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.05.02-17.33.59:692][436]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.05.02-17.33.59:692][436]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.05.02-17.33.59:692][436]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.05.02-17.33.59:692][436]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.05.02-17.33.59:692][436]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.05.02-17.33.59:692][436]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.05.02-17.33.59:692][436]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.05.02-17.33.59:693][436]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.05.02-17.33.59:783][436]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2025.05.02-17.33.59:783][436]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.05.02-17.33.59:783][436]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.05.02-17.33.59:783][436]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.05.02-17.33.59:783][436]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=27
+[2025.05.02-17.33.59:783][436]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=27
+[2025.05.02-17.33.59:784][436]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=27
+[2025.05.02-17.33.59:784][436]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=27
+[2025.05.02-17.33.59:784][436]LogInit: FAudioDevice initialized with ID 27.
+[2025.05.02-17.33.59:784][436]LogAudio: Display: Audio Device (ID: 27) registered with world 'MAP_Dungeon'.
+[2025.05.02-17.33.59:784][436]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 27
+[2025.05.02-17.33.59:788][436]LogLoad: Game class is 'GM_Dungeon_C'
+[2025.05.02-17.33.59:788][436]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Dungeon.MAP_Dungeon up for play (max tick rate 60) at 2025.05.02-13.33.59
+[2025.05.02-17.33.59:789][436]LogWorld: Bringing up level for play took: 0.000893
+[2025.05.02-17.33.59:790][436]LogOnline: OSS: Created online subsystem instance for: :Context_47
+[2025.05.02-17.33.59:808][436]PIE: Server logged in
+[2025.05.02-17.33.59:809][436]PIE: Play in editor total start time 0.197 seconds.
+[2025.05.02-17.34.01:044][510]LogScript: Script Msg: Playing animation override...
+[2025.05.02-17.34.01:896][553]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.02-17.34.01:897][553]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Dungeon
+[2025.05.02-17.34.01:897][553]LogWorld: UWorld::CleanupWorld for MAP_Dungeon, bSessionEnded=true, bCleanupResources=true
+[2025.05.02-17.34.01:897][553]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.02-17.34.01:897][553]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.05.02-17.34.01:897][553]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.05.02-17.34.01:900][553]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.05.02-17.34.01:903][553]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.02-17.34.01:911][553]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.02-17.34.01:911][553]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 27
+[2025.05.02-17.34.01:911][553]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27
+[2025.05.02-17.34.01:913][553]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27
+[2025.05.02-17.34.01:917][553]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2025.05.02-17.34.02:144][554]LogPlayLevel: Display: Destroying online subsystem :Context_47
+[2025.05.02-17.34.10:051][ 25]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.02-17.34.10:105][ 25]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/Hero/BP_Hero] ([2] browsable assets)...
+[2025.05.02-17.34.10:105][ 25]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/Hero/BP_Hero]
+[2025.05.02-17.34.10:105][ 25]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/Hero/BP_Hero" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Character/Hero/BP_Hero.uasset" SILENT=true
+[2025.05.02-17.34.10:126][ 25]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/Hero/BP_Hero
+[2025.05.02-17.34.10:126][ 25]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/BP_Hero545E74AB44B4889476EF5790867F7BF8.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Character/Hero/BP_Hero.uasset'
+[2025.05.02-17.34.10:137][ 25]LogFileHelpers: InternalPromptForCheckoutAndSave took 87.067 ms (total: 5.95 sec)
+[2025.05.02-17.34.10:214][ 25]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.02-17.34.10:214][ 25]LogContentValidation: Enabled validators:
+[2025.05.02-17.34.10:214][ 25]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.02-17.34.10:214][ 25]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.02-17.34.10:214][ 25]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.02-17.34.10:214][ 25]LogContentValidation: Display: Validating asset /Game/Blueprints/Character/Hero/BP_Hero.BP_Hero
+[2025.05.02-17.34.10:214][ 25]AssetCheck: /Game/Blueprints/Character/Hero/BP_Hero Validating asset
+[2025.05.02-17.34.17:361][452]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.02-17.34.17:430][452]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/Hero/BP_Hero] ([2] browsable assets)...
+[2025.05.02-17.34.17:430][452]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/Hero/BP_Hero]
+[2025.05.02-17.34.17:430][452]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/Hero/BP_Hero" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Character/Hero/BP_Hero.uasset" SILENT=true
+[2025.05.02-17.34.17:450][452]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/Hero/BP_Hero
+[2025.05.02-17.34.17:451][452]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/BP_Hero9F4D9F7D4F45AADA29A7FC971B103A57.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Character/Hero/BP_Hero.uasset'
+[2025.05.02-17.34.17:464][452]LogFileHelpers: InternalPromptForCheckoutAndSave took 103.352 ms (total: 6.05 sec)
+[2025.05.02-17.34.17:536][452]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.02-17.34.17:536][452]LogContentValidation: Enabled validators:
+[2025.05.02-17.34.17:536][452]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.02-17.34.17:536][452]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.02-17.34.17:536][452]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.02-17.34.17:536][452]LogContentValidation: Display: Validating asset /Game/Blueprints/Character/Hero/BP_Hero.BP_Hero
+[2025.05.02-17.34.17:536][452]AssetCheck: /Game/Blueprints/Character/Hero/BP_Hero Validating asset
+[2025.05.02-17.34.19:585][571]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2025.05.02-17.34.22:064][709]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.05.02-17.34.22:077][709]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.05.02-17.34.22:078][709]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Dungeon
+[2025.05.02-17.34.22:079][709]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001430s)
+[2025.05.02-17.34.22:079][709]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Dungeon.MAP_Dungeon to /Game/Maps/UEDPIE_0_MAP_Dungeon.MAP_Dungeon (0.001458s)
+[2025.05.02-17.34.22:087][709]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2025.05.02-17.34.22:092][709]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.05.02-17.34.22:092][709]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Game/Maps/UEDPIE_0_MAP_Dungeon.MAP_Dungeon'.
+[2025.05.02-17.34.22:093][709]LogPlayLevel: PIE: World Init took: (0.000887s)
+[2025.05.02-17.34.22:111][709]LogAudio: Display: Creating Audio Device:                 Id: 28, Scope: Unique, Realtime: True
+[2025.05.02-17.34.22:111][709]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.05.02-17.34.22:111][709]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.05.02-17.34.22:111][709]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.05.02-17.34.22:111][709]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.05.02-17.34.22:111][709]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.05.02-17.34.22:111][709]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.05.02-17.34.22:111][709]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.05.02-17.34.22:111][709]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.05.02-17.34.22:111][709]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.05.02-17.34.22:111][709]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.05.02-17.34.22:111][709]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.05.02-17.34.22:113][709]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.05.02-17.34.22:196][709]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2025.05.02-17.34.22:196][709]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.05.02-17.34.22:196][709]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.05.02-17.34.22:196][709]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.05.02-17.34.22:196][709]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=28
+[2025.05.02-17.34.22:196][709]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=28
+[2025.05.02-17.34.22:198][709]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=28
+[2025.05.02-17.34.22:198][709]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=28
+[2025.05.02-17.34.22:198][709]LogInit: FAudioDevice initialized with ID 28.
+[2025.05.02-17.34.22:198][709]LogAudio: Display: Audio Device (ID: 28) registered with world 'MAP_Dungeon'.
+[2025.05.02-17.34.22:198][709]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 28
+[2025.05.02-17.34.22:200][709]LogLoad: Game class is 'GM_Dungeon_C'
+[2025.05.02-17.34.22:201][709]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Dungeon.MAP_Dungeon up for play (max tick rate 60) at 2025.05.02-13.34.22
+[2025.05.02-17.34.22:201][709]LogWorld: Bringing up level for play took: 0.000945
+[2025.05.02-17.34.22:203][709]LogOnline: OSS: Created online subsystem instance for: :Context_48
+[2025.05.02-17.34.22:221][709]PIE: Server logged in
+[2025.05.02-17.34.22:221][709]PIE: Play in editor total start time 0.152 seconds.
+[2025.05.02-17.34.23:490][785]LogScript: Script Msg: Playing animation override...
+[2025.05.02-17.34.24:473][844]LogScript: Script Msg: Playing animation override...
+[2025.05.02-17.34.25:673][916]LogScript: Script Msg: Playing animation override...
+[2025.05.02-17.34.27:321][ 12]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.02-17.34.27:321][ 12]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Dungeon
+[2025.05.02-17.34.27:321][ 12]LogWorld: UWorld::CleanupWorld for MAP_Dungeon, bSessionEnded=true, bCleanupResources=true
+[2025.05.02-17.34.27:322][ 12]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.02-17.34.27:322][ 12]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.05.02-17.34.27:322][ 12]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.05.02-17.34.27:325][ 12]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.05.02-17.34.27:329][ 12]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.02-17.34.27:337][ 12]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.05.02-17.34.27:337][ 12]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 28
+[2025.05.02-17.34.27:337][ 12]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2025.05.02-17.34.27:338][ 12]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2025.05.02-17.34.27:340][ 12]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.02-17.34.27:342][ 12]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2025.05.02-17.34.27:397][ 13]LogPlayLevel: Display: Destroying online subsystem :Context_48
+[2025.05.02-17.35.00:981][735]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.05.02-17.35.00:989][735]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.05.02-17.35.00:989][735]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Dungeon
+[2025.05.02-17.35.00:991][735]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001448s)
+[2025.05.02-17.35.00:991][735]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Dungeon.MAP_Dungeon to /Game/Maps/UEDPIE_0_MAP_Dungeon.MAP_Dungeon (0.001476s)
+[2025.05.02-17.35.01:000][735]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2025.05.02-17.35.01:002][735]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.05.02-17.35.01:002][735]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Game/Maps/UEDPIE_0_MAP_Dungeon.MAP_Dungeon'.
+[2025.05.02-17.35.01:003][735]LogPlayLevel: PIE: World Init took: (0.000869s)
+[2025.05.02-17.35.01:020][735]LogAudio: Display: Creating Audio Device:                 Id: 29, Scope: Unique, Realtime: True
+[2025.05.02-17.35.01:020][735]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.05.02-17.35.01:020][735]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.05.02-17.35.01:020][735]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.05.02-17.35.01:020][735]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.05.02-17.35.01:020][735]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.05.02-17.35.01:020][735]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.05.02-17.35.01:020][735]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.05.02-17.35.01:020][735]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.05.02-17.35.01:020][735]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.05.02-17.35.01:020][735]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.05.02-17.35.01:020][735]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.05.02-17.35.01:022][735]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.05.02-17.35.01:115][735]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2025.05.02-17.35.01:115][735]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.05.02-17.35.01:115][735]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.05.02-17.35.01:115][735]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.05.02-17.35.01:116][735]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=29
+[2025.05.02-17.35.01:116][735]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=29
+[2025.05.02-17.35.01:117][735]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=29
+[2025.05.02-17.35.01:117][735]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=29
+[2025.05.02-17.35.01:117][735]LogInit: FAudioDevice initialized with ID 29.
+[2025.05.02-17.35.01:117][735]LogAudio: Display: Audio Device (ID: 29) registered with world 'MAP_Dungeon'.
+[2025.05.02-17.35.01:117][735]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 29
+[2025.05.02-17.35.01:121][735]LogLoad: Game class is 'GM_Dungeon_C'
+[2025.05.02-17.35.01:121][735]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Dungeon.MAP_Dungeon up for play (max tick rate 60) at 2025.05.02-13.35.01
+[2025.05.02-17.35.01:122][735]LogWorld: Bringing up level for play took: 0.000968
+[2025.05.02-17.35.01:123][735]LogOnline: OSS: Created online subsystem instance for: :Context_49
+[2025.05.02-17.35.01:145][735]PIE: Server logged in
+[2025.05.02-17.35.01:146][735]PIE: Play in editor total start time 0.16 seconds.
+[2025.05.02-17.35.02:414][811]LogScript: Script Msg: Playing animation override...
+[2025.05.02-17.35.03:061][847]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.02-17.35.03:061][847]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Dungeon
+[2025.05.02-17.35.03:062][847]LogWorld: UWorld::CleanupWorld for MAP_Dungeon, bSessionEnded=true, bCleanupResources=true
+[2025.05.02-17.35.03:062][847]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.02-17.35.03:062][847]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.05.02-17.35.03:062][847]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.05.02-17.35.03:064][847]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.05.02-17.35.03:066][847]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.02-17.35.03:073][847]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.02-17.35.03:073][847]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 29
+[2025.05.02-17.35.03:073][847]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
+[2025.05.02-17.35.03:075][847]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
+[2025.05.02-17.35.03:093][847]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2025.05.02-17.35.03:147][848]LogPlayLevel: Display: Destroying online subsystem :Context_49
+[2025.05.02-17.35.05:273][975]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.05.02-17.35.05:284][975]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.05.02-17.35.05:284][975]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Dungeon
+[2025.05.02-17.35.05:286][975]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001423s)
+[2025.05.02-17.35.05:286][975]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Dungeon.MAP_Dungeon to /Game/Maps/UEDPIE_0_MAP_Dungeon.MAP_Dungeon (0.001446s)
+[2025.05.02-17.35.05:297][975]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2025.05.02-17.35.05:300][975]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.05.02-17.35.05:301][975]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Game/Maps/UEDPIE_0_MAP_Dungeon.MAP_Dungeon'.
+[2025.05.02-17.35.05:301][975]LogPlayLevel: PIE: World Init took: (0.000960s)
+[2025.05.02-17.35.05:317][975]LogAudio: Display: Creating Audio Device:                 Id: 30, Scope: Unique, Realtime: True
+[2025.05.02-17.35.05:317][975]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.05.02-17.35.05:317][975]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.05.02-17.35.05:317][975]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.05.02-17.35.05:317][975]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.05.02-17.35.05:317][975]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.05.02-17.35.05:317][975]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.05.02-17.35.05:317][975]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.05.02-17.35.05:317][975]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.05.02-17.35.05:317][975]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.05.02-17.35.05:317][975]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.05.02-17.35.05:317][975]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.05.02-17.35.05:318][975]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.05.02-17.35.05:427][975]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2025.05.02-17.35.05:427][975]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.05.02-17.35.05:427][975]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.05.02-17.35.05:427][975]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.05.02-17.35.05:427][975]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=30
+[2025.05.02-17.35.05:427][975]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=30
+[2025.05.02-17.35.05:429][975]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=30
+[2025.05.02-17.35.05:429][975]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=30
+[2025.05.02-17.35.05:429][975]LogInit: FAudioDevice initialized with ID 30.
+[2025.05.02-17.35.05:429][975]LogAudio: Display: Audio Device (ID: 30) registered with world 'MAP_Dungeon'.
+[2025.05.02-17.35.05:429][975]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 30
+[2025.05.02-17.35.05:469][975]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.02-17.35.05:469][975]LogLoad: Game class is 'GM_Dungeon_C'
+[2025.05.02-17.35.05:470][975]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Dungeon.MAP_Dungeon up for play (max tick rate 60) at 2025.05.02-13.35.05
+[2025.05.02-17.35.05:470][975]LogWorld: Bringing up level for play took: 0.000903
+[2025.05.02-17.35.05:472][975]LogOnline: OSS: Created online subsystem instance for: :Context_50
+[2025.05.02-17.35.05:493][975]PIE: Server logged in
+[2025.05.02-17.35.05:497][975]PIE: Play in editor total start time 0.219 seconds.
+[2025.05.02-17.35.06:714][ 47]LogScript: Script Msg: Playing animation override...
+[2025.05.02-17.35.07:697][106]LogScript: Script Msg: Playing animation override...
+[2025.05.02-17.35.08:804][170]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.02-17.35.08:804][170]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Dungeon
+[2025.05.02-17.35.08:805][170]LogSlate: Window 'DungeonAdventure Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.05.02-17.35.08:816][170]LogWorld: UWorld::CleanupWorld for MAP_Dungeon, bSessionEnded=true, bCleanupResources=true
+[2025.05.02-17.35.08:816][170]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.02-17.35.08:816][170]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.05.02-17.35.08:816][170]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.05.02-17.35.08:818][170]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.05.02-17.35.08:820][170]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.02-17.35.08:830][170]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 30
+[2025.05.02-17.35.08:830][170]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=30
+[2025.05.02-17.35.08:832][170]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=30
+[2025.05.02-17.35.08:851][170]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2025.05.02-17.35.08:921][171]LogPlayLevel: Display: Destroying online subsystem :Context_50
+[2025.05.02-17.35.30:483][337]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.05.02-17.35.30:485][337]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Dungeon
+[2025.05.02-17.35.30:486][337]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001601s)
+[2025.05.02-17.35.30:486][337]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Dungeon.MAP_Dungeon to /Game/Maps/UEDPIE_0_MAP_Dungeon.MAP_Dungeon (0.001634s)
+[2025.05.02-17.35.30:496][337]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2025.05.02-17.35.30:497][337]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.05.02-17.35.30:499][337]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Game/Maps/UEDPIE_0_MAP_Dungeon.MAP_Dungeon'.
+[2025.05.02-17.35.30:499][337]LogPlayLevel: PIE: World Init took: (0.000907s)
+[2025.05.02-17.35.30:515][337]LogAudio: Display: Creating Audio Device:                 Id: 31, Scope: Unique, Realtime: True
+[2025.05.02-17.35.30:515][337]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.05.02-17.35.30:516][337]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.05.02-17.35.30:516][337]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.05.02-17.35.30:516][337]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.05.02-17.35.30:516][337]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.05.02-17.35.30:516][337]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.05.02-17.35.30:516][337]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.05.02-17.35.30:516][337]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.05.02-17.35.30:516][337]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.05.02-17.35.30:516][337]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.05.02-17.35.30:516][337]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.05.02-17.35.30:517][337]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.05.02-17.35.30:608][337]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2025.05.02-17.35.30:608][337]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.05.02-17.35.30:608][337]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.05.02-17.35.30:608][337]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.05.02-17.35.30:608][337]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=31
+[2025.05.02-17.35.30:608][337]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=31
+[2025.05.02-17.35.30:610][337]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=31
+[2025.05.02-17.35.30:610][337]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=31
+[2025.05.02-17.35.30:610][337]LogInit: FAudioDevice initialized with ID 31.
+[2025.05.02-17.35.30:610][337]LogAudio: Display: Audio Device (ID: 31) registered with world 'MAP_Dungeon'.
+[2025.05.02-17.35.30:610][337]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 31
+[2025.05.02-17.35.30:672][337]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.02-17.35.30:672][337]LogLoad: Game class is 'GM_Dungeon_C'
+[2025.05.02-17.35.30:672][337]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Dungeon.MAP_Dungeon up for play (max tick rate 60) at 2025.05.02-13.35.30
+[2025.05.02-17.35.30:673][337]LogWorld: Bringing up level for play took: 0.001112
+[2025.05.02-17.35.30:675][337]LogOnline: OSS: Created online subsystem instance for: :Context_51
+[2025.05.02-17.35.30:972][337]PIE: Server logged in
+[2025.05.02-17.35.30:975][337]PIE: Play in editor total start time 0.495 seconds.
+[2025.05.02-17.35.32:043][400]LogScript: Script Msg: Playing animation override...
+[2025.05.02-17.35.39:212][828]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.02-17.35.39:212][828]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Dungeon
+[2025.05.02-17.35.39:213][828]LogSlate: Window 'DungeonAdventure Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.05.02-17.35.39:225][828]LogWorld: UWorld::CleanupWorld for MAP_Dungeon, bSessionEnded=true, bCleanupResources=true
+[2025.05.02-17.35.39:225][828]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.02-17.35.39:225][828]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.05.02-17.35.39:225][828]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.05.02-17.35.39:227][828]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.05.02-17.35.39:229][828]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.02-17.35.39:239][828]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 31
+[2025.05.02-17.35.39:239][828]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=31
+[2025.05.02-17.35.39:240][828]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=31
+[2025.05.02-17.35.39:259][828]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2025.05.02-17.35.39:314][829]LogPlayLevel: Display: Destroying online subsystem :Context_51
+[2025.05.02-17.36.24:301][518]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2025.05.02-17.36.26:040][609]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2025.05.02-17.36.26:050][609]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.05.02-17.36.26:050][609]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Dungeon
+[2025.05.02-17.36.26:052][609]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001625s)
+[2025.05.02-17.36.26:052][609]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Dungeon.MAP_Dungeon to /Game/Maps/UEDPIE_0_MAP_Dungeon.MAP_Dungeon (0.001659s)
+[2025.05.02-17.36.26:063][609]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2025.05.02-17.36.26:069][609]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.05.02-17.36.26:069][609]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Game/Maps/UEDPIE_0_MAP_Dungeon.MAP_Dungeon'.
+[2025.05.02-17.36.26:069][609]LogPlayLevel: PIE: World Init took: (0.000838s)
+[2025.05.02-17.36.26:085][609]LogAudio: Display: Creating Audio Device:                 Id: 32, Scope: Unique, Realtime: True
+[2025.05.02-17.36.26:085][609]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.05.02-17.36.26:085][609]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.05.02-17.36.26:085][609]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.05.02-17.36.26:085][609]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.05.02-17.36.26:085][609]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.05.02-17.36.26:085][609]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.05.02-17.36.26:085][609]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.05.02-17.36.26:085][609]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.05.02-17.36.26:085][609]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.05.02-17.36.26:085][609]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.05.02-17.36.26:085][609]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.05.02-17.36.26:086][609]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.05.02-17.36.26:165][609]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2025.05.02-17.36.26:165][609]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.05.02-17.36.26:165][609]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.05.02-17.36.26:165][609]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.05.02-17.36.26:165][609]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=32
+[2025.05.02-17.36.26:166][609]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=32
+[2025.05.02-17.36.26:167][609]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=32
+[2025.05.02-17.36.26:167][609]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=32
+[2025.05.02-17.36.26:167][609]LogInit: FAudioDevice initialized with ID 32.
+[2025.05.02-17.36.26:167][609]LogAudio: Display: Audio Device (ID: 32) registered with world 'MAP_Dungeon'.
+[2025.05.02-17.36.26:167][609]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 32
+[2025.05.02-17.36.26:209][609]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.02-17.36.26:209][609]LogLoad: Game class is 'GM_Dungeon_C'
+[2025.05.02-17.36.26:209][609]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Dungeon.MAP_Dungeon up for play (max tick rate 60) at 2025.05.02-13.36.26
+[2025.05.02-17.36.26:210][609]LogWorld: Bringing up level for play took: 0.000905
+[2025.05.02-17.36.26:211][609]LogOnline: OSS: Created online subsystem instance for: :Context_52
+[2025.05.02-17.36.26:231][609]PIE: Server logged in
+[2025.05.02-17.36.26:234][609]PIE: Play in editor total start time 0.19 seconds.
+[2025.05.02-17.36.33:084][ 17]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.02-17.36.33:084][ 17]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Dungeon
+[2025.05.02-17.36.33:084][ 17]LogSlate: Window 'DungeonAdventure Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.05.02-17.36.33:095][ 17]LogWorld: UWorld::CleanupWorld for MAP_Dungeon, bSessionEnded=true, bCleanupResources=true
+[2025.05.02-17.36.33:095][ 17]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.02-17.36.33:095][ 17]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.05.02-17.36.33:095][ 17]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.05.02-17.36.33:097][ 17]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.05.02-17.36.33:100][ 17]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.02-17.36.33:110][ 17]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.05.02-17.36.33:110][ 17]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 32
+[2025.05.02-17.36.33:110][ 17]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=32
+[2025.05.02-17.36.33:111][ 17]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=32
+[2025.05.02-17.36.33:130][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2025.05.02-17.36.33:182][ 18]LogPlayLevel: Display: Destroying online subsystem :Context_52
+[2025.05.02-17.36.40:300][445]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.02-17.36.40:364][445]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/Hero/BP_Hero] ([2] browsable assets)...
+[2025.05.02-17.36.40:364][445]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/Hero/BP_Hero]
+[2025.05.02-17.36.40:364][445]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/Hero/BP_Hero" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Character/Hero/BP_Hero.uasset" SILENT=true
+[2025.05.02-17.36.40:382][445]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/Hero/BP_Hero
+[2025.05.02-17.36.40:384][445]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/BP_Hero3816406348D8FDB3857F7FA6142A39B0.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Character/Hero/BP_Hero.uasset'
+[2025.05.02-17.36.40:393][445]LogFileHelpers: InternalPromptForCheckoutAndSave took 94.293 ms (total: 6.15 sec)
+[2025.05.02-17.36.40:465][445]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.02-17.36.40:465][445]LogContentValidation: Enabled validators:
+[2025.05.02-17.36.40:465][445]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.02-17.36.40:465][445]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.02-17.36.40:465][445]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.02-17.36.40:465][445]LogContentValidation: Display: Validating asset /Game/Blueprints/Character/Hero/BP_Hero.BP_Hero
+[2025.05.02-17.36.40:465][445]AssetCheck: /Game/Blueprints/Character/Hero/BP_Hero Validating asset
+[2025.05.02-17.36.46:577][811]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2025.05.02-17.36.46:882][811]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.05.02-17.36.46:883][811]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Dungeon
+[2025.05.02-17.36.46:885][811]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001999s)
+[2025.05.02-17.36.46:885][811]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Dungeon.MAP_Dungeon to /Game/Maps/UEDPIE_0_MAP_Dungeon.MAP_Dungeon (0.002042s)
+[2025.05.02-17.36.46:896][811]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2025.05.02-17.36.46:899][811]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.05.02-17.36.46:899][811]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Game/Maps/UEDPIE_0_MAP_Dungeon.MAP_Dungeon'.
+[2025.05.02-17.36.46:900][811]LogPlayLevel: PIE: World Init took: (0.000773s)
+[2025.05.02-17.36.46:914][811]LogAudio: Display: Creating Audio Device:                 Id: 33, Scope: Unique, Realtime: True
+[2025.05.02-17.36.46:914][811]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.05.02-17.36.46:914][811]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.05.02-17.36.46:914][811]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.05.02-17.36.46:914][811]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.05.02-17.36.46:914][811]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.05.02-17.36.46:914][811]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.05.02-17.36.46:914][811]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.05.02-17.36.46:914][811]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.05.02-17.36.46:914][811]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.05.02-17.36.46:914][811]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.05.02-17.36.46:914][811]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.05.02-17.36.46:916][811]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.05.02-17.36.47:027][811]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2025.05.02-17.36.47:027][811]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.05.02-17.36.47:027][811]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.05.02-17.36.47:027][811]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.05.02-17.36.47:027][811]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=33
+[2025.05.02-17.36.47:027][811]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=33
+[2025.05.02-17.36.47:029][811]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=33
+[2025.05.02-17.36.47:029][811]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=33
+[2025.05.02-17.36.47:029][811]LogInit: FAudioDevice initialized with ID 33.
+[2025.05.02-17.36.47:029][811]LogAudio: Display: Audio Device (ID: 33) registered with world 'MAP_Dungeon'.
+[2025.05.02-17.36.47:029][811]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 33
+[2025.05.02-17.36.47:067][811]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.02-17.36.47:067][811]LogLoad: Game class is 'GM_Dungeon_C'
+[2025.05.02-17.36.47:068][811]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Dungeon.MAP_Dungeon up for play (max tick rate 60) at 2025.05.02-13.36.47
+[2025.05.02-17.36.47:068][811]LogWorld: Bringing up level for play took: 0.000915
+[2025.05.02-17.36.47:070][811]LogOnline: OSS: Created online subsystem instance for: :Context_53
+[2025.05.02-17.36.47:093][811]PIE: Server logged in
+[2025.05.02-17.36.47:095][811]PIE: Play in editor total start time 0.514 seconds.
+[2025.05.02-17.36.48:162][874]LogScript: Script Msg: Playing animation override...
+[2025.05.02-17.36.48:674][903]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.02-17.36.48:674][903]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Dungeon
+[2025.05.02-17.36.48:674][903]LogSlate: Window 'DungeonAdventure Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.05.02-17.36.48:680][903]LogWorld: UWorld::CleanupWorld for MAP_Dungeon, bSessionEnded=true, bCleanupResources=true
+[2025.05.02-17.36.48:680][903]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.02-17.36.48:680][903]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.05.02-17.36.48:680][903]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.05.02-17.36.48:682][903]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.05.02-17.36.48:685][903]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.02-17.36.48:696][903]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 33
+[2025.05.02-17.36.48:696][903]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=33
+[2025.05.02-17.36.48:697][903]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=33
+[2025.05.02-17.36.48:717][903]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2025.05.02-17.36.48:776][904]LogPlayLevel: Display: Destroying online subsystem :Context_53
+[2025.05.02-17.36.50:428][  0]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.05.02-17.36.50:428][  0]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Dungeon
+[2025.05.02-17.36.50:430][  0]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001387s)
+[2025.05.02-17.36.50:430][  0]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Dungeon.MAP_Dungeon to /Game/Maps/UEDPIE_0_MAP_Dungeon.MAP_Dungeon (0.001415s)
+[2025.05.02-17.36.50:437][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2025.05.02-17.36.50:439][  0]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.05.02-17.36.50:439][  0]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Game/Maps/UEDPIE_0_MAP_Dungeon.MAP_Dungeon'.
+[2025.05.02-17.36.50:440][  0]LogPlayLevel: PIE: World Init took: (0.000812s)
+[2025.05.02-17.36.50:455][  0]LogAudio: Display: Creating Audio Device:                 Id: 34, Scope: Unique, Realtime: True
+[2025.05.02-17.36.50:457][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.05.02-17.36.50:457][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.05.02-17.36.50:457][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.05.02-17.36.50:457][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.05.02-17.36.50:457][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.05.02-17.36.50:457][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.05.02-17.36.50:457][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.05.02-17.36.50:457][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.05.02-17.36.50:457][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.05.02-17.36.50:457][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.05.02-17.36.50:457][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.05.02-17.36.50:458][  0]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.05.02-17.36.50:537][  0]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2025.05.02-17.36.50:537][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.05.02-17.36.50:537][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.05.02-17.36.50:537][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.05.02-17.36.50:537][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=34
+[2025.05.02-17.36.50:537][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=34
+[2025.05.02-17.36.50:539][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=34
+[2025.05.02-17.36.50:539][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=34
+[2025.05.02-17.36.50:539][  0]LogInit: FAudioDevice initialized with ID 34.
+[2025.05.02-17.36.50:539][  0]LogAudio: Display: Audio Device (ID: 34) registered with world 'MAP_Dungeon'.
+[2025.05.02-17.36.50:539][  0]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 34
+[2025.05.02-17.36.50:541][  0]LogLoad: Game class is 'GM_Dungeon_C'
+[2025.05.02-17.36.50:542][  0]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Dungeon.MAP_Dungeon up for play (max tick rate 60) at 2025.05.02-13.36.50
+[2025.05.02-17.36.50:542][  0]LogWorld: Bringing up level for play took: 0.000839
+[2025.05.02-17.36.50:544][  0]LogOnline: OSS: Created online subsystem instance for: :Context_54
+[2025.05.02-17.36.50:564][  0]PIE: Server logged in
+[2025.05.02-17.36.50:564][  0]PIE: Play in editor total start time 0.142 seconds.
+[2025.05.02-17.36.58:195][455]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.02-17.36.58:195][455]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Dungeon
+[2025.05.02-17.36.58:195][455]LogWorld: UWorld::CleanupWorld for MAP_Dungeon, bSessionEnded=true, bCleanupResources=true
+[2025.05.02-17.36.58:195][455]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.02-17.36.58:195][455]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.05.02-17.36.58:195][455]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.05.02-17.36.58:199][455]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.05.02-17.36.58:201][455]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.02-17.36.58:209][455]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.02-17.36.58:210][455]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 34
+[2025.05.02-17.36.58:210][455]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=34
+[2025.05.02-17.36.58:211][455]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=34
+[2025.05.02-17.36.58:230][455]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2025.05.02-17.36.58:291][456]LogPlayLevel: Display: Destroying online subsystem :Context_54
+[2025.05.02-17.37.11:771][  5]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.05.02-17.37.11:779][  5]LogContentBrowser: Creating deferred item: NewFolder
+[2025.05.02-17.37.11:789][  6]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.05.02-17.37.15:284][216]LogContentBrowser: Attempting asset rename: NewFolder -> Systems
+[2025.05.02-17.37.15:288][216]LogContentBrowser: End creating deferred item NewFolder
+[2025.05.02-17.37.24:106][574]LogSlate: Window 'Pick Parent Class' being destroyed
+[2025.05.02-17.37.24:120][574]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2025.05.02-17.37.24:127][574]LogContentBrowser: Creating deferred item: NewBlueprint
+[2025.05.02-17.37.24:154][576]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2025.05.02-17.37.31:939][ 43]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_SpawnManager
+[2025.05.02-17.37.31:943][ 43]LogContentBrowser: End creating deferred item NewBlueprint
+[2025.05.02-17.37.33:455][134]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Systems/BP_SpawnManager.BP_SpawnManager
+[2025.05.02-17.37.33:456][134]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Engine/Transient.World_21'.
+[2025.05.02-17.38.21:425][952]LogBlueprint: Error: [AssetLog] /Game/Blueprints/Systems/BP_SpawnManager.BP_SpawnManager: [Compiler] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' in action 'Begin Deferred Actor Spawn from Class' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2025.05.02-17.38.21:425][952]LogBlueprint: Error: [AssetLog] /Game/Blueprints/Systems/BP_SpawnManager.BP_SpawnManager: [Compiler] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' in action 'Finish Spawning Actor' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2025.05.02-17.38.21:451][952]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2025.05.02-17.38.33:407][486]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2025.05.02-17.38.38:741][797]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2025.05.02-17.38.39:685][851]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.02-17.38.39:746][851]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Systems/BP_SpawnManager] ([2] browsable assets)...
+[2025.05.02-17.38.39:746][851]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Systems/BP_SpawnManager]
+[2025.05.02-17.38.39:746][851]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Systems/BP_SpawnManager" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset" SILENT=true
+[2025.05.02-17.38.39:749][851]LogSavePackage: Moving output files for package: /Game/Blueprints/Systems/BP_SpawnManager
+[2025.05.02-17.38.39:749][851]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/BP_SpawnManager5AAC245A43F3A2EE1DC3CEBB93943583.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset'
+[2025.05.02-17.38.39:762][851]LogFileHelpers: InternalPromptForCheckoutAndSave took 76.760 ms (total: 6.23 sec)
+[2025.05.02-17.38.39:827][851]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.02-17.38.39:828][851]LogContentValidation: Enabled validators:
+[2025.05.02-17.38.39:828][851]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.02-17.38.39:828][851]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.02-17.38.39:828][851]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.02-17.38.39:828][851]LogContentValidation: Display: Validating asset /Game/Blueprints/Systems/BP_SpawnManager.BP_SpawnManager
+[2025.05.02-17.38.39:828][851]AssetCheck: /Game/Blueprints/Systems/BP_SpawnManager Validating asset
+[2025.05.02-17.39.34:159][ 79]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2025.05.02-17.39.35:120][135]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.02-17.39.35:195][135]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Systems/BP_SpawnManager] ([2] browsable assets)...
+[2025.05.02-17.39.35:195][135]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Systems/BP_SpawnManager]
+[2025.05.02-17.39.35:195][135]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Systems/BP_SpawnManager" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset" SILENT=true
+[2025.05.02-17.39.35:199][135]LogSavePackage: Moving output files for package: /Game/Blueprints/Systems/BP_SpawnManager
+[2025.05.02-17.39.35:199][135]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/BP_SpawnManagerA55ABAF7437A2B16933DD8A46DDE583B.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset'
+[2025.05.02-17.39.35:210][135]LogFileHelpers: InternalPromptForCheckoutAndSave took 89.966 ms (total: 6.32 sec)
+[2025.05.02-17.39.35:295][135]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.02-17.39.35:295][135]LogContentValidation: Enabled validators:
+[2025.05.02-17.39.35:295][135]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.02-17.39.35:295][135]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.02-17.39.35:295][135]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.02-17.39.35:295][135]LogContentValidation: Display: Validating asset /Game/Blueprints/Systems/BP_SpawnManager.BP_SpawnManager
+[2025.05.02-17.39.35:295][135]AssetCheck: /Game/Blueprints/Systems/BP_SpawnManager Validating asset
+[2025.05.02-17.39.37:553][262]LogSlate: Window 'BP_SpawnManager' being destroyed
+[2025.05.02-17.39.43:824][634]Cmd: DELETE
+[2025.05.02-17.39.43:824][634]Cmd: ACTOR DELETE
+[2025.05.02-17.39.43:825][634]LogEditorActor: Deleted Actor: BP_Boar_C
+[2025.05.02-17.39.43:835][634]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2025.05.02-17.39.43:838][634]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2025.05.02-17.39.45:035][702]Cmd: DELETE
+[2025.05.02-17.39.45:035][702]Cmd: ACTOR DELETE
+[2025.05.02-17.39.45:036][702]LogEditorActor: Deleted Actor: BP_Skeleton_C
+[2025.05.02-17.39.45:049][702]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2025.05.02-17.39.45:053][702]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2025.05.02-17.39.46:702][799]Cmd: DELETE
+[2025.05.02-17.39.46:702][799]Cmd: ACTOR DELETE
+[2025.05.02-17.39.46:703][799]LogEditorActor: Deleted Actor: BP_PickupBow_C
+[2025.05.02-17.39.46:714][799]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2025.05.02-17.39.46:717][799]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2025.05.02-17.39.50:786][ 43]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.02-17.39.50:853][ 43]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MAP_Dungeon" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Maps/MAP_Dungeon.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.05.02-17.39.50:874][ 43]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2025.05.02-17.39.50:879][ 43]LogSavePackage: Moving output files for package: /Game/Maps/MAP_Dungeon
+[2025.05.02-17.39.50:879][ 43]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/MAP_DungeonC1549C554BB6F09926DF7BBD91B2ABE5.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Maps/MAP_Dungeon.umap'
+[2025.05.02-17.39.50:885][ 43]LogFileHelpers: Saving map 'MAP_Dungeon' took 0.032
+[2025.05.02-17.39.50:895][ 43]LogFileHelpers: InternalPromptForCheckoutAndSave took 109.333 ms (total: 6.42 sec)
+[2025.05.02-17.39.50:966][ 43]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.02-17.39.50:966][ 43]LogContentValidation: Enabled validators:
+[2025.05.02-17.39.50:966][ 43]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.02-17.39.50:966][ 43]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.02-17.39.50:966][ 43]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.02-17.39.50:966][ 43]LogContentValidation: Display: Validating asset /Game/Maps/MAP_Dungeon.MAP_Dungeon
+[2025.05.02-17.39.50:966][ 43]AssetCheck: /Game/Maps/MAP_Dungeon Validating asset
+[2025.05.02-17.40.20:872][799]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2025.05.02-17.40.21:465][833]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.02-17.40.21:531][833]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Systems/BP_SpawnManager] ([2] browsable assets)...
+[2025.05.02-17.40.21:531][833]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Systems/BP_SpawnManager]
+[2025.05.02-17.40.21:531][833]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Systems/BP_SpawnManager" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset" SILENT=true
+[2025.05.02-17.40.21:534][833]LogSavePackage: Moving output files for package: /Game/Blueprints/Systems/BP_SpawnManager
+[2025.05.02-17.40.21:534][833]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/BP_SpawnManager779B06E544D0AAC9B891DFABCE8BFC1B.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset'
+[2025.05.02-17.40.21:544][833]LogFileHelpers: InternalPromptForCheckoutAndSave took 78.090 ms (total: 6.50 sec)
+[2025.05.02-17.40.21:615][833]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.02-17.40.21:615][833]LogContentValidation: Enabled validators:
+[2025.05.02-17.40.21:615][833]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.02-17.40.21:615][833]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.02-17.40.21:615][833]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.02-17.40.21:615][833]LogContentValidation: Display: Validating asset /Game/Blueprints/Systems/BP_SpawnManager.BP_SpawnManager
+[2025.05.02-17.40.21:615][833]AssetCheck: /Game/Blueprints/Systems/BP_SpawnManager Validating asset
+[2025.05.02-17.41.01:064][193]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2025.05.02-17.41.03:008][308]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.02-17.41.03:075][308]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Systems/BP_SpawnManager] ([2] browsable assets)...
+[2025.05.02-17.41.03:075][308]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Systems/BP_SpawnManager]
+[2025.05.02-17.41.03:075][308]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Systems/BP_SpawnManager" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset" SILENT=true
+[2025.05.02-17.41.03:079][308]LogSavePackage: Moving output files for package: /Game/Blueprints/Systems/BP_SpawnManager
+[2025.05.02-17.41.03:079][308]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/BP_SpawnManager73D541CA4608C30E9C9523B52B19E0FB.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset'
+[2025.05.02-17.41.03:089][308]LogFileHelpers: InternalPromptForCheckoutAndSave took 81.543 ms (total: 6.58 sec)
+[2025.05.02-17.41.03:157][308]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.02-17.41.03:157][308]LogContentValidation: Enabled validators:
+[2025.05.02-17.41.03:157][308]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.02-17.41.03:157][308]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.02-17.41.03:157][308]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.02-17.41.03:157][308]LogContentValidation: Display: Validating asset /Game/Blueprints/Systems/BP_SpawnManager.BP_SpawnManager
+[2025.05.02-17.41.03:157][308]AssetCheck: /Game/Blueprints/Systems/BP_SpawnManager Validating asset
+[2025.05.02-17.41.47:614][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.05.02-17.41.48:539][669]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.02-17.41.48:597][669]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Systems/BP_SpawnManager] ([2] browsable assets)...
+[2025.05.02-17.41.48:597][669]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Systems/BP_SpawnManager]
+[2025.05.02-17.41.48:597][669]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Systems/BP_SpawnManager" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset" SILENT=true
+[2025.05.02-17.41.48:600][669]LogSavePackage: Moving output files for package: /Game/Blueprints/Systems/BP_SpawnManager
+[2025.05.02-17.41.48:600][669]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/BP_SpawnManagerB5D91761441025DEDACF2A851FFFF780.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset'
+[2025.05.02-17.41.48:611][669]LogFileHelpers: InternalPromptForCheckoutAndSave took 71.993 ms (total: 6.66 sec)
+[2025.05.02-17.41.48:678][669]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.02-17.41.48:678][669]LogContentValidation: Enabled validators:
+[2025.05.02-17.41.48:678][669]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.02-17.41.48:678][669]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.02-17.41.48:678][669]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.02-17.41.48:678][669]LogContentValidation: Display: Validating asset /Game/Blueprints/Systems/BP_SpawnManager.BP_SpawnManager
+[2025.05.02-17.41.48:678][669]AssetCheck: /Game/Blueprints/Systems/BP_SpawnManager Validating asset
+[2025.05.02-17.42.23:918][608]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2025.05.02-17.42.24:751][656]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.02-17.42.24:813][656]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Systems/BP_SpawnManager] ([2] browsable assets)...
+[2025.05.02-17.42.24:813][656]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Systems/BP_SpawnManager]
+[2025.05.02-17.42.24:814][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Systems/BP_SpawnManager" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset" SILENT=true
+[2025.05.02-17.42.24:817][656]LogSavePackage: Moving output files for package: /Game/Blueprints/Systems/BP_SpawnManager
+[2025.05.02-17.42.24:817][656]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/BP_SpawnManager870F118743B0EC74C0B6278757066C39.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset'
+[2025.05.02-17.42.24:827][656]LogFileHelpers: InternalPromptForCheckoutAndSave took 75.411 ms (total: 6.73 sec)
+[2025.05.02-17.42.24:896][656]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.02-17.42.24:896][656]LogContentValidation: Enabled validators:
+[2025.05.02-17.42.24:896][656]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.02-17.42.24:896][656]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.02-17.42.24:896][656]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.02-17.42.24:896][656]LogContentValidation: Display: Validating asset /Game/Blueprints/Systems/BP_SpawnManager.BP_SpawnManager
+[2025.05.02-17.42.24:896][656]AssetCheck: /Game/Blueprints/Systems/BP_SpawnManager Validating asset
+[2025.05.02-17.49.51:526][992]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2025.05.02-17.49.51:528][992]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/MAP_Dungeon' took 0.014
+[2025.05.02-17.49.51:528][992]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/Hero/AnimSequences/Bow] ([1] browsable assets)...
+[2025.05.02-17.49.51:528][992]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/Hero/AnimSequences/Bow]
+[2025.05.02-17.49.51:529][992]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Character/Hero/AnimSequences/Bow_Auto5
+[2025.05.02-17.49.51:529][992]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/Bow_Auto5526FF84D4F4A5CF12FFB2698FDB1D6DE.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/Autosaves/Game/Blueprints/Character/Hero/AnimSequences/Bow_Auto5.uasset'
+[2025.05.02-17.49.51:532][992]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PaperAssets/Props/T_Arrow] ([1] browsable assets)...
+[2025.05.02-17.49.51:532][992]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Props/T_Arrow]
+[2025.05.02-17.49.51:534][992]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/PaperAssets/Props/T_Arrow_Auto5
+[2025.05.02-17.49.51:534][992]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/T_Arrow_Auto555B1E51C4FE34C0E3BEC258E89C8514C.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/Autosaves/Game/PaperAssets/Props/T_Arrow_Auto5.uasset'
+[2025.05.02-17.49.51:534][992]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PaperAssets/Props/T_Bow] ([1] browsable assets)...
+[2025.05.02-17.49.51:534][992]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Props/T_Bow]
+[2025.05.02-17.49.51:536][992]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/PaperAssets/Props/T_Bow_Auto5
+[2025.05.02-17.49.51:536][992]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/T_Bow_Auto5D4F0E1D3493CFC17D621F98B06E42F36.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/Autosaves/Game/PaperAssets/Props/T_Bow_Auto5.uasset'
+[2025.05.02-17.49.51:536][992]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PaperAssets/Props/T_HeartPickup] ([1] browsable assets)...
+[2025.05.02-17.49.51:536][992]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Props/T_HeartPickup]
+[2025.05.02-17.49.51:538][992]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/PaperAssets/Props/T_HeartPickup_Auto5
+[2025.05.02-17.49.51:538][992]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/T_HeartPickup_Auto5F88954424959464B0B7A9EADCA7B3A90.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/Autosaves/Game/PaperAssets/Props/T_HeartPickup_Auto5.uasset'
+[2025.05.02-17.49.51:538][992]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PaperAssets/Props/T_Arrow_Sprite] ([1] browsable assets)...
+[2025.05.02-17.49.51:538][992]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Props/T_Arrow_Sprite]
+[2025.05.02-17.49.51:539][992]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/PaperAssets/Props/T_Arrow_Sprite_Auto5
+[2025.05.02-17.49.51:539][992]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/T_Arrow_Sprite_Auto54BF33DD34E9313039CCAC7BDB0386AAA.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/Autosaves/Game/PaperAssets/Props/T_Arrow_Sprite_Auto5.uasset'
+[2025.05.02-17.49.51:540][992]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PaperAssets/Props/T_Bow_Sprite] ([1] browsable assets)...
+[2025.05.02-17.49.51:540][992]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Props/T_Bow_Sprite]
+[2025.05.02-17.49.51:541][992]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/PaperAssets/Props/T_Bow_Sprite_Auto5
+[2025.05.02-17.49.51:541][992]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/T_Bow_Sprite_Auto546AF6EE84520D4875B0552919636AFFD.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/Autosaves/Game/PaperAssets/Props/T_Bow_Sprite_Auto5.uasset'
+[2025.05.02-17.49.51:541][992]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PaperAssets/Props/T_HeartPickup_Sprite] ([1] browsable assets)...
+[2025.05.02-17.49.51:541][992]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Props/T_HeartPickup_Sprite]
+[2025.05.02-17.49.51:543][992]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/PaperAssets/Props/T_HeartPickup_Sprite_Auto5
+[2025.05.02-17.49.51:543][992]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/T_HeartPickup_Sprite_Auto50A44E276446BD5644721A1B4ECA63236.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/Autosaves/Game/PaperAssets/Props/T_HeartPickup_Sprite_Auto5.uasset'
+[2025.05.02-17.49.51:543][992]LogFileHelpers: Auto-saving content packages took 0.016
+[2025.05.02-18.17.49:379][ 25]LogDerivedDataCache: C:/Users/snuzi/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.05.02-18.35.39:404][951]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.05.02-18.35.40:126][992]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.02-18.35.40:192][992]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Systems/BP_SpawnManager] ([2] browsable assets)...
+[2025.05.02-18.35.40:192][992]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Systems/BP_SpawnManager]
+[2025.05.02-18.35.40:192][992]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Systems/BP_SpawnManager" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset" SILENT=true
+[2025.05.02-18.35.40:197][992]LogSavePackage: Moving output files for package: /Game/Blueprints/Systems/BP_SpawnManager
+[2025.05.02-18.35.40:197][992]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/BP_SpawnManager1AC5DC3D4623F50811121892BCB3330C.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset'
+[2025.05.02-18.35.40:207][992]LogFileHelpers: InternalPromptForCheckoutAndSave took 81.578 ms (total: 6.81 sec)
+[2025.05.02-18.35.40:278][992]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.02-18.35.40:278][992]LogContentValidation: Enabled validators:
+[2025.05.02-18.35.40:278][992]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.02-18.35.40:278][992]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.02-18.35.40:278][992]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.02-18.35.40:278][992]LogContentValidation: Display: Validating asset /Game/Blueprints/Systems/BP_SpawnManager.BP_SpawnManager
+[2025.05.02-18.35.40:278][992]AssetCheck: /Game/Blueprints/Systems/BP_SpawnManager Validating asset
+[2025.05.02-18.35.41:045][ 38]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.05.02-18.35.41:059][ 38]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.05.02-18.35.41:059][ 38]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Dungeon
+[2025.05.02-18.35.41:060][ 38]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001069s)
+[2025.05.02-18.35.41:060][ 38]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Dungeon.MAP_Dungeon to /Game/Maps/UEDPIE_0_MAP_Dungeon.MAP_Dungeon (0.001101s)
+[2025.05.02-18.35.41:074][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2025.05.02-18.35.41:077][ 38]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.05.02-18.35.41:077][ 38]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Game/Maps/UEDPIE_0_MAP_Dungeon.MAP_Dungeon'.
+[2025.05.02-18.35.41:077][ 38]LogPlayLevel: PIE: World Init took: (0.000964s)
+[2025.05.02-18.35.41:096][ 38]LogAudio: Display: Creating Audio Device:                 Id: 35, Scope: Unique, Realtime: True
+[2025.05.02-18.35.41:096][ 38]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.05.02-18.35.41:096][ 38]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.05.02-18.35.41:096][ 38]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.05.02-18.35.41:096][ 38]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.05.02-18.35.41:096][ 38]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.05.02-18.35.41:096][ 38]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.05.02-18.35.41:096][ 38]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.05.02-18.35.41:096][ 38]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.05.02-18.35.41:096][ 38]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.05.02-18.35.41:096][ 38]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.05.02-18.35.41:096][ 38]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.05.02-18.35.41:097][ 38]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.05.02-18.35.41:199][ 38]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2025.05.02-18.35.41:199][ 38]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.05.02-18.35.41:199][ 38]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.05.02-18.35.41:199][ 38]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.05.02-18.35.41:199][ 38]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=35
+[2025.05.02-18.35.41:199][ 38]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=35
+[2025.05.02-18.35.41:201][ 38]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=35
+[2025.05.02-18.35.41:201][ 38]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=35
+[2025.05.02-18.35.41:201][ 38]LogInit: FAudioDevice initialized with ID 35.
+[2025.05.02-18.35.41:201][ 38]LogAudio: Display: Audio Device (ID: 35) registered with world 'MAP_Dungeon'.
+[2025.05.02-18.35.41:201][ 38]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 35
+[2025.05.02-18.35.41:243][ 38]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.02-18.35.41:244][ 38]LogLoad: Game class is 'GM_Dungeon_C'
+[2025.05.02-18.35.41:244][ 38]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Dungeon.MAP_Dungeon up for play (max tick rate 60) at 2025.05.02-14.35.41
+[2025.05.02-18.35.41:244][ 38]LogWorld: Bringing up level for play took: 0.000649
+[2025.05.02-18.35.41:246][ 38]LogOnline: OSS: Created online subsystem instance for: :Context_56
+[2025.05.02-18.35.41:264][ 38]PIE: Server logged in
+[2025.05.02-18.35.41:264][ 38]PIE: Play in editor total start time 0.214 seconds.
+[2025.05.02-18.35.43:742][185]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.02-18.35.43:742][185]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Dungeon
+[2025.05.02-18.35.43:742][185]LogSlate: Window 'DungeonAdventure Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.05.02-18.35.43:751][185]LogWorld: UWorld::CleanupWorld for MAP_Dungeon, bSessionEnded=true, bCleanupResources=true
+[2025.05.02-18.35.43:751][185]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.02-18.35.43:751][185]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.05.02-18.35.43:751][185]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.05.02-18.35.43:754][185]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.05.02-18.35.43:757][185]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.02-18.35.43:766][185]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.05.02-18.35.43:766][185]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 35
+[2025.05.02-18.35.43:766][185]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=35
+[2025.05.02-18.35.43:767][185]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=35
+[2025.05.02-18.35.43:771][185]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2025.05.02-18.35.43:816][187]LogPlayLevel: Display: Destroying online subsystem :Context_56
+[2025.05.02-18.35.51:951][405]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Systems/BP_SpawnManager.BP_SpawnManager_C
+[2025.05.02-18.35.51:952][405]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Systems/BP_SpawnManager.BP_SpawnManager_C
+[2025.05.02-18.35.51:952][405]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Systems/BP_SpawnManager.BP_SpawnManager as actor: BP_SpawnManager_C /Game/Maps/MAP_Dungeon.MAP_Dungeon:PersistentLevel.BP_SpawnManager_C_0
+[2025.05.02-18.35.51:953][405]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Systems/BP_SpawnManager.BP_SpawnManager as actor: BP_SpawnManager_C /Game/Maps/MAP_Dungeon.MAP_Dungeon:PersistentLevel.BP_SpawnManager_C_0
+[2025.05.02-18.35.53:546][500]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2025.05.02-18.35.53:548][500]LogEditorActor: Deleted 0 Actors (0.014 secs)
+[2025.05.02-18.35.53:553][500]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Systems/BP_SpawnManager.BP_SpawnManager_C
+[2025.05.02-18.35.53:553][500]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Systems/BP_SpawnManager.BP_SpawnManager_C
+[2025.05.02-18.35.53:554][500]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Systems/BP_SpawnManager.BP_SpawnManager as actor: BP_SpawnManager_C /Game/Maps/MAP_Dungeon.MAP_Dungeon:PersistentLevel.BP_SpawnManager_C_1
+[2025.05.02-18.35.53:554][500]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Systems/BP_SpawnManager.BP_SpawnManager as actor: BP_SpawnManager_C /Game/Maps/MAP_Dungeon.MAP_Dungeon:PersistentLevel.BP_SpawnManager_C_1
+[2025.05.02-18.35.54:979][584]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.05.02-18.35.54:997][584]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.05.02-18.35.54:997][584]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Dungeon
+[2025.05.02-18.35.54:998][584]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000975s)
+[2025.05.02-18.35.54:998][584]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Dungeon.MAP_Dungeon to /Game/Maps/UEDPIE_0_MAP_Dungeon.MAP_Dungeon (0.000999s)
+[2025.05.02-18.35.55:006][584]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2025.05.02-18.35.55:008][584]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.05.02-18.35.55:008][584]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Game/Maps/UEDPIE_0_MAP_Dungeon.MAP_Dungeon'.
+[2025.05.02-18.35.55:009][584]LogPlayLevel: PIE: World Init took: (0.000808s)
+[2025.05.02-18.35.55:025][584]LogAudio: Display: Creating Audio Device:                 Id: 36, Scope: Unique, Realtime: True
+[2025.05.02-18.35.55:025][584]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.05.02-18.35.55:025][584]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.05.02-18.35.55:025][584]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.05.02-18.35.55:025][584]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.05.02-18.35.55:025][584]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.05.02-18.35.55:025][584]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.05.02-18.35.55:025][584]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.05.02-18.35.55:025][584]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.05.02-18.35.55:025][584]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.05.02-18.35.55:025][584]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.05.02-18.35.55:025][584]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.05.02-18.35.55:026][584]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.05.02-18.35.55:126][584]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2025.05.02-18.35.55:126][584]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.05.02-18.35.55:126][584]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.05.02-18.35.55:126][584]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.05.02-18.35.55:126][584]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=36
+[2025.05.02-18.35.55:126][584]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=36
+[2025.05.02-18.35.55:128][584]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=36
+[2025.05.02-18.35.55:128][584]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=36
+[2025.05.02-18.35.55:128][584]LogInit: FAudioDevice initialized with ID 36.
+[2025.05.02-18.35.55:128][584]LogAudio: Display: Audio Device (ID: 36) registered with world 'MAP_Dungeon'.
+[2025.05.02-18.35.55:128][584]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 36
+[2025.05.02-18.35.55:130][584]LogLoad: Game class is 'GM_Dungeon_C'
+[2025.05.02-18.35.55:130][584]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Dungeon.MAP_Dungeon up for play (max tick rate 60) at 2025.05.02-14.35.55
+[2025.05.02-18.35.55:130][584]LogWorld: Bringing up level for play took: 0.000482
+[2025.05.02-18.35.55:131][584]LogOnline: OSS: Created online subsystem instance for: :Context_57
+[2025.05.02-18.35.55:152][584]PIE: Server logged in
+[2025.05.02-18.35.55:153][584]PIE: Play in editor total start time 0.168 seconds.
+[2025.05.02-18.35.55:388][598]LogScript: Script Msg: Playing animation override...
+[2025.05.02-18.35.59:537][847]LogScript: Script Msg: Playing animation override...
+[2025.05.02-18.36.00:721][918]LogScript: Script Msg: Playing animation override...
+[2025.05.02-18.36.02:104][  1]LogScript: Script Msg: Playing animation override...
+[2025.05.02-18.36.03:325][ 72]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.02-18.36.03:326][ 72]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Dungeon
+[2025.05.02-18.36.03:326][ 72]LogWorld: UWorld::CleanupWorld for MAP_Dungeon, bSessionEnded=true, bCleanupResources=true
+[2025.05.02-18.36.03:326][ 72]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.02-18.36.03:326][ 72]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.05.02-18.36.03:326][ 72]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.05.02-18.36.03:332][ 72]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.05.02-18.36.03:334][ 72]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.02-18.36.03:342][ 72]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.02-18.36.03:342][ 72]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 36
+[2025.05.02-18.36.03:342][ 72]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=36
+[2025.05.02-18.36.03:344][ 72]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=36
+[2025.05.02-18.36.03:363][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2025.05.02-18.36.03:416][ 73]LogPlayLevel: Display: Destroying online subsystem :Context_57
+[2025.05.02-18.36.29:816][246]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2025.05.02-18.36.29:825][246]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Maps/MAP_Dungeon_Auto6
+[2025.05.02-18.36.29:825][246]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/MAP_Dungeon_Auto6B0F0CB304DA3B6F4A31659BD37C39E8B.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/Autosaves/Game/Maps/MAP_Dungeon_Auto6.umap'
+[2025.05.02-18.36.29:826][246]LogAssetRegistry: Warning: ScanPathsSynchronous: S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/Autosaves/Game/Maps/MAP_Dungeon_Auto6.umap is in the /Temp path, will not scan.
+[2025.05.02-18.36.29:832][246]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalActors__/Autosaves/Game/Maps/MAP_Dungeon_Auto6 is in the /Temp path, will not scan.
+[2025.05.02-18.36.29:832][246]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalObjects__/Autosaves/Game/Maps/MAP_Dungeon_Auto6 is in the /Temp path, will not scan.
+[2025.05.02-18.36.29:833][246]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/MAP_Dungeon' took 0.026
+[2025.05.02-18.36.29:833][246]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.026
+[2025.05.02-18.37.12:885][107]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.05.02-18.37.13:928][164]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.02-18.37.13:992][164]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Systems/BP_SpawnManager] ([2] browsable assets)...
+[2025.05.02-18.37.13:992][164]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Systems/BP_SpawnManager]
+[2025.05.02-18.37.13:992][164]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Systems/BP_SpawnManager" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset" SILENT=true
+[2025.05.02-18.37.13:998][164]LogSavePackage: Moving output files for package: /Game/Blueprints/Systems/BP_SpawnManager
+[2025.05.02-18.37.13:999][164]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/BP_SpawnManagerA2F406B24766758C2DB244847081743E.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset'
+[2025.05.02-18.37.14:008][164]LogFileHelpers: InternalPromptForCheckoutAndSave took 80.002 ms (total: 6.89 sec)
+[2025.05.02-18.37.14:071][164]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.02-18.37.14:071][164]LogContentValidation: Enabled validators:
+[2025.05.02-18.37.14:071][164]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.02-18.37.14:071][164]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.02-18.37.14:071][164]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.02-18.37.14:071][164]LogContentValidation: Display: Validating asset /Game/Blueprints/Systems/BP_SpawnManager.BP_SpawnManager
+[2025.05.02-18.37.14:071][164]AssetCheck: /Game/Blueprints/Systems/BP_SpawnManager Validating asset
+[2025.05.02-18.40.09:523][903]LogShaderCompilers: Display: ================================================
+[2025.05.02-18.40.09:523][903]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.05.02-18.40.09:523][903]LogShaderCompilers: Display: Total job queries 87, among them cache hits 19 (21.84%), DDC hits 43 (49.43%), Duplicates 4 (4.60%)
+[2025.05.02-18.40.09:523][903]LogShaderCompilers: Display: Tracking 64 distinct input hashes that result in 53 distinct outputs (82.81%)
+[2025.05.02-18.40.09:523][903]LogShaderCompilers: Display: RAM used: 1.70 MiB of 1.60 GiB budget. Usage: 0.10%
+[2025.05.02-18.40.09:523][903]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.05.02-18.40.09:523][903]LogShaderCompilers: Display: Shaders Compiled: 21
+[2025.05.02-18.40.09:523][903]LogShaderCompilers: Display: Jobs assigned 21, completed 21 (100%)
+[2025.05.02-18.40.09:523][903]LogShaderCompilers: Display: Average time worker was idle: 3173.10 s
+[2025.05.02-18.40.09:523][903]LogShaderCompilers: Display: Time job spent in pending queue: average 0.03 s, longest 0.07 s
+[2025.05.02-18.40.09:523][903]LogShaderCompilers: Display: Job execution time: average 1.57 s, max 2.70 s
+[2025.05.02-18.40.09:523][903]LogShaderCompilers: Display: Job life time (pending + execution): average 1.61 s, max 2.74
+[2025.05.02-18.40.09:523][903]LogShaderCompilers: Display: Shader code size: average 43.246 KiB, min 3.641 KiB, max 70.234 KiB
+[2025.05.02-18.40.09:523][903]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 11.45 s
+[2025.05.02-18.40.09:523][903]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.09%
+[2025.05.02-18.40.09:523][903]LogShaderCompilers: Display: Jobs were issued in 21 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.05.02-18.40.09:523][903]LogShaderCompilers: Display: Average processing rate: 1.83 jobs/sec
+[2025.05.02-18.40.09:523][903]LogShaderCompilers: Display: Total thread time: 11.449 s
+[2025.05.02-18.40.09:523][903]LogShaderCompilers: Display: Total thread preprocess time: 0.873 s
+[2025.05.02-18.40.09:523][903]LogShaderCompilers: Display: Percentage time preprocessing: 7.63%
+[2025.05.02-18.40.09:523][903]LogShaderCompilers: Display: Effective parallelization: 1.00 (times faster than compiling all shaders on one thread). Compare with number of workers: 16
+[2025.05.02-18.40.09:523][903]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.05.02-18.40.09:523][903]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    2 times, average 1.44 sec, max 1.46 sec, min 1.43 sec)
+[2025.05.02-18.40.09:523][903]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    6 times, average 0.58 sec, max 1.14 sec, min 0.29 sec)
+[2025.05.02-18.40.09:523][903]LogShaderCompilers: Display:                  TShadowDepthVSVertexShadowDepth_OutputDepth (compiled    2 times, average 0.35 sec, max 0.36 sec, min 0.33 sec)
+[2025.05.02-18.40.09:523][903]LogShaderCompilers: Display:                                                  FVelocityVS (compiled    2 times, average 0.33 sec, max 0.37 sec, min 0.28 sec)
+[2025.05.02-18.40.09:523][903]LogShaderCompilers: Display:                                                  FVelocityPS (compiled    2 times, average 0.32 sec, max 0.33 sec, min 0.30 sec)
+[2025.05.02-18.40.09:523][903]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.05.02-18.40.09:523][903]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 30.31% of total time (compiled    6 times, average 0.58 sec, max 1.14 sec, min 0.29 sec)
+[2025.05.02-18.40.09:523][903]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 25.22% of total time (compiled    2 times, average 1.44 sec, max 1.46 sec, min 1.43 sec)
+[2025.05.02-18.40.09:523][903]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 7.89% of total time (compiled    3 times, average 0.30 sec, max 0.39 sec, min 0.17 sec)
+[2025.05.02-18.40.09:523][903]LogShaderCompilers: Display:                                                 FDepthOnlyPS - 6.60% of total time (compiled    3 times, average 0.25 sec, max 0.30 sec, min 0.17 sec)
+[2025.05.02-18.40.09:523][903]LogShaderCompilers: Display:                  TShadowDepthVSVertexShadowDepth_OutputDepth - 6.06% of total time (compiled    2 times, average 0.35 sec, max 0.36 sec, min 0.33 sec)
+[2025.05.02-18.40.09:523][903]LogShaderCompilers: Display: === Material stats ===
+[2025.05.02-18.40.09:523][903]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.05.02-18.40.09:523][903]LogShaderCompilers: Display: Materials Translated:    115
+[2025.05.02-18.40.09:523][903]LogShaderCompilers: Display: Material Total Translate Time: 0.11 s
+[2025.05.02-18.40.09:523][903]LogShaderCompilers: Display: Material Translation Only: 0.02 s (23%)
+[2025.05.02-18.40.09:523][903]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.05.02-18.40.09:523][903]LogShaderCompilers: Display: Material Cache Hits: 9 (8%)
+[2025.05.02-18.40.09:523][903]LogShaderCompilers: Display: ================================================
+[2025.05.02-18.41.21:452][127]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.05.02-18.41.21:885][148]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.02-18.41.21:950][148]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Systems/BP_SpawnManager] ([2] browsable assets)...
+[2025.05.02-18.41.21:950][148]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Systems/BP_SpawnManager]
+[2025.05.02-18.41.21:950][148]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Systems/BP_SpawnManager" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset" SILENT=true
+[2025.05.02-18.41.21:955][148]LogSavePackage: Moving output files for package: /Game/Blueprints/Systems/BP_SpawnManager
+[2025.05.02-18.41.21:955][148]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/BP_SpawnManager34A35DA5411D4A3ACCC3B79AD133AB03.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset'
+[2025.05.02-18.41.21:967][148]LogFileHelpers: InternalPromptForCheckoutAndSave took 81.281 ms (total: 6.97 sec)
+[2025.05.02-18.41.22:035][148]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.02-18.41.22:035][148]LogContentValidation: Enabled validators:
+[2025.05.02-18.41.22:035][148]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.02-18.41.22:035][148]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.02-18.41.22:035][148]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.02-18.41.22:035][148]LogContentValidation: Display: Validating asset /Game/Blueprints/Systems/BP_SpawnManager.BP_SpawnManager
+[2025.05.02-18.41.22:035][148]AssetCheck: /Game/Blueprints/Systems/BP_SpawnManager Validating asset
+[2025.05.02-18.41.26:377][403]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2025.05.02-18.41.26:876][428]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.02-18.41.26:942][428]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Systems/BP_SpawnManager] ([2] browsable assets)...
+[2025.05.02-18.41.26:942][428]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Systems/BP_SpawnManager]
+[2025.05.02-18.41.26:942][428]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Systems/BP_SpawnManager" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset" SILENT=true
+[2025.05.02-18.41.26:947][428]LogSavePackage: Moving output files for package: /Game/Blueprints/Systems/BP_SpawnManager
+[2025.05.02-18.41.26:948][428]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/BP_SpawnManager3BF885AF44B6D005BFD0C78AF924BA3D.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset'
+[2025.05.02-18.41.26:959][428]LogFileHelpers: InternalPromptForCheckoutAndSave took 83.628 ms (total: 7.06 sec)
+[2025.05.02-18.41.27:028][428]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.02-18.41.27:028][428]LogContentValidation: Enabled validators:
+[2025.05.02-18.41.27:029][428]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.02-18.41.27:029][428]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.02-18.41.27:029][428]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.02-18.41.27:029][428]LogContentValidation: Display: Validating asset /Game/Blueprints/Systems/BP_SpawnManager.BP_SpawnManager
+[2025.05.02-18.41.27:029][428]AssetCheck: /Game/Blueprints/Systems/BP_SpawnManager Validating asset
+[2025.05.02-18.41.33:428][809]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.05.02-18.41.33:439][809]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.05.02-18.41.33:439][809]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Dungeon
+[2025.05.02-18.41.33:440][809]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001337s)
+[2025.05.02-18.41.33:441][809]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Dungeon.MAP_Dungeon to /Game/Maps/UEDPIE_0_MAP_Dungeon.MAP_Dungeon (0.001367s)
+[2025.05.02-18.41.33:449][809]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2025.05.02-18.41.33:450][809]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.05.02-18.41.33:451][809]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Game/Maps/UEDPIE_0_MAP_Dungeon.MAP_Dungeon'.
+[2025.05.02-18.41.33:451][809]LogPlayLevel: PIE: World Init took: (0.000910s)
+[2025.05.02-18.41.33:469][809]LogAudio: Display: Creating Audio Device:                 Id: 37, Scope: Unique, Realtime: True
+[2025.05.02-18.41.33:469][809]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.05.02-18.41.33:469][809]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.05.02-18.41.33:469][809]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.05.02-18.41.33:469][809]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.05.02-18.41.33:469][809]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.05.02-18.41.33:469][809]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.05.02-18.41.33:469][809]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.05.02-18.41.33:469][809]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.05.02-18.41.33:469][809]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.05.02-18.41.33:469][809]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.05.02-18.41.33:469][809]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.05.02-18.41.33:472][809]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.05.02-18.41.33:556][809]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2025.05.02-18.41.33:557][809]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.05.02-18.41.33:557][809]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.05.02-18.41.33:557][809]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.05.02-18.41.33:557][809]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=37
+[2025.05.02-18.41.33:557][809]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=37
+[2025.05.02-18.41.33:558][809]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=37
+[2025.05.02-18.41.33:558][809]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=37
+[2025.05.02-18.41.33:558][809]LogInit: FAudioDevice initialized with ID 37.
+[2025.05.02-18.41.33:558][809]LogAudio: Display: Audio Device (ID: 37) registered with world 'MAP_Dungeon'.
+[2025.05.02-18.41.33:559][809]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 37
+[2025.05.02-18.41.33:605][809]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.02-18.41.33:605][809]LogLoad: Game class is 'GM_Dungeon_C'
+[2025.05.02-18.41.33:606][809]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Dungeon.MAP_Dungeon up for play (max tick rate 60) at 2025.05.02-14.41.33
+[2025.05.02-18.41.33:606][809]LogWorld: Bringing up level for play took: 0.000597
+[2025.05.02-18.41.33:608][809]LogOnline: OSS: Created online subsystem instance for: :Context_58
+[2025.05.02-18.41.33:629][809]PIE: Server logged in
+[2025.05.02-18.41.33:630][809]PIE: Play in editor total start time 0.198 seconds.
+[2025.05.02-18.41.36:486][980]LogScript: Script Msg: Playing animation override...
+[2025.05.02-18.41.38:136][ 79]LogScript: Script Msg: Playing animation override...
+[2025.05.02-18.41.38:951][126]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.02-18.41.38:951][126]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Dungeon
+[2025.05.02-18.41.38:952][126]LogSlate: Window 'DungeonAdventure Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.05.02-18.41.38:962][126]LogWorld: UWorld::CleanupWorld for MAP_Dungeon, bSessionEnded=true, bCleanupResources=true
+[2025.05.02-18.41.38:962][126]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.02-18.41.38:962][126]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.05.02-18.41.38:962][126]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.05.02-18.41.38:969][126]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.05.02-18.41.38:971][126]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.02-18.41.38:981][126]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.05.02-18.41.38:981][126]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 37
+[2025.05.02-18.41.38:981][126]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=37
+[2025.05.02-18.41.38:982][126]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=37
+[2025.05.02-18.41.38:987][126]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2025.05.02-18.41.39:061][127]LogPlayLevel: Display: Destroying online subsystem :Context_58
+[2025.05.02-18.41.40:143][192]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.05.02-18.41.40:154][192]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.05.02-18.41.40:155][192]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Dungeon
+[2025.05.02-18.41.40:156][192]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001080s)
+[2025.05.02-18.41.40:156][192]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Dungeon.MAP_Dungeon to /Game/Maps/UEDPIE_0_MAP_Dungeon.MAP_Dungeon (0.001114s)
+[2025.05.02-18.41.40:169][192]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2025.05.02-18.41.40:170][192]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.05.02-18.41.40:171][192]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Game/Maps/UEDPIE_0_MAP_Dungeon.MAP_Dungeon'.
+[2025.05.02-18.41.40:171][192]LogPlayLevel: PIE: World Init took: (0.000867s)
+[2025.05.02-18.41.40:187][192]LogAudio: Display: Creating Audio Device:                 Id: 38, Scope: Unique, Realtime: True
+[2025.05.02-18.41.40:187][192]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.05.02-18.41.40:187][192]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.05.02-18.41.40:187][192]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.05.02-18.41.40:187][192]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.05.02-18.41.40:187][192]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.05.02-18.41.40:187][192]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.05.02-18.41.40:187][192]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.05.02-18.41.40:187][192]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.05.02-18.41.40:187][192]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.05.02-18.41.40:187][192]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.05.02-18.41.40:187][192]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.05.02-18.41.40:189][192]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.05.02-18.41.40:292][192]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2025.05.02-18.41.40:292][192]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.05.02-18.41.40:292][192]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.05.02-18.41.40:292][192]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.05.02-18.41.40:292][192]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=38
+[2025.05.02-18.41.40:293][192]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=38
+[2025.05.02-18.41.40:294][192]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=38
+[2025.05.02-18.41.40:294][192]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=38
+[2025.05.02-18.41.40:294][192]LogInit: FAudioDevice initialized with ID 38.
+[2025.05.02-18.41.40:294][192]LogAudio: Display: Audio Device (ID: 38) registered with world 'MAP_Dungeon'.
+[2025.05.02-18.41.40:294][192]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 38
+[2025.05.02-18.41.40:336][192]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.02-18.41.40:336][192]LogLoad: Game class is 'GM_Dungeon_C'
+[2025.05.02-18.41.40:337][192]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Dungeon.MAP_Dungeon up for play (max tick rate 60) at 2025.05.02-14.41.40
+[2025.05.02-18.41.40:337][192]LogWorld: Bringing up level for play took: 0.000498
+[2025.05.02-18.41.40:339][192]LogOnline: OSS: Created online subsystem instance for: :Context_59
+[2025.05.02-18.41.40:361][192]PIE: Server logged in
+[2025.05.02-18.41.40:362][192]PIE: Play in editor total start time 0.215 seconds.
+[2025.05.02-18.41.41:512][261]LogScript: Script Msg: Playing animation override...
+[2025.05.02-18.41.43:072][352]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.02-18.41.43:072][352]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Dungeon
+[2025.05.02-18.41.43:072][352]LogSlate: Window 'DungeonAdventure Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.05.02-18.41.43:080][352]LogWorld: UWorld::CleanupWorld for MAP_Dungeon, bSessionEnded=true, bCleanupResources=true
+[2025.05.02-18.41.43:080][352]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.02-18.41.43:080][352]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.05.02-18.41.43:080][352]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.05.02-18.41.43:087][352]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.05.02-18.41.43:090][352]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.02-18.41.43:104][352]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 38
+[2025.05.02-18.41.43:104][352]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=38
+[2025.05.02-18.41.43:105][352]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=38
+[2025.05.02-18.41.43:123][352]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2025.05.02-18.41.43:196][353]LogPlayLevel: Display: Destroying online subsystem :Context_59
+[2025.05.02-18.42.44:798][ 39]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Character/BP_DungeonChar_BASE.BP_DungeonChar_BASE
+[2025.05.02-18.42.44:798][ 39]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Engine/Transient.World_22'.
+[2025.05.02-18.43.00:835][960]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2025.05.02-18.43.01:777][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.02-18.43.01:844][  0]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/BP_DungeonChar_BASE] ([2] browsable assets)...
+[2025.05.02-18.43.01:844][  0]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/BP_DungeonChar_BASE]
+[2025.05.02-18.43.01:855][  0]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/BP_DungeonChar_BASE
+[2025.05.02-18.43.01:855][  0]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/BP_DungeonChar_BASEA5C228574202EAB92C80F2B13EE8ABF0.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Character/BP_DungeonChar_BASE.uasset'
+[2025.05.02-18.43.01:867][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 89.648 ms (total: 7.15 sec)
+[2025.05.02-18.43.01:943][  0]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.02-18.43.01:943][  0]LogContentValidation: Enabled validators:
+[2025.05.02-18.43.01:943][  0]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.02-18.43.01:943][  0]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.02-18.43.01:943][  0]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.02-18.43.01:943][  0]LogContentValidation: Display: Validating asset /Game/Blueprints/Character/BP_DungeonChar_BASE.BP_DungeonChar_BASE
+[2025.05.02-18.43.01:943][  0]AssetCheck: /Game/Blueprints/Character/BP_DungeonChar_BASE Validating asset
+[2025.05.02-18.43.05:043][177]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2025.05.02-18.43.05:604][202]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.02-18.43.05:663][202]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/Hero/BP_Hero] ([2] browsable assets)...
+[2025.05.02-18.43.05:663][202]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/Hero/BP_Hero]
+[2025.05.02-18.43.05:663][202]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/Hero/BP_Hero" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Character/Hero/BP_Hero.uasset" SILENT=true
+[2025.05.02-18.43.05:682][202]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/Hero/BP_Hero
+[2025.05.02-18.43.05:682][202]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/BP_HeroB2A2DC6F40320A337234DEADC0EF20E0.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Character/Hero/BP_Hero.uasset'
+[2025.05.02-18.43.05:695][202]LogFileHelpers: InternalPromptForCheckoutAndSave took 91.365 ms (total: 7.24 sec)
+[2025.05.02-18.43.05:770][202]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.02-18.43.05:770][202]LogContentValidation: Enabled validators:
+[2025.05.02-18.43.05:770][202]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.02-18.43.05:770][202]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.02-18.43.05:771][202]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.02-18.43.05:771][202]LogContentValidation: Display: Validating asset /Game/Blueprints/Character/Hero/BP_Hero.BP_Hero
+[2025.05.02-18.43.05:771][202]AssetCheck: /Game/Blueprints/Character/Hero/BP_Hero Validating asset
+[2025.05.02-18.43.24:630][876]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.02-18.43.24:690][876]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MAP_Dungeon" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Maps/MAP_Dungeon.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.05.02-18.43.24:711][876]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2025.05.02-18.43.24:715][876]LogSavePackage: Moving output files for package: /Game/Maps/MAP_Dungeon
+[2025.05.02-18.43.24:716][876]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/MAP_Dungeon9054507B47245118D49C289162739B18.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Maps/MAP_Dungeon.umap'
+[2025.05.02-18.43.24:722][876]LogFileHelpers: Saving map 'MAP_Dungeon' took 0.032
+[2025.05.02-18.43.24:735][876]LogFileHelpers: InternalPromptForCheckoutAndSave took 105.777 ms (total: 7.35 sec)
+[2025.05.02-18.43.24:811][876]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.02-18.43.24:811][876]LogContentValidation: Enabled validators:
+[2025.05.02-18.43.24:811][876]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.02-18.43.24:811][876]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.02-18.43.24:811][876]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.02-18.43.24:811][876]LogContentValidation: Display: Validating asset /Game/Maps/MAP_Dungeon.MAP_Dungeon
+[2025.05.02-18.43.24:811][876]AssetCheck: /Game/Maps/MAP_Dungeon Validating asset
+[2025.05.02-18.43.27:833][ 57]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.02-18.43.27:898][ 57]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Systems/BP_SpawnManager] ([2] browsable assets)...
+[2025.05.02-18.43.27:898][ 57]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Systems/BP_SpawnManager]
+[2025.05.02-18.43.27:898][ 57]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Systems/BP_SpawnManager" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset" SILENT=true
+[2025.05.02-18.43.27:904][ 57]LogSavePackage: Moving output files for package: /Game/Blueprints/Systems/BP_SpawnManager
+[2025.05.02-18.43.27:904][ 57]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/BP_SpawnManagerE864D0F54E399EC5FF04B79351CD03B9.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Systems/BP_SpawnManager.uasset'
+[2025.05.02-18.43.27:917][ 57]LogFileHelpers: InternalPromptForCheckoutAndSave took 82.996 ms (total: 7.43 sec)
+[2025.05.02-18.43.27:986][ 57]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.02-18.43.27:986][ 57]LogContentValidation: Enabled validators:
+[2025.05.02-18.43.27:986][ 57]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.02-18.43.27:986][ 57]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.02-18.43.27:986][ 57]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.02-18.43.27:986][ 57]LogContentValidation: Display: Validating asset /Game/Blueprints/Systems/BP_SpawnManager.BP_SpawnManager
+[2025.05.02-18.43.27:987][ 57]AssetCheck: /Game/Blueprints/Systems/BP_SpawnManager Validating asset
+[2025.05.02-18.43.40:480][274]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.05.02-18.43.40:494][274]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.05.02-18.43.40:494][274]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Dungeon
+[2025.05.02-18.43.40:495][274]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000992s)
+[2025.05.02-18.43.40:495][274]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Dungeon.MAP_Dungeon to /Game/Maps/UEDPIE_0_MAP_Dungeon.MAP_Dungeon (0.001018s)
+[2025.05.02-18.43.40:507][274]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2025.05.02-18.43.40:508][274]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.05.02-18.43.40:508][274]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Game/Maps/UEDPIE_0_MAP_Dungeon.MAP_Dungeon'.
+[2025.05.02-18.43.40:509][274]LogPlayLevel: PIE: World Init took: (0.000906s)
+[2025.05.02-18.43.40:525][274]LogAudio: Display: Creating Audio Device:                 Id: 39, Scope: Unique, Realtime: True
+[2025.05.02-18.43.40:525][274]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.05.02-18.43.40:525][274]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.05.02-18.43.40:525][274]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.05.02-18.43.40:525][274]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.05.02-18.43.40:525][274]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.05.02-18.43.40:525][274]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.05.02-18.43.40:525][274]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.05.02-18.43.40:525][274]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.05.02-18.43.40:525][274]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.05.02-18.43.40:525][274]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.05.02-18.43.40:525][274]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.05.02-18.43.40:526][274]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.05.02-18.43.40:616][274]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2025.05.02-18.43.40:616][274]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.05.02-18.43.40:616][274]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.05.02-18.43.40:616][274]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.05.02-18.43.40:617][274]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=39
+[2025.05.02-18.43.40:617][274]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=39
+[2025.05.02-18.43.40:618][274]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=39
+[2025.05.02-18.43.40:618][274]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=39
+[2025.05.02-18.43.40:618][274]LogInit: FAudioDevice initialized with ID 39.
+[2025.05.02-18.43.40:618][274]LogAudio: Display: Audio Device (ID: 39) registered with world 'MAP_Dungeon'.
+[2025.05.02-18.43.40:618][274]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 39
+[2025.05.02-18.43.40:621][274]LogLoad: Game class is 'GM_Dungeon_C'
+[2025.05.02-18.43.40:621][274]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Dungeon.MAP_Dungeon up for play (max tick rate 60) at 2025.05.02-14.43.40
+[2025.05.02-18.43.40:622][274]LogWorld: Bringing up level for play took: 0.000578
+[2025.05.02-18.43.40:623][274]LogOnline: OSS: Created online subsystem instance for: :Context_61
+[2025.05.02-18.43.40:642][274]PIE: Server logged in
+[2025.05.02-18.43.40:643][274]PIE: Play in editor total start time 0.157 seconds.
+[2025.05.02-18.43.42:710][398]LogScript: Script Msg: Playing animation override...
+[2025.05.02-18.43.45:675][574]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.02-18.43.45:675][574]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Dungeon
+[2025.05.02-18.43.45:675][574]LogWorld: UWorld::CleanupWorld for MAP_Dungeon, bSessionEnded=true, bCleanupResources=true
+[2025.05.02-18.43.45:675][574]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.02-18.43.45:675][574]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.05.02-18.43.45:675][574]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.05.02-18.43.45:684][574]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.05.02-18.43.45:686][574]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.02-18.43.45:695][574]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.02-18.43.45:695][574]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 39
+[2025.05.02-18.43.45:695][574]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=39
+[2025.05.02-18.43.45:697][574]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=39
+[2025.05.02-18.43.45:702][574]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2025.05.02-18.43.45:758][575]LogPlayLevel: Display: Destroying online subsystem :Context_61
+[2025.05.02-18.43.56:345][208]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Character/BP_Enemy_BASE.BP_Enemy_BASE
+[2025.05.02-18.43.56:345][208]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Engine/Transient.World_23'.
+[2025.05.02-18.44.13:237][203]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2025.05.02-18.44.14:280][260]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.02-18.44.14:342][260]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/BP_Enemy_BASE] ([2] browsable assets)...
+[2025.05.02-18.44.14:343][260]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/BP_Enemy_BASE]
+[2025.05.02-18.44.14:343][260]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/BP_Enemy_BASE" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Character/BP_Enemy_BASE.uasset" SILENT=true
+[2025.05.02-18.44.14:351][260]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/BP_Enemy_BASE
+[2025.05.02-18.44.14:351][260]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/BP_Enemy_BASEF45DE33C488497109511F8A06C5331AA.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Character/BP_Enemy_BASE.uasset'
+[2025.05.02-18.44.14:363][260]LogFileHelpers: InternalPromptForCheckoutAndSave took 83.154 ms (total: 7.51 sec)
+[2025.05.02-18.44.14:438][260]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.02-18.44.14:438][260]LogContentValidation: Enabled validators:
+[2025.05.02-18.44.14:438][260]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.02-18.44.14:438][260]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.02-18.44.14:438][260]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.02-18.44.14:438][260]LogContentValidation: Display: Validating asset /Game/Blueprints/Character/BP_Enemy_BASE.BP_Enemy_BASE
+[2025.05.02-18.44.14:438][260]AssetCheck: /Game/Blueprints/Character/BP_Enemy_BASE Validating asset
+[2025.05.02-18.45.17:627][752]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2025.05.02-18.45.18:782][817]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.02-18.45.18:840][817]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/BP_Enemy_BASE] ([2] browsable assets)...
+[2025.05.02-18.45.18:840][817]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/BP_Enemy_BASE]
+[2025.05.02-18.45.18:840][817]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/BP_Enemy_BASE" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Character/BP_Enemy_BASE.uasset" SILENT=true
+[2025.05.02-18.45.18:851][817]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/BP_Enemy_BASE
+[2025.05.02-18.45.18:851][817]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/BP_Enemy_BASEB837CD2F467B85951944D4845EC351C8.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Character/BP_Enemy_BASE.uasset'
+[2025.05.02-18.45.18:862][817]LogFileHelpers: InternalPromptForCheckoutAndSave took 80.107 ms (total: 7.59 sec)
+[2025.05.02-18.45.18:941][817]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.02-18.45.18:941][817]LogContentValidation: Enabled validators:
+[2025.05.02-18.45.18:941][817]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.02-18.45.18:941][817]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.02-18.45.18:941][817]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.02-18.45.18:941][817]LogContentValidation: Display: Validating asset /Game/Blueprints/Character/BP_Enemy_BASE.BP_Enemy_BASE
+[2025.05.02-18.45.18:941][817]AssetCheck: /Game/Blueprints/Character/BP_Enemy_BASE Validating asset
+[2025.05.02-18.46.51:268][422]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2025.05.02-18.46.52:644][494]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.02-18.46.52:704][494]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/BP_DungeonChar_BASE] ([2] browsable assets)...
+[2025.05.02-18.46.52:704][494]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/BP_DungeonChar_BASE]
+[2025.05.02-18.46.52:715][494]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/BP_DungeonChar_BASE
+[2025.05.02-18.46.52:715][494]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/BP_DungeonChar_BASEA4A7AD5140A9D565919446AF22371A4F.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Character/BP_DungeonChar_BASE.uasset'
+[2025.05.02-18.46.52:729][494]LogFileHelpers: InternalPromptForCheckoutAndSave took 83.832 ms (total: 7.68 sec)
+[2025.05.02-18.46.52:795][494]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.02-18.46.52:795][494]LogContentValidation: Enabled validators:
+[2025.05.02-18.46.52:795][494]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.02-18.46.52:795][494]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.02-18.46.52:795][494]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.02-18.46.52:795][494]LogContentValidation: Display: Validating asset /Game/Blueprints/Character/BP_DungeonChar_BASE.BP_DungeonChar_BASE
+[2025.05.02-18.46.52:795][494]AssetCheck: /Game/Blueprints/Character/BP_DungeonChar_BASE Validating asset
+[2025.05.02-18.46.55:154][632]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.02-18.46.55:215][632]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/BP_Enemy_BASE] ([2] browsable assets)...
+[2025.05.02-18.46.55:215][632]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/BP_Enemy_BASE]
+[2025.05.02-18.46.55:216][632]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/BP_Enemy_BASE" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Character/BP_Enemy_BASE.uasset" SILENT=true
+[2025.05.02-18.46.55:225][632]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/BP_Enemy_BASE
+[2025.05.02-18.46.55:225][632]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/BP_Enemy_BASE19B826D24D6292631381E198E66C0C30.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Character/BP_Enemy_BASE.uasset'
+[2025.05.02-18.46.55:237][632]LogFileHelpers: InternalPromptForCheckoutAndSave took 83.671 ms (total: 7.76 sec)
+[2025.05.02-18.46.55:308][632]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.02-18.46.55:308][632]LogContentValidation: Enabled validators:
+[2025.05.02-18.46.55:308][632]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.02-18.46.55:308][632]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.02-18.46.55:308][632]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.02-18.46.55:308][632]LogContentValidation: Display: Validating asset /Game/Blueprints/Character/BP_Enemy_BASE.BP_Enemy_BASE
+[2025.05.02-18.46.55:308][632]AssetCheck: /Game/Blueprints/Character/BP_Enemy_BASE Validating asset
+[2025.05.02-18.47.16:545][904]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Components/BPC_Health.BPC_Health
+[2025.05.02-18.47.16:545][904]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Engine/Transient.World_24'.
+[2025.05.02-18.47.19:487][ 73]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2025.05.02-18.47.19:487][ 73]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.02-18.47.19:528][ 73]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2025.05.02-18.47.42:355][265]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2025.05.02-18.47.43:000][299]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.02-18.47.43:065][299]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/BP_Enemy_BASE] ([2] browsable assets)...
+[2025.05.02-18.47.43:065][299]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/BP_Enemy_BASE]
+[2025.05.02-18.47.43:065][299]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/BP_Enemy_BASE" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Character/BP_Enemy_BASE.uasset" SILENT=true
+[2025.05.02-18.47.43:075][299]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/BP_Enemy_BASE
+[2025.05.02-18.47.43:075][299]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/BP_Enemy_BASEEBE6705C4306D57B7125398747665835.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Character/BP_Enemy_BASE.uasset'
+[2025.05.02-18.47.43:086][299]LogFileHelpers: InternalPromptForCheckoutAndSave took 86.767 ms (total: 7.85 sec)
+[2025.05.02-18.47.43:156][299]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.02-18.47.43:156][299]LogContentValidation: Enabled validators:
+[2025.05.02-18.47.43:156][299]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.02-18.47.43:156][299]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.02-18.47.43:156][299]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.02-18.47.43:156][299]LogContentValidation: Display: Validating asset /Game/Blueprints/Character/BP_Enemy_BASE.BP_Enemy_BASE
+[2025.05.02-18.47.43:156][299]AssetCheck: /Game/Blueprints/Character/BP_Enemy_BASE Validating asset
+[2025.05.02-18.47.43:709][332]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.05.02-18.47.43:720][332]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.05.02-18.47.43:720][332]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Dungeon
+[2025.05.02-18.47.43:721][332]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001057s)
+[2025.05.02-18.47.43:721][332]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Dungeon.MAP_Dungeon to /Game/Maps/UEDPIE_0_MAP_Dungeon.MAP_Dungeon (0.001085s)
+[2025.05.02-18.47.43:729][332]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2025.05.02-18.47.43:731][332]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.05.02-18.47.43:732][332]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Game/Maps/UEDPIE_0_MAP_Dungeon.MAP_Dungeon'.
+[2025.05.02-18.47.43:732][332]LogPlayLevel: PIE: World Init took: (0.000805s)
+[2025.05.02-18.47.43:747][332]LogAudio: Display: Creating Audio Device:                 Id: 40, Scope: Unique, Realtime: True
+[2025.05.02-18.47.43:748][332]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.05.02-18.47.43:748][332]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.05.02-18.47.43:748][332]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.05.02-18.47.43:748][332]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.05.02-18.47.43:748][332]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.05.02-18.47.43:748][332]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.05.02-18.47.43:748][332]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.05.02-18.47.43:748][332]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.05.02-18.47.43:748][332]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.05.02-18.47.43:748][332]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.05.02-18.47.43:748][332]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.05.02-18.47.43:748][332]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.05.02-18.47.43:853][332]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2025.05.02-18.47.43:854][332]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.05.02-18.47.43:854][332]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.05.02-18.47.43:854][332]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.05.02-18.47.43:854][332]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=40
+[2025.05.02-18.47.43:854][332]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=40
+[2025.05.02-18.47.43:855][332]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=40
+[2025.05.02-18.47.43:855][332]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=40
+[2025.05.02-18.47.43:855][332]LogInit: FAudioDevice initialized with ID 40.
+[2025.05.02-18.47.43:855][332]LogAudio: Display: Audio Device (ID: 40) registered with world 'MAP_Dungeon'.
+[2025.05.02-18.47.43:855][332]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 40
+[2025.05.02-18.47.43:900][332]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.02-18.47.43:900][332]LogLoad: Game class is 'GM_Dungeon_C'
+[2025.05.02-18.47.43:901][332]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Dungeon.MAP_Dungeon up for play (max tick rate 60) at 2025.05.02-14.47.43
+[2025.05.02-18.47.43:901][332]LogWorld: Bringing up level for play took: 0.000545
+[2025.05.02-18.47.43:903][332]LogOnline: OSS: Created online subsystem instance for: :Context_64
+[2025.05.02-18.47.43:927][332]PIE: Server logged in
+[2025.05.02-18.47.43:928][332]PIE: Play in editor total start time 0.216 seconds.
+[2025.05.02-18.47.45:613][433]LogScript: Script Msg: Playing animation override...
+[2025.05.02-18.47.50:665][734]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.02-18.47.50:665][734]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Dungeon
+[2025.05.02-18.47.50:666][734]LogSlate: Window 'DungeonAdventure Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.05.02-18.47.50:677][734]LogWorld: UWorld::CleanupWorld for MAP_Dungeon, bSessionEnded=true, bCleanupResources=true
+[2025.05.02-18.47.50:677][734]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.02-18.47.50:677][734]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.05.02-18.47.50:678][734]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.05.02-18.47.50:681][734]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.05.02-18.47.50:684][734]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.02-18.47.50:693][734]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.05.02-18.47.50:694][734]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 40
+[2025.05.02-18.47.50:694][734]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=40
+[2025.05.02-18.47.50:695][734]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=40
+[2025.05.02-18.47.50:699][734]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2025.05.02-18.47.50:741][735]LogPlayLevel: Display: Destroying online subsystem :Context_64
+[2025.05.02-18.47.57:984][841]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.02-18.47.58:048][841]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/Hero/BP_Hero] ([2] browsable assets)...
+[2025.05.02-18.47.58:048][841]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/Hero/BP_Hero]
+[2025.05.02-18.47.58:048][841]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/Hero/BP_Hero" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Character/Hero/BP_Hero.uasset" SILENT=true
+[2025.05.02-18.47.58:067][841]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/Hero/BP_Hero
+[2025.05.02-18.47.58:067][841]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/BP_HeroE44BCB9B48A5E56D376CD582F8B0B409.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Character/Hero/BP_Hero.uasset'
+[2025.05.02-18.47.58:079][841]LogFileHelpers: InternalPromptForCheckoutAndSave took 95.665 ms (total: 7.94 sec)
+[2025.05.02-18.47.58:151][841]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.02-18.47.58:151][841]LogContentValidation: Enabled validators:
+[2025.05.02-18.47.58:151][841]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.02-18.47.58:151][841]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.02-18.47.58:151][841]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.02-18.47.58:151][841]LogContentValidation: Display: Validating asset /Game/Blueprints/Character/Hero/BP_Hero.BP_Hero
+[2025.05.02-18.47.58:151][841]AssetCheck: /Game/Blueprints/Character/Hero/BP_Hero Validating asset
+[2025.05.02-18.49.55:110][736]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2025.05.02-18.49.55:755][765]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.02-18.49.55:819][765]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/Hero/BP_Hero] ([2] browsable assets)...
+[2025.05.02-18.49.55:819][765]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/Hero/BP_Hero]
+[2025.05.02-18.49.55:819][765]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/Hero/BP_Hero" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Character/Hero/BP_Hero.uasset" SILENT=true
+[2025.05.02-18.49.55:836][765]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/Hero/BP_Hero
+[2025.05.02-18.49.55:837][765]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/BP_HeroB821710E43866AAED2F80FAFAB5A5A50.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Character/Hero/BP_Hero.uasset'
+[2025.05.02-18.49.55:848][765]LogFileHelpers: InternalPromptForCheckoutAndSave took 92.089 ms (total: 8.03 sec)
+[2025.05.02-18.49.55:920][765]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.02-18.49.55:920][765]LogContentValidation: Enabled validators:
+[2025.05.02-18.49.55:920][765]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.02-18.49.55:920][765]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.02-18.49.55:920][765]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.02-18.49.55:920][765]LogContentValidation: Display: Validating asset /Game/Blueprints/Character/Hero/BP_Hero.BP_Hero
+[2025.05.02-18.49.55:920][765]AssetCheck: /Game/Blueprints/Character/Hero/BP_Hero Validating asset
+[2025.05.02-18.49.57:183][840]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.05.02-18.49.57:193][840]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.05.02-18.49.57:194][840]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Dungeon
+[2025.05.02-18.49.57:195][840]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001110s)
+[2025.05.02-18.49.57:195][840]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Dungeon.MAP_Dungeon to /Game/Maps/UEDPIE_0_MAP_Dungeon.MAP_Dungeon (0.001138s)
+[2025.05.02-18.49.57:207][840]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2025.05.02-18.49.57:211][840]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.05.02-18.49.57:212][840]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Game/Maps/UEDPIE_0_MAP_Dungeon.MAP_Dungeon'.
+[2025.05.02-18.49.57:212][840]LogPlayLevel: PIE: World Init took: (0.000972s)
+[2025.05.02-18.49.57:229][840]LogAudio: Display: Creating Audio Device:                 Id: 41, Scope: Unique, Realtime: True
+[2025.05.02-18.49.57:229][840]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.05.02-18.49.57:229][840]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.05.02-18.49.57:229][840]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.05.02-18.49.57:229][840]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.05.02-18.49.57:229][840]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.05.02-18.49.57:229][840]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.05.02-18.49.57:229][840]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.05.02-18.49.57:229][840]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.05.02-18.49.57:229][840]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.05.02-18.49.57:229][840]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.05.02-18.49.57:229][840]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.05.02-18.49.57:230][840]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.05.02-18.49.57:333][840]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2025.05.02-18.49.57:333][840]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.05.02-18.49.57:333][840]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.05.02-18.49.57:333][840]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.05.02-18.49.57:333][840]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=41
+[2025.05.02-18.49.57:333][840]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=41
+[2025.05.02-18.49.57:335][840]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=41
+[2025.05.02-18.49.57:335][840]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=41
+[2025.05.02-18.49.57:335][840]LogInit: FAudioDevice initialized with ID 41.
+[2025.05.02-18.49.57:335][840]LogAudio: Display: Audio Device (ID: 41) registered with world 'MAP_Dungeon'.
+[2025.05.02-18.49.57:335][840]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 41
+[2025.05.02-18.49.57:378][840]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.02-18.49.57:378][840]LogLoad: Game class is 'GM_Dungeon_C'
+[2025.05.02-18.49.57:379][840]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Dungeon.MAP_Dungeon up for play (max tick rate 60) at 2025.05.02-14.49.57
+[2025.05.02-18.49.57:379][840]LogWorld: Bringing up level for play took: 0.000659
+[2025.05.02-18.49.57:381][840]LogOnline: OSS: Created online subsystem instance for: :Context_65
+[2025.05.02-18.49.57:403][840]PIE: Server logged in
+[2025.05.02-18.49.57:406][840]PIE: Play in editor total start time 0.218 seconds.
+[2025.05.02-18.49.59:089][941]LogScript: Script Msg: Playing animation override...
+[2025.05.02-18.50.03:872][228]LogScript: Script Msg: Playing animation override...
+[2025.05.02-18.50.05:139][304]LogScript: Script Msg: Playing animation override...
+[2025.05.02-18.50.06:275][370]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.02-18.50.06:275][370]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Dungeon
+[2025.05.02-18.50.06:275][370]LogSlate: Window 'DungeonAdventure Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.05.02-18.50.06:289][370]LogWorld: UWorld::CleanupWorld for MAP_Dungeon, bSessionEnded=true, bCleanupResources=true
+[2025.05.02-18.50.06:289][370]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.02-18.50.06:289][370]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.05.02-18.50.06:289][370]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.05.02-18.50.06:293][370]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.05.02-18.50.06:295][370]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.02-18.50.06:304][370]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.05.02-18.50.06:305][370]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 41
+[2025.05.02-18.50.06:305][370]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=41
+[2025.05.02-18.50.06:307][370]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=41
+[2025.05.02-18.50.06:311][370]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2025.05.02-18.50.06:354][371]LogPlayLevel: Display: Destroying online subsystem :Context_65
+[2025.05.02-18.51.27:572][651]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2025.05.02-18.51.28:953][725]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.02-18.51.29:020][725]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/Hero/BP_Hero] ([2] browsable assets)...
+[2025.05.02-18.51.29:020][725]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/Hero/BP_Hero]
+[2025.05.02-18.51.29:020][725]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/Hero/BP_Hero" FILE="S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Character/Hero/BP_Hero.uasset" SILENT=true
+[2025.05.02-18.51.29:038][725]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/Hero/BP_Hero
+[2025.05.02-18.51.29:038][725]LogSavePackage: Moving 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Saved/BP_Hero11D5862E4E56D02A9D5C91AF1313681E.tmp' to 'S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Character/Hero/BP_Hero.uasset'
+[2025.05.02-18.51.29:051][725]LogFileHelpers: InternalPromptForCheckoutAndSave took 97.606 ms (total: 8.13 sec)
+[2025.05.02-18.51.29:124][725]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.02-18.51.29:124][725]LogContentValidation: Enabled validators:
+[2025.05.02-18.51.29:124][725]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.02-18.51.29:124][725]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.02-18.51.29:124][725]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.02-18.51.29:124][725]LogContentValidation: Display: Validating asset /Game/Blueprints/Character/Hero/BP_Hero.BP_Hero
+[2025.05.02-18.51.29:124][725]AssetCheck: /Game/Blueprints/Character/Hero/BP_Hero Validating asset
+[2025.05.02-18.51.33:924][ 10]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2025.05.02-18.51.33:924][ 10]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.02-18.51.34:010][ 10]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2025.05.02-18.51.34:873][ 61]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.05.02-18.51.34:874][ 61]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2025.05.02-18.51.34:874][ 61]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.02-18.51.34:948][ 61]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2025.05.02-18.51.35:199][ 75]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.05.02-18.51.35:199][ 75]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2025.05.02-18.51.35:199][ 75]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.02-18.51.35:242][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
