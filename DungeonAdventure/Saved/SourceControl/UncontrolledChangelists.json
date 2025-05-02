@@ -303,6 +303,13 @@
 				"S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Widgets/WBP_HeartPiece.uasset",
 				"S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Widgets/WBP_HealthBox.uasset",
 				"S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Widgets/WBP_MainHUD.uasset",
+				"S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Input/Actions/IA_Bow.uasset",
+				"S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Projectiles/BP_Projectile_BASE.uasset",
+				"S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Projectiles/BP_Hero_Arrow.uasset",
+				"S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Projectiles/BP_HeroArrow.uasset",
+				"S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Pickups/BP_Pickup_BASE.uasset",
+				"S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Pickups/BP_PickupHeart.uasset",
+				"S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Pickups/BP_PickupBow.uasset",
 				"S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Character/BP_Boar.uasset",
 				"S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Character/BP_Skeleton.uasset",
 				"S:/SSO/2DTopDownUE/SSO_MonsterWorldUE/DungeonAdventure/Content/Blueprints/Character/BP_Hero.uasset"
